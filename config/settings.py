@@ -65,6 +65,34 @@ APP_ICON = "🏦"
 APP_SECRET_KEY = os.environ.get("APP_SECRET_KEY", "")
 
 # --------------------------------------------------------------------------
+# Multi-bank support
+# --------------------------------------------------------------------------
+# Naya bank add karna ho to bas yahan ek entry add karo.
+BANKS = [
+    {"code": "INDB", "name": "Indian Bank"},
+    {"code": "SBIN", "name": "State Bank of India"},
+    {"code": "PUNB", "name": "Punjab National Bank"},
+    {"code": "BARB", "name": "Bank of Baroda"},
+    {"code": "CNRB", "name": "Canara Bank"},
+]
+BANK_CODES = [b["code"] for b in BANKS]
+BANK_NAMES = {b["code"]: b["name"] for b in BANKS}
+DEFAULT_BANK_CODE = os.environ.get("DEFAULT_BANK_CODE", "INDB")
+
+
+def get_bank_manager_credentials(bank_code: str) -> tuple[str, str]:
+    """Har bank ke manager ka login .env se padhta hai (hardcode nahi).
+
+    .env me aise rakho:
+        MANAGER_USERNAME_INDB=indian_manager
+        MANAGER_PASSWORD_INDB=StrongPass@123
+    """
+    user = os.environ.get(f"MANAGER_USERNAME_{bank_code}", "")
+    pwd = os.environ.get(f"MANAGER_PASSWORD_{bank_code}", "")
+    return user, pwd
+
+
+# --------------------------------------------------------------------------
 # Authentication
 # --------------------------------------------------------------------------
 PBKDF2_ITERATIONS = 260_000          # PBKDF2-HMAC-SHA256 work factor

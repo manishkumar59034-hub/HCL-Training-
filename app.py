@@ -5,6 +5,8 @@ Bank Branch Performance Analysis - Streamlit entry point.
 
 Flow:  login gate  ->  sidebar (navigation + filters)  ->  cached filtered dataset  ->  selected page.
 No dashboard content is rendered until a manager has authenticated.
+
+Multi-bank: login ke baad manager sirf apni bank (manager.bank_id) ka data dekhta hai.
 """
 from __future__ import annotations
 
@@ -65,10 +67,13 @@ def main() -> None:
     manager = st.session_state["manager"]
     page, filters = render_sidebar(manager)
     try:
-        ds = load_dataset(filters)
+        # CHANGE: bank_id pass kiya, taaki sirf is bank ka data load ho
+        ds = load_dataset(filters, manager.bank_id)
     except db.DatabaseError as exc:
         st.error(f"Could not load data: {exc}")
         st.stop()
+
+    st.caption(f"🏦 {manager.bank_name}")   # CHANGE: page ke upar bank ka naam
 
     pages = dict(zip(PAGES, [overview.render, branch_performance.render, financial_analysis.render,
                              customer_analysis.render, loan_analysis.render, reports_insights.render,

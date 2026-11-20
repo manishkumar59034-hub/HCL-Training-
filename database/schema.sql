@@ -1,28 +1,40 @@
 -- =====================================================================
--- Bank Branch Performance Analysis - SQLite schema
+-- Bank Branch Performance Analysis - SQLite schema (multi-bank)
 -- All tables use explicit primary keys, foreign keys and CHECK constraints.
 -- Foreign keys are enforced by `PRAGMA foreign_keys = ON` in database/db.py.
 -- =====================================================================
 
 -- ---------------------------------------------------------------------
+-- 0. banks  (multi-bank support)
+-- ---------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS banks (
+    bank_id    INTEGER PRIMARY KEY AUTOINCREMENT,
+    bank_code  TEXT NOT NULL UNIQUE,          -- e.g. INDB
+    bank_name  TEXT NOT NULL UNIQUE,          -- e.g. Indian Bank
+    is_active  INTEGER NOT NULL DEFAULT 1 CHECK (is_active IN (0,1))
+);
+
+-- ---------------------------------------------------------------------
 -- A. branches
 -- ---------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS branches (
-    branch_id      TEXT PRIMARY KEY,                         -- e.g. BR001
-    branch_name    TEXT NOT NULL UNIQUE,
+    branch_id      TEXT PRIMARY KEY,                         -- e.g. INDB-BR001
+    bank_id        INTEGER NOT NULL REFERENCES banks(bank_id) ON UPDATE CASCADE ON DELETE RESTRICT,
+    branch_name    TEXT NOT NULL,
     city           TEXT NOT NULL,
     state          TEXT NOT NULL,
     region         TEXT NOT NULL CHECK (region IN ('North','South','East','West','Central')),
     branch_type    TEXT NOT NULL CHECK (branch_type IN ('Metro','Urban','Semi-Urban','Rural')),
     opening_date   TEXT NOT NULL,                            -- ISO date YYYY-MM-DD
-    status         TEXT NOT NULL DEFAULT 'Active' CHECK (status IN ('Active','Inactive','Under Review'))
+    status         TEXT NOT NULL DEFAULT 'Active' CHECK (status IN ('Active','Inactive','Under Review')),
+    UNIQUE (bank_id, branch_name)
 );
 
 -- ---------------------------------------------------------------------
 -- B. customers  (synthetic identifiers only - no real personal data)
 -- ---------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS customers (
-    customer_id    TEXT PRIMARY KEY,                         -- e.g. CU000001
+    customer_id    TEXT PRIMARY KEY,                         -- e.g. INDB-CU000001
     branch_id      TEXT NOT NULL REFERENCES branches(branch_id) ON UPDATE CASCADE ON DELETE RESTRICT,
     customer_name  TEXT NOT NULL,                            -- synthetic label e.g. "Customer 000001"
     customer_type  TEXT NOT NULL CHECK (customer_type IN ('Individual','Business','Corporate','NRI','Senior Citizen')),
@@ -37,7 +49,7 @@ CREATE TABLE IF NOT EXISTS customers (
 -- C. transactions
 -- ---------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS transactions (
-    transaction_id   TEXT PRIMARY KEY,                       -- e.g. TX0000001
+    transaction_id   TEXT PRIMARY KEY,                       -- e.g. INDB-TX0000001
     customer_id      TEXT NOT NULL REFERENCES customers(customer_id) ON UPDATE CASCADE ON DELETE RESTRICT,
     branch_id        TEXT NOT NULL REFERENCES branches(branch_id)   ON UPDATE CASCADE ON DELETE RESTRICT,
     transaction_date TEXT NOT NULL,
@@ -53,7 +65,7 @@ CREATE TABLE IF NOT EXISTS transactions (
 --   repayment_status : Not Applicable | Current | Overdue | Defaulted | Repaid
 -- ---------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS loans (
-    loan_id            TEXT PRIMARY KEY,                     -- e.g. LN000001
+    loan_id            TEXT PRIMARY KEY,                     -- e.g. INDB-LN000001
     customer_id        TEXT NOT NULL REFERENCES customers(customer_id) ON UPDATE CASCADE ON DELETE RESTRICT,
     branch_id          TEXT NOT NULL REFERENCES branches(branch_id)   ON UPDATE CASCADE ON DELETE RESTRICT,
     application_date   TEXT NOT NULL,
@@ -70,7 +82,7 @@ CREATE TABLE IF NOT EXISTS loans (
 -- E. branch_financials  (one row per branch per reporting month)
 -- ---------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS branch_financials (
-    financial_id      TEXT PRIMARY KEY,                      -- e.g. FN-BR001-2025-01
+    financial_id      TEXT PRIMARY KEY,                      -- e.g. INDB-FN-BR001-2025-01
     branch_id         TEXT NOT NULL REFERENCES branches(branch_id) ON UPDATE CASCADE ON DELETE RESTRICT,
     reporting_month   TEXT NOT NULL,                         -- first day of month, YYYY-MM-01
     revenue           REAL NOT NULL CHECK (revenue >= 0),
@@ -85,7 +97,7 @@ CREATE TABLE IF NOT EXISTS branch_financials (
 -- F. customer_feedback
 -- ---------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS customer_feedback (
-    feedback_id        TEXT PRIMARY KEY,                     -- e.g. FB000001
+    feedback_id        TEXT PRIMARY KEY,                     -- e.g. INDB-FB000001
     branch_id          TEXT NOT NULL REFERENCES branches(branch_id) ON UPDATE CASCADE ON DELETE RESTRICT,
     feedback_date      TEXT NOT NULL,
     satisfaction_score INTEGER NOT NULL CHECK (satisfaction_score BETWEEN 1 AND 5),
@@ -97,7 +109,8 @@ CREATE TABLE IF NOT EXISTS customer_feedback (
 -- ---------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS managers (
     manager_id         INTEGER PRIMARY KEY AUTOINCREMENT,
-    username           TEXT NOT NULL UNIQUE COLLATE NOCASE,
+    bank_id            INTEGER NOT NULL REFERENCES banks(bank_id) ON UPDATE CASCADE ON DELETE RESTRICT,
+    username           TEXT NOT NULL COLLATE NOCASE,
     password_hash      TEXT NOT NULL,
     manager_name       TEXT NOT NULL,
     role               TEXT NOT NULL DEFAULT 'Branch Manager'
@@ -107,7 +120,8 @@ CREATE TABLE IF NOT EXISTS managers (
     created_at         TEXT NOT NULL DEFAULT (datetime('now')),
     failed_attempts    INTEGER NOT NULL DEFAULT 0,
     locked_until       TEXT,
-    last_login         TEXT
+    last_login         TEXT,
+    UNIQUE (bank_id, username)
 );
 
 -- ---------------------------------------------------------------------
@@ -136,6 +150,8 @@ CREATE TABLE IF NOT EXISTS app_metadata (
 -- ---------------------------------------------------------------------
 -- Indexes on commonly filtered columns
 -- ---------------------------------------------------------------------
+CREATE INDEX IF NOT EXISTS idx_branches_bank         ON branches(bank_id);
+CREATE INDEX IF NOT EXISTS idx_managers_bank         ON managers(bank_id);
 CREATE INDEX IF NOT EXISTS idx_customers_branch      ON customers(branch_id);
 CREATE INDEX IF NOT EXISTS idx_customers_join_date   ON customers(join_date);
 CREATE INDEX IF NOT EXISTS idx_tx_branch             ON transactions(branch_id);

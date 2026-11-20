@@ -27,7 +27,8 @@ DATA_TABLES = [
     "branch_financials",
     "customer_feedback",
 ]
-ALL_TABLES = DATA_TABLES + ["managers", "import_log", "app_metadata"]
+# "banks" ko DATA_TABLES me nahi rakha, taaki demo reset me banks delete na ho.
+ALL_TABLES = ["banks"] + DATA_TABLES + ["managers", "import_log", "app_metadata"]
 
 
 class DatabaseError(Exception):
@@ -71,6 +72,7 @@ def init_db(db_path: Path | str | None = None) -> Path:
     conn = get_connection(path)
     try:
         conn.executescript(schema_sql)
+        _seed_banks(conn)          # settings.BANKS ko banks table me daalo
         conn.commit()
     except sqlite3.Error as exc:
         raise DatabaseError(f"Could not initialise database: {exc}") from exc
@@ -252,3 +254,28 @@ def iter_chunks(items: Iterable, size: int) -> Iterator[list]:
             chunk = []
     if chunk:
         yield chunk
+
+
+# --------------------------------------------------------------------------
+# Multi-bank helpers
+# --------------------------------------------------------------------------
+def _seed_banks(conn: sqlite3.Connection) -> None:
+    """settings.BANKS ki list ko banks table me daalta hai (duplicate nahi banta)."""
+    for bank in settings.BANKS:
+        conn.execute(
+            "INSERT OR IGNORE INTO banks (bank_code, bank_name) VALUES (?, ?)",
+            (bank["code"], bank["name"]),
+        )
+
+
+def get_banks() -> list[sqlite3.Row]:
+    """Login dropdown ke liye saari active banks."""
+    return fetch_all(
+        "SELECT bank_id, bank_code, bank_name FROM banks "
+        "WHERE is_active = 1 ORDER BY bank_name"
+    )
+
+
+def get_bank_id(bank_code: str) -> int | None:
+    row = fetch_one("SELECT bank_id FROM banks WHERE bank_code = ?", [bank_code])
+    return row["bank_id"] if row else None
