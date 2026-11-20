@@ -1,4 +1,4 @@
-# 🏦 Bank Branch Performance Analysis
+[# 🏦 Bank Branch Performance Analysis
 
 A database-driven data-analytics application that lets bank managers monitor branch performance,
 analyse financial results, customer growth and loan quality, identify under-performing branches and
@@ -311,5 +311,6 @@ results, filter changes KPIs, logout, first-time setup).
 - [docs/data_dictionary.md](docs/data_dictionary.md) — every column, cleaning rules, assumptions
 - [docs/kpi_definitions.md](docs/kpi_definitions.md) — formulas and insight rules
 - [docs/user_guide.md](docs/user_guide.md) — how to use each page
-#   H C L - T r a i n i n g -  
- 
+#� �H�C�L�-�T�r�a�i�n�i�n�g�-�
+�
+�](https://bankperformance7.streamlit.app/)
