@@ -1,0 +1,40 @@
+# Secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Database files & backups (regenerate with scripts/seed_database.py)
+database/*.db
+database/*.db-journal
+backups/*
+!backups/.gitkeep
+
+# Generated data
+data/exports/*
+!data/exports/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+.streamlit/secrets.toml

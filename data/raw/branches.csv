@@ -1,0 +1,21 @@
+branch_id,branch_name,city,state,region,branch_type,opening_date,status
+BR001,Mumbai Fort Main,Mumbai,Maharashtra,West,Metro,1998-04-01,Active
+BR002,Mumbai Andheri East,Mumbai,Maharashtra,West,Metro,2006-07-15,Active
+BR003,Pune Shivajinagar,Pune,Maharashtra,West,Urban,2009-01-10,Active
+BR004,Ahmedabad CG Road,Ahmedabad,Gujarat,West,Urban,2004-11-20,Active
+BR005,Surat Ring Road,Surat,Gujarat,West,Urban,2012-03-05,Active
+BR006,New Delhi Connaught Place,New Delhi,Delhi,North,Metro,1995-08-01,Active
+BR007,Gurugram Cyber City,Gurugram,Haryana,North,Metro,2014-02-14,Active
+BR008,Lucknow Hazratganj,Lucknow,Uttar Pradesh,North,Urban,2001-06-18,Active
+BR009,Jaipur MI Road,Jaipur,Rajasthan,North,Urban,2007-09-09,Active
+BR010,Bengaluru MG Road,Bengaluru,Karnataka,South,Metro,2000-05-22,Active
+BR011,Bengaluru Whitefield,Bengaluru,Karnataka,South,Metro,2016-10-03,Active
+BR012,Chennai T Nagar,Chennai,Tamil Nadu,South,Metro,1997-12-12,Active
+BR013,Hyderabad Banjara Hills,Hyderabad,Telangana,South,Metro,2005-04-27,Active
+BR014,Kochi Marine Drive,Kochi,Kerala,South,Urban,2010-08-30,Active
+BR015,Kolkata Park Street,Kolkata,West Bengal,East,Metro,1996-03-15,Active
+BR016,Bhubaneswar Saheed Nagar,Bhubaneswar,Odisha,East,Urban,2013-01-21,Active
+BR017,Patna Fraser Road,Patna,Bihar,East,Semi-Urban,2011-07-07,Under Review
+BR018,Guwahati GS Road,Guwahati,Assam,East,Semi-Urban,2015-11-11,Active
+BR019,Indore Vijay Nagar,Indore,Madhya Pradesh,Central,Urban,2012-09-19,Active
+BR020,Nagpur Sitabuldi,Nagpur,Maharashtra,Central,Rural,2003-02-02,Active

@@ -1,0 +1,2401 @@
+customer_id,branch_id,customer_name,customer_type,gender,age_group,join_date,city,status
+CU000001,BR001,Customer 000001,Individual,Male,26-35,2017-04-15,Mumbai,Active
+CU000002,BR001,Customer 000002,Senior Citizen,Male,26-35,2023-03-08,Mumbai,Active
+CU000003,BR001,Customer 000003,Individual,Male,26-35,2019-01-10,Mumbai,Active
+CU000004,BR001,Customer 000004,Individual,Male,60+,2023-04-28,Mumbai,Inactive
+CU000005,BR001,Customer 000005,Business,Female,46-60,2022-09-15,Mumbai,Active
+CU000006,BR001,Customer 000006,Individual,Male,60+,2018-01-26,Mumbai,Active
+CU000007,BR001,Customer 000007,Individual,Male,46-60,2020-07-27,Mumbai,Active
+CU000008,BR001,Customer 000008,Individual,Male,60+,2022-01-16,Mumbai,Inactive
+CU000009,BR001,Customer 000009,Individual,Female,36-45,2017-01-12,Mumbai,Active
+CU000010,BR001,Customer 000010,Business,Female,26-35,2020-07-20,Mumbai,Inactive
+CU000011,BR001,Customer 000011,NRI,Male,26-35,2025-08-21,Mumbai,Active
+CU000012,BR001,Customer 000012,Senior Citizen,Female,26-35,2016-05-31,Mumbai,Closed
+CU000013,BR001,Customer 000013,Senior Citizen,Male,46-60,2015-09-12,Mumbai,Active
+CU000014,BR001,Customer 000014,Individual,Female,18-25,2025-08-01,Mumbai,Active
+CU000015,BR001,Customer 000015,Individual,Female,26-35,2023-08-27,Mumbai,Active
+CU000016,BR001,Customer 000016,Business,Male,36-45,2016-01-01,Mumbai,Active
+CU000017,BR001,Customer 000017,Senior Citizen,Female,18-25,2016-02-04,Mumbai,Closed
+CU000018,BR001,Customer 000018,Business,Female,18-25,2015-09-16,Mumbai,Active
+CU000019,BR001,Customer 000019,Individual,Female,18-25,2017-09-15,Mumbai,Active
+CU000020,BR001,Customer 000020,Business,Female,36-45,2022-10-27,Mumbai,Active
+CU000021,BR001,Customer 000021,Business,Female,18-25,2024-01-30,Mumbai,Active
+CU000022,BR001,Customer 000022,Senior Citizen,Male,26-35,2021-01-20,Mumbai,Active
+CU000023,BR001,Customer 000023,Business,Female,26-35,2016-12-19,Mumbai,Active
+CU000024,BR001,Customer 000024,Individual,Female,46-60,2024-11-18,Mumbai,Closed
+CU000025,BR001,Customer 000025,Individual,Male,26-35,2019-04-06,Mumbai,Inactive
+CU000026,BR001,Customer 000026,Individual,Male,18-25,2019-07-07,Mumbai,Active
+CU000027,BR001,Customer 000027,Individual,Male,60+,2020-02-24,Mumbai,Active
+CU000028,BR001,Customer 000028,Senior Citizen,Male,46-60,2026-02-02,Mumbai,Closed
+CU000029,BR001,Customer 000029,Individual,Male,26-35,2016-08-27,Mumbai,Active
+CU000030,BR001,Customer 000030,Individual,Male,26-35,2015-08-08,Mumbai,Active
+CU000031,BR001,Customer 000031,Individual,Female,26-35,2015-07-05,Mumbai,Active
+CU000032,BR001,Customer 000032,Business,Male,46-60,2022-10-25,Mumbai,Active
+CU000033,BR001,Customer 000033,Individual,Male,26-35,2021-01-16,Mumbai,Active
+CU000034,BR001,Customer 000034,Individual,Female,60+,2016-12-14,Mumbai,Active
+CU000035,BR001,Customer 000035,NRI,Male,46-60,2021-08-16,Mumbai,Active
+CU000036,BR001,Customer 000036,Individual,Male,36-45,2024-10-10,Mumbai,Active
+CU000037,BR001,Customer 000037,Individual,Female,18-25,2020-07-20,Mumbai,Active
+CU000038,BR001,Customer 000038,Individual,Other,46-60,2025-09-09,Mumbai,Active
+CU000039,BR001,Customer 000039,Individual,Female,46-60,2025-01-31,Mumbai,Active
+CU000040,BR001,Customer 000040,Business,Male,46-60,2024-01-06,Mumbai,Inactive
+CU000041,BR001,Customer 000041,Senior Citizen,Male,18-25,2026-03-05,Mumbai,Active
+CU000042,BR001,Customer 000042,Individual,Female,46-60,2015-02-26,Mumbai,Active
+CU000043,BR001,Customer 000043,Senior Citizen,Female,46-60,2022-07-31,Mumbai,Inactive
+CU000044,BR001,Customer 000044,Business,Female,60+,2024-12-03,Mumbai,Active
+CU000045,BR001,Customer 000045,Individual,Female,36-45,2021-02-08,Mumbai,Active
+CU000046,BR001,Customer 000046,Individual,Male,36-45,2023-08-25,Mumbai,Active
+CU000047,BR001,Customer 000047,Individual,Male,26-35,2023-12-04,Mumbai,Active
+CU000048,BR001,Customer 000048,NRI,Female,46-60,2017-09-25,Mumbai,Closed
+CU000049,BR001,Customer 000049,Individual,Female,60+,2025-07-04,Mumbai,Active
+CU000050,BR001,Customer 000050,Individual,Male,36-45,2025-11-02,Mumbai,Active
+CU000051,BR001,Customer 000051,Business,Female,26-35,2018-10-20,Mumbai,Active
+CU000052,BR001,Customer 000052,NRI,Male,18-25,2025-03-07,Mumbai,Active
+CU000053,BR001,Customer 000053,Business,Female,36-45,2025-10-14,Mumbai,Active
+CU000054,BR001,Customer 000054,Business,Male,46-60,2017-06-04,Mumbai,Active
+CU000055,BR001,Customer 000055,Individual,Female,18-25,2023-08-21,Mumbai,Active
+CU000056,BR001,Customer 000056,NRI,Male,26-35,2022-12-23,Mumbai,Closed
+CU000057,BR001,Customer 000057,Individual,Female,60+,2026-03-14,Mumbai,Active
+CU000058,BR001,Customer 000058,Individual,Female,36-45,2016-12-06,Mumbai,Active
+CU000059,BR001,Customer 000059,Senior Citizen,Male,26-35,2026-09-14,Mumbai,Active
+CU000060,BR001,Customer 000060,Individual,Female,26-35,2019-02-25,Mumbai,Active
+CU000061,BR001,Customer 000061,Individual,Female,26-35,2025-03-28,Mumbai,Active
+CU000062,BR001,Customer 000062,Business,Female,18-25,2026-07-15,Mumbai,Active
+CU000063,BR001,Customer 000063,Individual,Male,36-45,2020-09-14,Mumbai,Active
+CU000064,BR001,Customer 000064,Individual,Female,36-45,2026-04-26,Mumbai,Active
+CU000065,BR001,Customer 000065,Individual,Female,36-45,2020-02-20,Mumbai,Active
+CU000066,BR001,Customer 000066,Business,Female,36-45,2023-07-25,Mumbai,Active
+CU000067,BR001,Customer 000067,Corporate,Male,18-25,2026-09-25,Mumbai,Active
+CU000068,BR001,Customer 000068,Individual,Female,26-35,2015-07-31,Mumbai,Active
+CU000069,BR001,Customer 000069,Individual,Male,26-35,2020-07-01,Mumbai,Active
+CU000070,BR001,Customer 000070,Corporate,Male,18-25,2022-01-18,Mumbai,Active
+CU000071,BR001,Customer 000071,Individual,Male,46-60,2025-06-11,Mumbai,Active
+CU000072,BR001,Customer 000072,Individual,Male,18-25,2019-05-03,Mumbai,Active
+CU000073,BR001,Customer 000073,Individual,Male,36-45,2018-09-20,Mumbai,Active
+CU000074,BR001,Customer 000074,Individual,Male,26-35,2016-07-04,Mumbai,Active
+CU000075,BR001,Customer 000075,Individual,Female,18-25,2025-04-10,Mumbai,Active
+CU000076,BR001,Customer 000076,Business,Female,26-35,2026-02-16,Mumbai,Active
+CU000077,BR001,Customer 000077,Senior Citizen,Male,36-45,2017-03-22,Mumbai,Active
+CU000078,BR001,Customer 000078,Individual,Female,36-45,2018-01-05,Mumbai,Closed
+CU000079,BR001,Customer 000079,Business,Female,46-60,2026-09-09,Mumbai,Active
+CU000080,BR001,Customer 000080,Individual,Female,18-25,2024-06-02,Mumbai,Active
+CU000081,BR001,Customer 000081,Individual,Female,36-45,2017-08-19,Mumbai,Inactive
+CU000082,BR001,Customer 000082,Business,Other,46-60,2021-07-09,Mumbai,Active
+CU000083,BR001,Customer 000083,Individual,Female,26-35,2020-04-22,Mumbai,Active
+CU000084,BR001,Customer 000084,Senior Citizen,Female,18-25,2026-10-05,Mumbai,Active
+CU000085,BR001,Customer 000085,Individual,Female,26-35,2022-02-17,Mumbai,Inactive
+CU000086,BR001,Customer 000086,Individual,Male,18-25,2016-06-24,Mumbai,Active
+CU000087,BR001,Customer 000087,Individual,Female,46-60,2026-01-17,Mumbai,Active
+CU000088,BR001,Customer 000088,Individual,Female,26-35,2018-11-24,Mumbai,Closed
+CU000089,BR001,Customer 000089,NRI,Female,36-45,2020-05-13,Mumbai,Active
+CU000090,BR001,Customer 000090,Business,Female,46-60,2018-07-05,Mumbai,Active
+CU000091,BR001,Customer 000091,Individual,Male,26-35,2024-02-29,Mumbai,Active
+CU000092,BR001,Customer 000092,Individual,Male,36-45,2018-11-16,Mumbai,Active
+CU000093,BR001,Customer 000093,Business,Female,18-25,2025-10-04,Mumbai,Active
+CU000094,BR001,Customer 000094,Corporate,Female,36-45,2020-09-06,Mumbai,Closed
+CU000095,BR001,Customer 000095,Individual,Female,18-25,2020-08-11,Mumbai,Active
+CU000096,BR001,Customer 000096,Individual,Female,26-35,2022-10-31,Mumbai,Active
+CU000097,BR001,Customer 000097,Individual,Female,26-35,2024-10-23,Mumbai,Active
+CU000098,BR001,Customer 000098,Individual,Female,46-60,2025-04-01,Mumbai,Active
+CU000099,BR001,Customer 000099,Individual,Male,36-45,2015-04-05,Mumbai,Inactive
+CU000100,BR001,Customer 000100,Individual,Female,46-60,2024-01-06,Mumbai,Active
+CU000101,BR001,Customer 000101,Individual,Male,18-25,2015-04-27,Mumbai,Active
+CU000102,BR001,Customer 000102,Individual,Female,60+,2016-03-11,Mumbai,Active
+CU000103,BR001,Customer 000103,Individual,Male,18-25,2022-09-17,Mumbai,Inactive
+CU000104,BR001,Customer 000104,Senior Citizen,Female,46-60,2018-05-03,Mumbai,Active
+CU000105,BR001,Customer 000105,Individual,Male,46-60,2025-06-13,Mumbai,Active
+CU000106,BR001,Customer 000106,Individual,Male,36-45,2019-02-02,Mumbai,Active
+CU000107,BR001,Customer 000107,Individual,Female,26-35,2018-11-23,Mumbai,Active
+CU000108,BR001,Customer 000108,Individual,Female,46-60,2015-03-01,Mumbai,Active
+CU000109,BR001,Customer 000109,NRI,Male,46-60,2019-11-30,Mumbai,Active
+CU000110,BR001,Customer 000110,Individual,Female,18-25,2023-07-16,Mumbai,Active
+CU000111,BR001,Customer 000111,Individual,Male,46-60,2017-09-13,Mumbai,Active
+CU000112,BR001,Customer 000112,Senior Citizen,Male,18-25,2022-03-13,Mumbai,Active
+CU000113,BR001,Customer 000113,NRI,Male,36-45,2026-09-16,Mumbai,Active
+CU000114,BR001,Customer 000114,Corporate,Female,36-45,2026-07-25,Mumbai,Active
+CU000115,BR001,Customer 000115,Individual,Female,46-60,2025-07-30,Mumbai,Active
+CU000116,BR001,Customer 000116,Individual,Female,36-45,2025-12-12,Mumbai,Active
+CU000117,BR001,Customer 000117,Business,Female,26-35,2017-02-10,Mumbai,Active
+CU000118,BR001,Customer 000118,Individual,Female,36-45,2016-09-18,Mumbai,Active
+CU000119,BR001,Customer 000119,Business,Female,26-35,2023-10-29,Mumbai,Active
+CU000120,BR001,Customer 000120,Business,Female,36-45,2022-12-05,Mumbai,Active
+CU000121,BR001,Customer 000121,Individual,Male,36-45,2023-11-30,Mumbai,Active
+CU000122,BR001,Customer 000122,Individual,Male,46-60,2016-04-14,Mumbai,Active
+CU000123,BR001,Customer 000123,Individual,Male,26-35,2020-02-15,Mumbai,Active
+CU000124,BR001,Customer 000124,Individual,Female,26-35,2015-12-01,Mumbai,Active
+CU000125,BR001,Customer 000125,Business,Female,36-45,2020-11-14,Mumbai,Active
+CU000126,BR001,Customer 000126,Business,Male,18-25,2024-10-25,Mumbai,Active
+CU000127,BR001,Customer 000127,Individual,Female,26-35,2020-05-24,Mumbai,Inactive
+CU000128,BR001,Customer 000128,Business,Female,26-35,2019-09-19,Mumbai,Active
+CU000129,BR001,Customer 000129,Individual,Male,36-45,2025-07-05,Mumbai,Active
+CU000130,BR001,Customer 000130,Business,Male,26-35,2023-04-20,Mumbai,Active
+CU000131,BR001,Customer 000131,Individual,Male,36-45,2017-05-27,Mumbai,Active
+CU000132,BR001,Customer 000132,Business,Male,46-60,2018-02-15,Mumbai,Active
+CU000133,BR001,Customer 000133,Business,Female,36-45,2024-02-27,Mumbai,Inactive
+CU000134,BR001,Customer 000134,Individual,Female,26-35,2018-03-20,Mumbai,Active
+CU000135,BR001,Customer 000135,Individual,Male,18-25,2022-12-25,Mumbai,Active
+CU000136,BR001,Customer 000136,NRI,Male,18-25,2018-02-04,Mumbai,Active
+CU000137,BR001,Customer 000137,Individual,Male,36-45,2017-01-14,Mumbai,Active
+CU000138,BR001,Customer 000138,Business,Male,36-45,2024-06-09,Mumbai,Inactive
+CU000139,BR001,Customer 000139,Senior Citizen,Male,18-25,2024-04-25,Mumbai,Active
+CU000140,BR001,Customer 000140,NRI,Female,26-35,2018-08-16,Mumbai,Active
+CU000141,BR001,Customer 000141,Individual,Female,26-35,2017-05-11,Mumbai,Inactive
+CU000142,BR001,Customer 000142,Individual,Female,26-35,2016-07-16,Mumbai,Inactive
+CU000143,BR001,Customer 000143,Senior Citizen,Male,60+,2019-05-13,Mumbai,Active
+CU000144,BR001,Customer 000144,Individual,Female,26-35,2015-08-14,Mumbai,Active
+CU000145,BR001,Customer 000145,Individual,Male,18-25,2017-12-24,Mumbai,Active
+CU000146,BR001,Customer 000146,Individual,Male,26-35,2026-01-09,Mumbai,Closed
+CU000147,BR001,Customer 000147,Corporate,Female,18-25,2020-08-12,Mumbai,Active
+CU000148,BR001,Customer 000148,Individual,Female,18-25,2021-07-04,Mumbai,Active
+CU000149,BR001,Customer 000149,Individual,Male,26-35,2017-06-30,Mumbai,Active
+CU000150,BR001,Customer 000150,Individual,Male,26-35,2026-07-17,Mumbai,Active
+CU000151,BR001,Customer 000151,Business,Female,18-25,2026-05-15,Mumbai,Active
+CU000152,BR001,Customer 000152,Individual,Female,36-45,2019-10-18,Mumbai,Active
+CU000153,BR001,Customer 000153,NRI,Female,36-45,2017-12-17,Mumbai,Active
+CU000154,BR001,Customer 000154,Business,Male,18-25,2023-11-29,Mumbai,Active
+CU000155,BR001,Customer 000155,Senior Citizen,Male,46-60,2018-07-03,Mumbai,Active
+CU000156,BR001,Customer 000156,Senior Citizen,Male,26-35,2022-07-14,Mumbai,Active
+CU000157,BR001,Customer 000157,Individual,Male,60+,2016-10-02,Mumbai,Active
+CU000158,BR001,Customer 000158,Business,Female,60+,2023-09-28,Mumbai,Active
+CU000159,BR001,Customer 000159,Individual,Female,26-35,2017-06-01,Mumbai,Active
+CU000160,BR001,Customer 000160,Senior Citizen,Male,26-35,2023-05-29,Mumbai,Active
+CU000161,BR001,Customer 000161,Individual,Female,46-60,2024-05-29,Mumbai,Active
+CU000162,BR001,Customer 000162,Business,Female,26-35,2024-07-28,Mumbai,Active
+CU000163,BR001,Customer 000163,NRI,Female,26-35,2020-07-19,Mumbai,Active
+CU000164,BR001,Customer 000164,Individual,Male,36-45,2016-02-04,Mumbai,Active
+CU000165,BR001,Customer 000165,NRI,Male,36-45,2022-02-14,Mumbai,Active
+CU000166,BR001,Customer 000166,Individual,Male,46-60,2019-02-04,Mumbai,Active
+CU000167,BR001,Customer 000167,Individual,Male,46-60,2016-11-22,Mumbai,Active
+CU000168,BR001,Customer 000168,Individual,Male,46-60,2020-01-29,Mumbai,Active
+CU000169,BR001,Customer 000169,Individual,Male,46-60,2021-04-10,Mumbai,Active
+CU000170,BR001,Customer 000170,Individual,Male,36-45,2015-09-22,Mumbai,Active
+CU000171,BR001,Customer 000171,Senior Citizen,Male,36-45,2018-02-12,Mumbai,Inactive
+CU000172,BR001,Customer 000172,Individual,Female,60+,2021-05-06,Mumbai,Active
+CU000173,BR001,Customer 000173,Individual,Female,60+,2020-02-21,Mumbai,Active
+CU000174,BR001,Customer 000174,NRI,Male,46-60,2019-11-15,Mumbai,Active
+CU000175,BR001,Customer 000175,Business,Female,46-60,2016-04-03,Mumbai,Active
+CU000176,BR001,Customer 000176,Individual,Male,36-45,2019-11-16,Mumbai,Active
+CU000177,BR001,Customer 000177,Senior Citizen,Male,26-35,2015-09-06,Mumbai,Active
+CU000178,BR001,Customer 000178,Individual,Female,46-60,2018-07-11,Mumbai,Active
+CU000179,BR002,Customer 000179,Individual,Male,18-25,2017-10-26,Mumbai,Inactive
+CU000180,BR002,Customer 000180,Individual,Male,26-35,2016-08-01,Mumbai,Active
+CU000181,BR002,Customer 000181,Corporate,Male,26-35,2023-02-03,Mumbai,Active
+CU000182,BR002,Customer 000182,Individual,Male,36-45,2026-04-19,Mumbai,Active
+CU000183,BR002,Customer 000183,Individual,Female,36-45,2022-08-20,Mumbai,Closed
+CU000184,BR002,Customer 000184,Business,Male,26-35,2016-09-17,Mumbai,Active
+CU000185,BR002,Customer 000185,Individual,Male,18-25,2024-10-18,Mumbai,Active
+CU000186,BR002,Customer 000186,Individual,Male,26-35,2017-06-05,Mumbai,Active
+CU000187,BR002,Customer 000187,Business,Male,26-35,2025-03-11,Mumbai,Active
+CU000188,BR002,Customer 000188,Business,Male,18-25,2026-07-15,Mumbai,Active
+CU000189,BR002,Customer 000189,Individual,Female,36-45,2025-11-13,Mumbai,Active
+CU000190,BR002,Customer 000190,Individual,Female,26-35,2023-10-17,Mumbai,Active
+CU000191,BR002,Customer 000191,Senior Citizen,Male,26-35,2022-02-10,Mumbai,Active
+CU000192,BR002,Customer 000192,Individual,Female,26-35,2022-07-18,Mumbai,Active
+CU000193,BR002,Customer 000193,Individual,Male,36-45,2023-05-22,Mumbai,Active
+CU000194,BR002,Customer 000194,Individual,Male,46-60,2020-03-30,Mumbai,Active
+CU000195,BR002,Customer 000195,Individual,Male,26-35,2025-07-18,Mumbai,Active
+CU000196,BR002,Customer 000196,Senior Citizen,Male,26-35,2024-03-20,Mumbai,Closed
+CU000197,BR002,Customer 000197,Individual,Female,36-45,2015-10-05,Mumbai,Active
+CU000198,BR002,Customer 000198,Individual,Female,18-25,2025-07-02,Mumbai,Active
+CU000199,BR002,Customer 000199,Individual,Male,46-60,2017-07-21,Mumbai,Active
+CU000200,BR002,Customer 000200,Individual,Male,60+,2026-01-13,Mumbai,Inactive
+CU000201,BR002,Customer 000201,Individual,Female,36-45,2019-03-05,Mumbai,Active
+CU000202,BR002,Customer 000202,Senior Citizen,Male,60+,2015-02-15,Mumbai,Active
+CU000203,BR002,Customer 000203,Business,Male,26-35,2024-07-12,Mumbai,Active
+CU000204,BR002,Customer 000204,Individual,Female,26-35,2023-05-04,Mumbai,Active
+CU000205,BR002,Customer 000205,Individual,Female,18-25,2019-06-04,Mumbai,Active
+CU000206,BR002,Customer 000206,Individual,Female,18-25,2016-09-25,Mumbai,Active
+CU000207,BR002,Customer 000207,Individual,Male,26-35,2018-03-07,Mumbai,Active
+CU000208,BR002,Customer 000208,Individual,Male,36-45,2016-05-30,Mumbai,Active
+CU000209,BR002,Customer 000209,Individual,Male,36-45,2024-04-13,Mumbai,Inactive
+CU000210,BR002,Customer 000210,Business,Female,26-35,2015-01-11,Mumbai,Active
+CU000211,BR002,Customer 000211,Senior Citizen,Male,36-45,2015-05-08,Mumbai,Active
+CU000212,BR002,Customer 000212,Individual,Male,26-35,2018-06-14,Mumbai,Active
+CU000213,BR002,Customer 000213,Senior Citizen,Male,26-35,2023-04-04,Mumbai,Active
+CU000214,BR002,Customer 000214,Individual,Female,26-35,2016-11-15,Mumbai,Active
+CU000215,BR002,Customer 000215,Individual,Female,36-45,2015-12-18,Mumbai,Active
+CU000216,BR002,Customer 000216,NRI,Female,36-45,2026-07-29,Mumbai,Inactive
+CU000217,BR002,Customer 000217,Individual,Male,46-60,2026-06-13,Mumbai,Active
+CU000218,BR002,Customer 000218,Individual,Female,18-25,2020-12-10,Mumbai,Active
+CU000219,BR002,Customer 000219,Business,Male,26-35,2016-10-29,Mumbai,Active
+CU000220,BR002,Customer 000220,Individual,Male,60+,2026-01-09,Mumbai,Active
+CU000221,BR002,Customer 000221,NRI,Male,18-25,2025-08-15,Mumbai,Active
+CU000222,BR002,Customer 000222,Individual,Male,26-35,2017-02-17,Mumbai,Active
+CU000223,BR002,Customer 000223,NRI,Male,18-25,2016-02-13,Mumbai,Inactive
+CU000224,BR002,Customer 000224,Individual,Female,26-35,2015-11-01,Mumbai,Active
+CU000225,BR002,Customer 000225,Individual,Male,36-45,2024-05-11,Mumbai,Active
+CU000226,BR002,Customer 000226,Individual,Male,26-35,2023-12-25,Mumbai,Inactive
+CU000227,BR002,Customer 000227,NRI,Female,36-45,2020-11-09,Mumbai,Inactive
+CU000228,BR002,Customer 000228,Individual,Female,60+,2020-06-03,Mumbai,Active
+CU000229,BR002,Customer 000229,NRI,Male,26-35,2021-05-02,Mumbai,Active
+CU000230,BR002,Customer 000230,Individual,Female,18-25,2016-01-15,Mumbai,Active
+CU000231,BR002,Customer 000231,Individual,Male,46-60,2026-09-27,Mumbai,Active
+CU000232,BR002,Customer 000232,Individual,Male,36-45,2015-12-01,Mumbai,Active
+CU000233,BR002,Customer 000233,Individual,Female,46-60,2021-12-22,Mumbai,Active
+CU000234,BR002,Customer 000234,Senior Citizen,Female,26-35,2017-12-08,Mumbai,Active
+CU000235,BR002,Customer 000235,Individual,Male,36-45,2016-09-02,Mumbai,Active
+CU000236,BR002,Customer 000236,Business,Male,60+,2016-08-04,Mumbai,Active
+CU000237,BR002,Customer 000237,Individual,Male,26-35,2015-07-04,Mumbai,Active
+CU000238,BR002,Customer 000238,Individual,Male,46-60,2021-10-10,Mumbai,Active
+CU000239,BR002,Customer 000239,Individual,Female,36-45,2021-09-12,Mumbai,Active
+CU000240,BR002,Customer 000240,Senior Citizen,Male,46-60,2020-06-13,Mumbai,Active
+CU000241,BR002,Customer 000241,Business,Female,26-35,2025-06-15,Mumbai,Inactive
+CU000242,BR002,Customer 000242,Individual,Male,26-35,2016-05-25,Mumbai,Active
+CU000243,BR002,Customer 000243,Business,Female,18-25,2018-03-31,Mumbai,Active
+CU000244,BR002,Customer 000244,Individual,Male,60+,2017-03-28,Mumbai,Active
+CU000245,BR002,Customer 000245,Individual,Male,18-25,2022-05-15,Mumbai,Inactive
+CU000246,BR002,Customer 000246,Business,Male,18-25,2020-07-26,Mumbai,Active
+CU000247,BR002,Customer 000247,Individual,Male,46-60,2020-07-26,Mumbai,Active
+CU000248,BR002,Customer 000248,Business,Female,26-35,2026-05-29,Mumbai,Active
+CU000249,BR002,Customer 000249,Senior Citizen,Female,36-45,2023-08-19,Mumbai,Active
+CU000250,BR002,Customer 000250,Senior Citizen,Female,26-35,2015-11-05,Mumbai,Active
+CU000251,BR002,Customer 000251,Corporate,Male,36-45,2020-12-26,Mumbai,Active
+CU000252,BR002,Customer 000252,Individual,Female,26-35,2020-07-07,Mumbai,Closed
+CU000253,BR002,Customer 000253,Business,Female,36-45,2022-01-07,Mumbai,Active
+CU000254,BR002,Customer 000254,Individual,Female,36-45,2015-02-06,Mumbai,Active
+CU000255,BR002,Customer 000255,Individual,Female,26-35,2026-03-07,Mumbai,Active
+CU000256,BR002,Customer 000256,Individual,Female,26-35,2025-08-25,Mumbai,Active
+CU000257,BR002,Customer 000257,Individual,Male,26-35,2020-02-01,Mumbai,Active
+CU000258,BR002,Customer 000258,Senior Citizen,Female,46-60,2023-03-27,Mumbai,Active
+CU000259,BR002,Customer 000259,NRI,Male,26-35,2025-05-19,Mumbai,Active
+CU000260,BR002,Customer 000260,Individual,Male,26-35,2016-11-24,Mumbai,Active
+CU000261,BR002,Customer 000261,Individual,Female,26-35,2019-04-28,Mumbai,Active
+CU000262,BR002,Customer 000262,Business,Male,36-45,2026-02-13,Mumbai,Inactive
+CU000263,BR002,Customer 000263,Individual,Male,46-60,2015-05-31,Mumbai,Active
+CU000264,BR002,Customer 000264,Corporate,Male,26-35,2017-08-19,Mumbai,Active
+CU000265,BR002,Customer 000265,Senior Citizen,Male,46-60,2019-06-28,Mumbai,Active
+CU000266,BR002,Customer 000266,Individual,Female,36-45,2021-12-20,Mumbai,Active
+CU000267,BR002,Customer 000267,Individual,Female,46-60,2026-10-04,Mumbai,Active
+CU000268,BR002,Customer 000268,Individual,Male,46-60,2022-01-05,Mumbai,Active
+CU000269,BR002,Customer 000269,Individual,Female,26-35,2015-08-03,Mumbai,Active
+CU000270,BR002,Customer 000270,Individual,Female,60+,2026-07-11,Mumbai,Active
+CU000271,BR002,Customer 000271,Individual,Female,46-60,2019-10-21,Mumbai,Active
+CU000272,BR002,Customer 000272,Individual,Male,36-45,2025-12-15,Mumbai,Active
+CU000273,BR002,Customer 000273,Individual,Male,26-35,2017-02-01,Mumbai,Active
+CU000274,BR002,Customer 000274,Individual,Male,26-35,2023-07-15,Mumbai,Active
+CU000275,BR002,Customer 000275,Business,Male,36-45,2024-11-04,Mumbai,Active
+CU000276,BR002,Customer 000276,Individual,Female,26-35,2021-09-17,Mumbai,Active
+CU000277,BR002,Customer 000277,NRI,Male,36-45,2021-04-24,Mumbai,Active
+CU000278,BR002,Customer 000278,Individual,Female,26-35,2015-06-22,Mumbai,Active
+CU000279,BR002,Customer 000279,Individual,Female,36-45,2020-08-13,Mumbai,Active
+CU000280,BR002,Customer 000280,Individual,Male,26-35,2025-08-07,Mumbai,Closed
+CU000281,BR002,Customer 000281,Business,Male,26-35,2019-07-12,Mumbai,Active
+CU000282,BR002,Customer 000282,Individual,Female,18-25,2025-05-27,Mumbai,Active
+CU000283,BR002,Customer 000283,Individual,Female,46-60,2022-06-04,Mumbai,Active
+CU000284,BR002,Customer 000284,Individual,Male,36-45,2018-11-21,Mumbai,Active
+CU000285,BR002,Customer 000285,Senior Citizen,Female,60+,2018-03-22,Mumbai,Active
+CU000286,BR002,Customer 000286,Individual,Female,46-60,2023-06-02,Mumbai,Closed
+CU000287,BR002,Customer 000287,Individual,Female,46-60,2017-10-29,Mumbai,Active
+CU000288,BR002,Customer 000288,NRI,Male,36-45,2024-09-13,Mumbai,Active
+CU000289,BR002,Customer 000289,Individual,Female,46-60,2017-01-23,Mumbai,Active
+CU000290,BR002,Customer 000290,Individual,Female,60+,2022-09-21,Mumbai,Active
+CU000291,BR002,Customer 000291,Corporate,Male,46-60,2022-01-24,Mumbai,Closed
+CU000292,BR002,Customer 000292,Individual,Other,18-25,2020-06-04,Mumbai,Inactive
+CU000293,BR002,Customer 000293,Individual,Female,36-45,2025-11-25,Mumbai,Active
+CU000294,BR002,Customer 000294,Individual,Male,18-25,2025-11-22,Mumbai,Active
+CU000295,BR002,Customer 000295,Individual,Female,18-25,2018-02-04,Mumbai,Active
+CU000296,BR002,Customer 000296,Senior Citizen,Male,36-45,2026-03-21,Mumbai,Active
+CU000297,BR002,Customer 000297,Business,Female,46-60,2024-08-11,Mumbai,Active
+CU000298,BR002,Customer 000298,Individual,Female,26-35,2025-08-28,Mumbai,Active
+CU000299,BR002,Customer 000299,Individual,Male,18-25,2025-08-10,Mumbai,Active
+CU000300,BR002,Customer 000300,Business,Male,46-60,2016-06-27,Mumbai,Active
+CU000301,BR002,Customer 000301,Business,Male,18-25,2019-02-22,Mumbai,Active
+CU000302,BR002,Customer 000302,Individual,Female,18-25,2025-07-13,Mumbai,Active
+CU000303,BR002,Customer 000303,Senior Citizen,Male,46-60,2026-02-08,Mumbai,Active
+CU000304,BR002,Customer 000304,Individual,Female,46-60,2019-11-07,Mumbai,Active
+CU000305,BR002,Customer 000305,Corporate,Male,36-45,2025-05-10,Mumbai,Active
+CU000306,BR002,Customer 000306,Individual,Male,36-45,2020-08-30,Mumbai,Active
+CU000307,BR002,Customer 000307,Individual,Female,26-35,2025-06-26,Mumbai,Active
+CU000308,BR002,Customer 000308,Business,Female,26-35,2026-10-19,Mumbai,Active
+CU000309,BR002,Customer 000309,Corporate,Male,46-60,2021-08-31,Mumbai,Active
+CU000310,BR002,Customer 000310,Individual,Male,46-60,2021-04-21,Mumbai,Active
+CU000311,BR002,Customer 000311,Individual,Male,26-35,2026-10-15,Mumbai,Active
+CU000312,BR002,Customer 000312,Corporate,Male,26-35,2026-03-22,Mumbai,Active
+CU000313,BR002,Customer 000313,Individual,Male,26-35,2016-04-14,Mumbai,Active
+CU000314,BR002,Customer 000314,Individual,Female,18-25,2018-12-19,Mumbai,Active
+CU000315,BR002,Customer 000315,Business,Male,26-35,2026-10-29,Mumbai,Active
+CU000316,BR002,Customer 000316,Individual,Male,18-25,2021-11-20,Mumbai,Active
+CU000317,BR002,Customer 000317,Individual,Male,46-60,2021-09-13,Mumbai,Active
+CU000318,BR002,Customer 000318,Individual,Male,26-35,2026-09-14,Mumbai,Active
+CU000319,BR002,Customer 000319,Senior Citizen,Other,36-45,2021-04-29,Mumbai,Inactive
+CU000320,BR002,Customer 000320,Individual,Male,36-45,2026-01-30,Mumbai,Active
+CU000321,BR002,Customer 000321,Business,Male,46-60,2022-04-10,Mumbai,Active
+CU000322,BR002,Customer 000322,Senior Citizen,Female,60+,2018-05-30,Mumbai,Active
+CU000323,BR002,Customer 000323,Business,Female,26-35,2026-08-04,Mumbai,Active
+CU000324,BR002,Customer 000324,Individual,Female,18-25,2026-05-11,Mumbai,Active
+CU000325,BR002,Customer 000325,Individual,Female,46-60,2016-08-07,Mumbai,Active
+CU000326,BR002,Customer 000326,Individual,Female,18-25,2025-07-13,Mumbai,Active
+CU000327,BR002,Customer 000327,Individual,Female,26-35,2021-03-27,Mumbai,Inactive
+CU000328,BR002,Customer 000328,Senior Citizen,Other,18-25,2015-08-15,Mumbai,Active
+CU000329,BR002,Customer 000329,Corporate,Male,46-60,2019-04-03,Mumbai,Active
+CU000330,BR002,Customer 000330,Individual,Female,18-25,2021-01-27,Mumbai,Inactive
+CU000331,BR002,Customer 000331,Individual,Female,36-45,2020-04-24,Mumbai,Active
+CU000332,BR002,Customer 000332,Senior Citizen,Female,26-35,2026-02-16,Mumbai,Active
+CU000333,BR002,Customer 000333,Individual,Male,36-45,2021-02-19,Mumbai,Active
+CU000334,BR002,Customer 000334,NRI,Female,26-35,2023-02-17,Mumbai,Active
+CU000335,BR002,Customer 000335,Individual,Male,46-60,2019-11-15,Mumbai,Active
+CU000336,BR002,Customer 000336,Business,Female,46-60,2025-08-25,Mumbai,Active
+CU000337,BR002,Customer 000337,Corporate,Male,26-35,2026-10-22,Mumbai,Active
+CU000338,BR002,Customer 000338,Individual,Female,26-35,2026-07-12,Mumbai,Active
+CU000339,BR002,Customer 000339,Individual,Female,46-60,2025-09-15,Mumbai,Active
+CU000340,BR002,Customer 000340,NRI,Male,46-60,2016-04-17,Mumbai,Inactive
+CU000341,BR002,Customer 000341,Individual,Male,26-35,2018-05-08,Mumbai,Active
+CU000342,BR002,Customer 000342,Individual,Male,26-35,2021-09-16,Mumbai,Active
+CU000343,BR002,Customer 000343,Individual,Female,18-25,2026-06-20,Mumbai,Inactive
+CU000344,BR002,Customer 000344,Individual,Female,18-25,2026-09-09,Mumbai,Inactive
+CU000345,BR002,Customer 000345,Business,Female,18-25,2024-01-15,Mumbai,Active
+CU000346,BR002,Customer 000346,Individual,Male,18-25,2022-02-09,Mumbai,Active
+CU000347,BR002,Customer 000347,Individual,Female,26-35,2025-08-27,Mumbai,Active
+CU000348,BR003,Customer 000348,Senior Citizen,Female,46-60,2016-08-15,Pune,Active
+CU000349,BR003,Customer 000349,Individual,Male,46-60,2021-10-10,Pune,Active
+CU000350,BR003,Customer 000350,Individual,Male,46-60,2026-04-26,Pune,Active
+CU000351,BR003,Customer 000351,Business,Male,36-45,2026-04-02,Pune,Active
+CU000352,BR003,Customer 000352,Senior Citizen,Male,36-45,2025-11-16,Pune,Active
+CU000353,BR003,Customer 000353,Individual,Male,18-25,2025-01-06,Pune,Active
+CU000354,BR003,Customer 000354,Corporate,Male,36-45,2026-02-24,Pune,Active
+CU000355,BR003,Customer 000355,Individual,Male,26-35,2017-08-14,Pune,Active
+CU000356,BR003,Customer 000356,Individual,Male,36-45,2016-04-28,Pune,Active
+CU000357,BR003,Customer 000357,Senior Citizen,Male,60+,2019-02-19,Pune,Closed
+CU000358,BR003,Customer 000358,Senior Citizen,Female,46-60,2023-06-19,Pune,Inactive
+CU000359,BR003,Customer 000359,Individual,Male,26-35,2017-04-02,Pune,Active
+CU000360,BR003,Customer 000360,Individual,Male,46-60,2022-05-25,Pune,Active
+CU000361,BR003,Customer 000361,Individual,Female,18-25,2023-07-27,Pune,Inactive
+CU000362,BR003,Customer 000362,Individual,Female,18-25,2026-05-03,Pune,Inactive
+CU000363,BR003,Customer 000363,Senior Citizen,Male,18-25,2025-10-23,Pune,Inactive
+CU000364,BR003,Customer 000364,Corporate,Male,26-35,2026-04-05,Pune,Active
+CU000365,BR003,Customer 000365,Individual,Male,36-45,2026-05-05,Pune,Active
+CU000366,BR003,Customer 000366,Individual,Female,26-35,2017-11-15,Pune,Active
+CU000367,BR003,Customer 000367,Individual,Male,18-25,2016-06-12,Pune,Active
+CU000368,BR003,Customer 000368,Individual,Male,60+,2018-03-13,Pune,Active
+CU000369,BR003,Customer 000369,Business,Female,36-45,2015-07-07,Pune,Active
+CU000370,BR003,Customer 000370,Individual,Female,26-35,2019-11-19,Pune,Active
+CU000371,BR003,Customer 000371,Individual,Male,36-45,2026-10-21,Pune,Active
+CU000372,BR003,Customer 000372,Business,Male,36-45,2026-08-15,Pune,Active
+CU000373,BR003,Customer 000373,Senior Citizen,Male,36-45,2019-10-29,Pune,Active
+CU000374,BR003,Customer 000374,Individual,Female,36-45,2017-07-12,Pune,Active
+CU000375,BR003,Customer 000375,Individual,Female,46-60,2026-07-21,Pune,Active
+CU000376,BR003,Customer 000376,Individual,Female,26-35,2020-07-07,Pune,Inactive
+CU000377,BR003,Customer 000377,Individual,Male,36-45,2026-07-10,Pune,Active
+CU000378,BR003,Customer 000378,Individual,Male,18-25,2026-09-11,Pune,Active
+CU000379,BR003,Customer 000379,Individual,Female,46-60,2016-02-22,Pune,Active
+CU000380,BR003,Customer 000380,Individual,Male,26-35,2020-06-15,Pune,Active
+CU000381,BR003,Customer 000381,Individual,Other,26-35,2017-11-16,Pune,Active
+CU000382,BR003,Customer 000382,NRI,Male,60+,2017-07-27,Pune,Active
+CU000383,BR003,Customer 000383,Individual,Male,36-45,2025-10-19,Pune,Inactive
+CU000384,BR003,Customer 000384,Business,Male,18-25,2015-12-12,Pune,Active
+CU000385,BR003,Customer 000385,Business,Male,26-35,2021-02-13,Pune,Closed
+CU000386,BR003,Customer 000386,NRI,Female,26-35,2019-11-24,Pune,Active
+CU000387,BR003,Customer 000387,Business,Male,60+,2025-08-23,Pune,Active
+CU000388,BR003,Customer 000388,NRI,Female,26-35,2026-08-29,Pune,Active
+CU000389,BR003,Customer 000389,Business,Female,26-35,2021-08-13,Pune,Active
+CU000390,BR003,Customer 000390,Individual,Female,36-45,2018-11-26,Pune,Inactive
+CU000391,BR003,Customer 000391,Individual,Female,26-35,2025-10-31,Pune,Active
+CU000392,BR003,Customer 000392,Individual,Female,18-25,2026-10-24,Pune,Active
+CU000393,BR003,Customer 000393,Individual,Female,46-60,2022-05-30,Pune,Active
+CU000394,BR003,Customer 000394,Individual,Male,18-25,2025-09-19,Pune,Closed
+CU000395,BR003,Customer 000395,Individual,Female,46-60,2021-05-19,Pune,Active
+CU000396,BR003,Customer 000396,Individual,Female,46-60,2026-09-27,Pune,Active
+CU000397,BR003,Customer 000397,Individual,Male,18-25,2019-08-06,Pune,Active
+CU000398,BR003,Customer 000398,Individual,Female,46-60,2019-08-15,Pune,Active
+CU000399,BR003,Customer 000399,Business,Male,46-60,2016-10-25,Pune,Active
+CU000400,BR003,Customer 000400,Individual,Female,36-45,2019-10-05,Pune,Active
+CU000401,BR003,Customer 000401,Corporate,Male,36-45,2023-02-24,Pune,Active
+CU000402,BR003,Customer 000402,Individual,Female,18-25,2017-07-27,Pune,Active
+CU000403,BR003,Customer 000403,NRI,Male,18-25,2026-05-23,Pune,Active
+CU000404,BR003,Customer 000404,Corporate,Female,46-60,2021-04-10,Pune,Active
+CU000405,BR003,Customer 000405,Individual,Male,18-25,2021-05-07,Pune,Active
+CU000406,BR003,Customer 000406,Senior Citizen,Female,26-35,2017-01-16,Pune,Active
+CU000407,BR003,Customer 000407,Individual,Male,36-45,2025-11-09,Pune,Active
+CU000408,BR003,Customer 000408,Individual,Female,26-35,2016-07-26,Pune,Active
+CU000409,BR003,Customer 000409,Corporate,Male,46-60,2016-06-07,Pune,Active
+CU000410,BR003,Customer 000410,Individual,Male,46-60,2017-07-11,Pune,Inactive
+CU000411,BR003,Customer 000411,Individual,Male,46-60,2026-02-12,Pune,Active
+CU000412,BR003,Customer 000412,Individual,Female,18-25,2021-09-22,Pune,Active
+CU000413,BR003,Customer 000413,Individual,Male,26-35,2016-11-17,Pune,Active
+CU000414,BR003,Customer 000414,Individual,Female,46-60,2018-04-09,Pune,Active
+CU000415,BR003,Customer 000415,Individual,Male,26-35,2015-03-03,Pune,Active
+CU000416,BR003,Customer 000416,Individual,Female,36-45,2020-07-26,Pune,Active
+CU000417,BR003,Customer 000417,Individual,Male,36-45,2022-06-22,Pune,Active
+CU000418,BR003,Customer 000418,Individual,Male,26-35,2021-10-17,Pune,Active
+CU000419,BR003,Customer 000419,Individual,Male,26-35,2018-06-27,Pune,Inactive
+CU000420,BR003,Customer 000420,Business,Male,36-45,2022-12-26,Pune,Active
+CU000421,BR003,Customer 000421,Individual,Male,18-25,2025-08-05,Pune,Inactive
+CU000422,BR003,Customer 000422,Individual,Male,46-60,2017-10-05,Pune,Active
+CU000423,BR003,Customer 000423,Business,Male,36-45,2023-06-18,Pune,Inactive
+CU000424,BR003,Customer 000424,Senior Citizen,Female,18-25,2025-10-02,Pune,Active
+CU000425,BR003,Customer 000425,Individual,Male,46-60,2022-11-10,Pune,Closed
+CU000426,BR003,Customer 000426,Individual,Female,26-35,2023-04-04,Pune,Active
+CU000427,BR003,Customer 000427,Corporate,Male,26-35,2024-06-28,Pune,Active
+CU000428,BR003,Customer 000428,Senior Citizen,Male,60+,2016-11-02,Pune,Active
+CU000429,BR003,Customer 000429,Individual,Male,46-60,2023-10-13,Pune,Active
+CU000430,BR003,Customer 000430,Individual,Male,36-45,2024-04-24,Pune,Active
+CU000431,BR003,Customer 000431,Individual,Male,46-60,2026-01-14,Pune,Inactive
+CU000432,BR003,Customer 000432,Individual,Female,36-45,2025-09-10,Pune,Active
+CU000433,BR003,Customer 000433,Senior Citizen,Female,36-45,2015-06-29,Pune,Inactive
+CU000434,BR003,Customer 000434,Business,Female,26-35,2026-10-13,Pune,Active
+CU000435,BR003,Customer 000435,Individual,Male,26-35,2018-01-01,Pune,Active
+CU000436,BR003,Customer 000436,Business,Male,26-35,2021-08-14,Pune,Inactive
+CU000437,BR003,Customer 000437,NRI,Female,36-45,2026-05-22,Pune,Active
+CU000438,BR003,Customer 000438,Individual,Male,46-60,2026-10-03,Pune,Active
+CU000439,BR003,Customer 000439,Corporate,Male,36-45,2025-10-31,Pune,Active
+CU000440,BR003,Customer 000440,Individual,Male,36-45,2021-02-23,Pune,Active
+CU000441,BR003,Customer 000441,Individual,Male,46-60,2021-10-12,Pune,Active
+CU000442,BR003,Customer 000442,Individual,Female,60+,2016-07-25,Pune,Active
+CU000443,BR003,Customer 000443,Individual,Male,26-35,2016-08-24,Pune,Active
+CU000444,BR003,Customer 000444,Senior Citizen,Male,60+,2025-11-10,Pune,Active
+CU000445,BR003,Customer 000445,Individual,Female,46-60,2025-12-14,Pune,Active
+CU000446,BR003,Customer 000446,Individual,Other,18-25,2026-02-16,Pune,Active
+CU000447,BR003,Customer 000447,Individual,Male,26-35,2025-09-24,Pune,Active
+CU000448,BR003,Customer 000448,Individual,Male,26-35,2017-08-12,Pune,Inactive
+CU000449,BR003,Customer 000449,Individual,Female,36-45,2016-05-01,Pune,Closed
+CU000450,BR003,Customer 000450,Business,Male,36-45,2016-04-14,Pune,Inactive
+CU000451,BR003,Customer 000451,Individual,Male,36-45,2019-05-29,Pune,Active
+CU000452,BR003,Customer 000452,Individual,Male,46-60,2025-06-14,Pune,Active
+CU000453,BR003,Customer 000453,Individual,Male,26-35,2020-03-23,Pune,Active
+CU000454,BR003,Customer 000454,Individual,Other,26-35,2022-11-10,Pune,Active
+CU000455,BR003,Customer 000455,Business,Female,46-60,2026-07-22,Pune,Closed
+CU000456,BR003,Customer 000456,Individual,Other,60+,2025-11-28,Pune,Active
+CU000457,BR003,Customer 000457,Individual,Female,46-60,2026-10-29,Pune,Active
+CU000458,BR003,Customer 000458,Business,Female,26-35,2026-08-14,Pune,Closed
+CU000459,BR003,Customer 000459,Business,Female,18-25,2015-05-08,Pune,Active
+CU000460,BR003,Customer 000460,NRI,Female,26-35,2022-08-04,Pune,Active
+CU000461,BR003,Customer 000461,Individual,Male,26-35,2018-01-22,Pune,Active
+CU000462,BR003,Customer 000462,Individual,Male,26-35,2026-04-29,Pune,Active
+CU000463,BR003,Customer 000463,Business,Male,60+,2025-08-12,Pune,Active
+CU000464,BR003,Customer 000464,Individual,Male,36-45,2025-12-13,Pune,Active
+CU000465,BR003,Customer 000465,Business,Male,26-35,2025-06-25,Pune,Active
+CU000466,BR003,Customer 000466,Individual,Male,26-35,2016-11-24,Pune,Active
+CU000467,BR003,Customer 000467,Business,Female,26-35,2026-10-23,Pune,Active
+CU000468,BR003,Customer 000468,Individual,Male,36-45,2024-09-29,Pune,Active
+CU000469,BR003,Customer 000469,Individual,Male,46-60,2016-06-21,Pune,Active
+CU000470,BR003,Customer 000470,Individual,Male,18-25,2015-09-02,Pune,Active
+CU000471,BR003,Customer 000471,Individual,Male,46-60,2025-09-22,Pune,Active
+CU000472,BR003,Customer 000472,Business,Female,18-25,2026-05-02,Pune,Active
+CU000473,BR003,Customer 000473,Individual,Male,26-35,2022-02-18,Pune,Active
+CU000474,BR003,Customer 000474,Individual,Male,60+,2016-10-18,Pune,Active
+CU000475,BR003,Customer 000475,Senior Citizen,Male,26-35,2022-05-04,Pune,Active
+CU000476,BR003,Customer 000476,Business,Female,18-25,2018-07-10,Pune,Active
+CU000477,BR003,Customer 000477,Individual,Female,36-45,2015-06-01,Pune,Inactive
+CU000478,BR003,Customer 000478,Senior Citizen,Male,26-35,2025-05-08,Pune,Closed
+CU000479,BR003,Customer 000479,Individual,Male,18-25,2021-06-15,Pune,Inactive
+CU000480,BR003,Customer 000480,Corporate,Female,18-25,2026-03-07,Pune,Active
+CU000481,BR004,Customer 000481,Individual,Female,18-25,2025-05-24,Ahmedabad,Inactive
+CU000482,BR004,Customer 000482,Individual,Male,36-45,2026-05-21,Ahmedabad,Active
+CU000483,BR004,Customer 000483,Individual,Male,26-35,2024-09-04,Ahmedabad,Active
+CU000484,BR004,Customer 000484,Individual,Male,46-60,2025-09-17,Ahmedabad,Inactive
+CU000485,BR004,Customer 000485,Individual,Male,46-60,2025-05-11,Ahmedabad,Active
+CU000486,BR004,Customer 000486,Individual,Female,26-35,2020-01-10,Ahmedabad,Active
+CU000487,BR004,Customer 000487,Business,Other,26-35,2022-03-25,Ahmedabad,Active
+CU000488,BR004,Customer 000488,Individual,Other,26-35,2017-08-26,Ahmedabad,Active
+CU000489,BR004,Customer 000489,Individual,Female,26-35,2025-07-10,Ahmedabad,Active
+CU000490,BR004,Customer 000490,Senior Citizen,Male,26-35,2020-09-24,Ahmedabad,Active
+CU000491,BR004,Customer 000491,Business,Female,46-60,2018-03-14,Ahmedabad,Active
+CU000492,BR004,Customer 000492,Senior Citizen,Male,26-35,2024-07-12,Ahmedabad,Active
+CU000493,BR004,Customer 000493,Individual,Male,36-45,2020-06-03,Ahmedabad,Active
+CU000494,BR004,Customer 000494,Individual,Female,36-45,2024-08-02,Ahmedabad,Active
+CU000495,BR004,Customer 000495,Individual,Male,46-60,2025-05-26,Ahmedabad,Active
+CU000496,BR004,Customer 000496,Individual,Female,26-35,2025-06-11,Ahmedabad,Active
+CU000497,BR004,Customer 000497,Individual,Other,26-35,2016-10-19,Ahmedabad,Active
+CU000498,BR004,Customer 000498,NRI,Female,60+,2022-03-30,Ahmedabad,Active
+CU000499,BR004,Customer 000499,Individual,Female,26-35,2021-12-15,Ahmedabad,Active
+CU000500,BR004,Customer 000500,Business,Male,36-45,2016-07-06,Ahmedabad,Active
+CU000501,BR004,Customer 000501,Individual,Male,36-45,2021-04-23,Ahmedabad,Active
+CU000502,BR004,Customer 000502,Individual,Female,36-45,2015-02-19,Ahmedabad,Active
+CU000503,BR004,Customer 000503,Individual,Female,26-35,2023-08-19,Ahmedabad,Active
+CU000504,BR004,Customer 000504,Senior Citizen,Female,26-35,2017-10-31,Ahmedabad,Active
+CU000505,BR004,Customer 000505,Individual,Male,36-45,2017-12-24,Ahmedabad,Active
+CU000506,BR004,Customer 000506,Individual,Male,36-45,2026-07-08,Ahmedabad,Active
+CU000507,BR004,Customer 000507,Individual,Male,46-60,2022-03-08,Ahmedabad,Inactive
+CU000508,BR004,Customer 000508,Business,Female,46-60,2026-04-06,Ahmedabad,Active
+CU000509,BR004,Customer 000509,Senior Citizen,Female,60+,2016-09-25,Ahmedabad,Active
+CU000510,BR004,Customer 000510,Senior Citizen,Female,60+,2026-01-21,Ahmedabad,Active
+CU000511,BR004,Customer 000511,Business,Male,46-60,2025-07-15,Ahmedabad,Active
+CU000512,BR004,Customer 000512,Senior Citizen,Male,18-25,2026-10-03,Ahmedabad,Active
+CU000513,BR004,Customer 000513,Business,Male,26-35,2019-07-16,Ahmedabad,Active
+CU000514,BR004,Customer 000514,Individual,Male,36-45,2022-05-29,Ahmedabad,Inactive
+CU000515,BR004,Customer 000515,Individual,Male,36-45,2018-04-29,Ahmedabad,Active
+CU000516,BR004,Customer 000516,Individual,Female,26-35,2022-05-14,Ahmedabad,Active
+CU000517,BR004,Customer 000517,Individual,Male,36-45,2024-06-29,Ahmedabad,Closed
+CU000518,BR004,Customer 000518,Individual,Male,26-35,2026-02-12,Ahmedabad,Inactive
+CU000519,BR004,Customer 000519,Individual,Female,26-35,2017-11-28,Ahmedabad,Active
+CU000520,BR004,Customer 000520,Senior Citizen,Female,46-60,2023-04-13,Ahmedabad,Active
+CU000521,BR004,Customer 000521,Senior Citizen,Male,26-35,2016-04-04,Ahmedabad,Active
+CU000522,BR004,Customer 000522,Individual,Male,36-45,2025-01-11,Ahmedabad,Active
+CU000523,BR004,Customer 000523,Business,Female,36-45,2024-10-17,Ahmedabad,Inactive
+CU000524,BR004,Customer 000524,Individual,Female,36-45,2026-07-06,Ahmedabad,Active
+CU000525,BR004,Customer 000525,Individual,Female,26-35,2025-09-28,Ahmedabad,Active
+CU000526,BR004,Customer 000526,Individual,Male,36-45,2020-01-19,Ahmedabad,Active
+CU000527,BR004,Customer 000527,Individual,Male,26-35,2025-06-03,Ahmedabad,Active
+CU000528,BR004,Customer 000528,Individual,Female,36-45,2018-01-28,Ahmedabad,Active
+CU000529,BR004,Customer 000529,Individual,Male,26-35,2015-09-28,Ahmedabad,Active
+CU000530,BR004,Customer 000530,Individual,Male,60+,2015-08-29,Ahmedabad,Active
+CU000531,BR004,Customer 000531,Individual,Other,46-60,2026-06-12,Ahmedabad,Active
+CU000532,BR004,Customer 000532,Senior Citizen,Male,26-35,2017-05-10,Ahmedabad,Active
+CU000533,BR004,Customer 000533,Individual,Female,26-35,2026-10-06,Ahmedabad,Active
+CU000534,BR004,Customer 000534,Individual,Female,26-35,2016-10-15,Ahmedabad,Active
+CU000535,BR004,Customer 000535,Individual,Male,46-60,2021-08-17,Ahmedabad,Active
+CU000536,BR004,Customer 000536,Individual,Female,36-45,2020-09-24,Ahmedabad,Active
+CU000537,BR004,Customer 000537,Individual,Male,46-60,2023-06-20,Ahmedabad,Closed
+CU000538,BR004,Customer 000538,Individual,Female,46-60,2016-06-19,Ahmedabad,Active
+CU000539,BR004,Customer 000539,Business,Female,36-45,2026-04-15,Ahmedabad,Active
+CU000540,BR004,Customer 000540,Individual,Female,36-45,2025-09-10,Ahmedabad,Active
+CU000541,BR004,Customer 000541,Business,Male,36-45,2025-07-28,Ahmedabad,Active
+CU000542,BR004,Customer 000542,Individual,Female,36-45,2018-05-06,Ahmedabad,Active
+CU000543,BR004,Customer 000543,Individual,Female,36-45,2016-05-30,Ahmedabad,Active
+CU000544,BR004,Customer 000544,Individual,Female,46-60,2025-12-05,Ahmedabad,Active
+CU000545,BR004,Customer 000545,Individual,Female,18-25,2019-05-08,Ahmedabad,Active
+CU000546,BR004,Customer 000546,Individual,Male,26-35,2022-07-11,Ahmedabad,Active
+CU000547,BR004,Customer 000547,Individual,Female,26-35,2020-12-24,Ahmedabad,Active
+CU000548,BR004,Customer 000548,Individual,Male,60+,2015-02-08,Ahmedabad,Active
+CU000549,BR004,Customer 000549,Business,Male,36-45,2024-12-23,Ahmedabad,Active
+CU000550,BR004,Customer 000550,Individual,Female,26-35,2023-11-25,Ahmedabad,Active
+CU000551,BR004,Customer 000551,Individual,Female,26-35,2026-09-26,Ahmedabad,Active
+CU000552,BR004,Customer 000552,Business,Other,36-45,2019-12-13,Ahmedabad,Active
+CU000553,BR004,Customer 000553,Individual,Male,46-60,2023-12-28,Ahmedabad,Active
+CU000554,BR004,Customer 000554,Corporate,Male,60+,2025-04-27,Ahmedabad,Active
+CU000555,BR004,Customer 000555,Senior Citizen,Male,46-60,2025-05-26,Ahmedabad,Active
+CU000556,BR004,Customer 000556,Senior Citizen,Male,46-60,2026-03-09,Ahmedabad,Active
+CU000557,BR004,Customer 000557,Individual,Female,26-35,2026-09-20,Ahmedabad,Active
+CU000558,BR004,Customer 000558,Individual,Female,26-35,2020-06-25,Ahmedabad,Active
+CU000559,BR004,Customer 000559,Individual,Male,36-45,2020-08-21,Ahmedabad,Active
+CU000560,BR004,Customer 000560,Business,Male,36-45,2020-01-06,Ahmedabad,Active
+CU000561,BR004,Customer 000561,Business,Male,26-35,2015-08-30,Ahmedabad,Active
+CU000562,BR004,Customer 000562,Individual,Female,46-60,2025-06-06,Ahmedabad,Active
+CU000563,BR004,Customer 000563,Individual,Female,26-35,2018-05-17,Ahmedabad,Inactive
+CU000564,BR004,Customer 000564,Individual,Male,26-35,2015-02-17,Ahmedabad,Active
+CU000565,BR004,Customer 000565,Individual,Male,26-35,2016-06-18,Ahmedabad,Active
+CU000566,BR004,Customer 000566,Individual,Male,46-60,2023-04-11,Ahmedabad,Active
+CU000567,BR004,Customer 000567,Senior Citizen,Male,46-60,2024-08-15,Ahmedabad,Active
+CU000568,BR004,Customer 000568,Individual,Female,36-45,2019-03-14,Ahmedabad,Active
+CU000569,BR004,Customer 000569,Individual,Female,46-60,2020-12-24,Ahmedabad,Inactive
+CU000570,BR004,Customer 000570,Senior Citizen,Male,46-60,2017-04-21,Ahmedabad,Active
+CU000571,BR004,Customer 000571,Individual,Female,26-35,2022-02-27,Ahmedabad,Active
+CU000572,BR004,Customer 000572,Individual,Male,46-60,2015-04-09,Ahmedabad,Active
+CU000573,BR004,Customer 000573,Business,Male,26-35,2016-12-07,Ahmedabad,Inactive
+CU000574,BR004,Customer 000574,Individual,Female,36-45,2018-08-18,Ahmedabad,Closed
+CU000575,BR004,Customer 000575,Individual,Male,18-25,2023-05-02,Ahmedabad,Inactive
+CU000576,BR004,Customer 000576,Corporate,Male,26-35,2018-01-07,Ahmedabad,Active
+CU000577,BR004,Customer 000577,Business,Female,36-45,2022-08-29,Ahmedabad,Active
+CU000578,BR004,Customer 000578,Corporate,Female,18-25,2025-06-15,Ahmedabad,Active
+CU000579,BR004,Customer 000579,Senior Citizen,Male,36-45,2023-06-27,Ahmedabad,Active
+CU000580,BR004,Customer 000580,Individual,Female,36-45,2023-07-23,Ahmedabad,Active
+CU000581,BR004,Customer 000581,Business,Male,36-45,2023-03-20,Ahmedabad,Closed
+CU000582,BR004,Customer 000582,Individual,Female,18-25,2018-05-27,Ahmedabad,Active
+CU000583,BR004,Customer 000583,Business,Male,18-25,2025-06-21,Ahmedabad,Active
+CU000584,BR004,Customer 000584,Business,Female,26-35,2025-10-09,Ahmedabad,Active
+CU000585,BR004,Customer 000585,Business,Male,46-60,2019-01-21,Ahmedabad,Active
+CU000586,BR004,Customer 000586,Senior Citizen,Female,46-60,2020-10-31,Ahmedabad,Active
+CU000587,BR004,Customer 000587,Individual,Female,26-35,2020-10-15,Ahmedabad,Active
+CU000588,BR004,Customer 000588,Business,Male,46-60,2016-10-19,Ahmedabad,Active
+CU000589,BR004,Customer 000589,Individual,Female,36-45,2021-11-20,Ahmedabad,Active
+CU000590,BR004,Customer 000590,Individual,Male,60+,2017-11-03,Ahmedabad,Active
+CU000591,BR004,Customer 000591,Business,Female,18-25,2021-01-16,Ahmedabad,Active
+CU000592,BR005,Customer 000592,Corporate,Male,36-45,2022-02-13,Surat,Active
+CU000593,BR005,Customer 000593,Individual,Male,36-45,2018-05-30,Surat,Active
+CU000594,BR005,Customer 000594,Individual,Female,26-35,2019-02-10,Surat,Active
+CU000595,BR005,Customer 000595,Individual,Male,18-25,2016-05-24,Surat,Active
+CU000596,BR005,Customer 000596,Individual,Male,18-25,2020-06-14,Surat,Inactive
+CU000597,BR005,Customer 000597,Individual,Male,36-45,2015-05-17,Surat,Active
+CU000598,BR005,Customer 000598,Senior Citizen,Male,36-45,2026-01-15,Surat,Active
+CU000599,BR005,Customer 000599,Individual,Male,46-60,2021-04-26,Surat,Inactive
+CU000600,BR005,Customer 000600,Senior Citizen,Female,26-35,2015-02-08,Surat,Active
+CU000601,BR005,Customer 000601,Individual,Female,46-60,2018-01-25,Surat,Inactive
+CU000602,BR005,Customer 000602,Business,Male,26-35,2024-11-08,Surat,Inactive
+CU000603,BR005,Customer 000603,Individual,Male,60+,2019-12-26,Surat,Active
+CU000604,BR005,Customer 000604,Business,Female,18-25,2024-07-11,Surat,Active
+CU000605,BR005,Customer 000605,Business,Female,46-60,2020-10-21,Surat,Active
+CU000606,BR005,Customer 000606,Business,Female,60+,2022-01-28,Surat,Active
+CU000607,BR005,Customer 000607,Senior Citizen,Male,46-60,2020-05-25,Surat,Active
+CU000608,BR005,Customer 000608,Individual,Female,46-60,2019-07-15,Surat,Closed
+CU000609,BR005,Customer 000609,Individual,Female,26-35,2026-05-05,Surat,Active
+CU000610,BR005,Customer 000610,Individual,Male,46-60,2021-09-15,Surat,Active
+CU000611,BR005,Customer 000611,Business,Male,36-45,2015-04-17,Surat,Active
+CU000612,BR005,Customer 000612,Individual,Male,26-35,2023-10-16,Surat,Active
+CU000613,BR005,Customer 000613,Individual,Female,60+,2026-05-01,Surat,Active
+CU000614,BR005,Customer 000614,Individual,Male,26-35,2015-10-10,Surat,Active
+CU000615,BR005,Customer 000615,Individual,Female,26-35,2026-07-24,Surat,Active
+CU000616,BR005,Customer 000616,Business,Female,60+,2020-02-21,Surat,Active
+CU000617,BR005,Customer 000617,Business,Male,26-35,2024-05-14,Surat,Active
+CU000618,BR005,Customer 000618,Business,Female,26-35,2019-04-05,Surat,Inactive
+CU000619,BR005,Customer 000619,Business,Female,26-35,2020-04-29,Surat,Active
+CU000620,BR005,Customer 000620,Senior Citizen,Male,46-60,2022-06-21,Surat,Active
+CU000621,BR005,Customer 000621,Individual,Female,46-60,2016-01-16,Surat,Active
+CU000622,BR005,Customer 000622,Senior Citizen,Male,18-25,2026-01-17,Surat,Active
+CU000623,BR005,Customer 000623,Individual,Male,36-45,2025-09-23,Surat,Inactive
+CU000624,BR005,Customer 000624,Business,Female,36-45,2019-06-30,Surat,Active
+CU000625,BR005,Customer 000625,Business,Female,36-45,2021-05-27,Surat,Active
+CU000626,BR005,Customer 000626,Individual,Male,36-45,2026-08-02,Surat,Active
+CU000627,BR005,Customer 000627,Individual,Other,60+,2020-02-27,Surat,Active
+CU000628,BR005,Customer 000628,Individual,Female,26-35,2018-07-15,Surat,Active
+CU000629,BR005,Customer 000629,Individual,Female,26-35,2018-07-28,Surat,Active
+CU000630,BR005,Customer 000630,Senior Citizen,Male,36-45,2016-08-04,Surat,Inactive
+CU000631,BR005,Customer 000631,Individual,Male,26-35,2026-08-19,Surat,Active
+CU000632,BR005,Customer 000632,Individual,Male,36-45,2019-06-03,Surat,Active
+CU000633,BR005,Customer 000633,Individual,Female,18-25,2023-06-27,Surat,Active
+CU000634,BR005,Customer 000634,Individual,Male,26-35,2024-04-22,Surat,Active
+CU000635,BR005,Customer 000635,Individual,Female,60+,2025-03-02,Surat,Active
+CU000636,BR005,Customer 000636,Individual,Male,18-25,2026-02-15,Surat,Active
+CU000637,BR005,Customer 000637,Individual,Female,36-45,2019-07-31,Surat,Active
+CU000638,BR005,Customer 000638,Individual,Female,46-60,2026-03-07,Surat,Active
+CU000639,BR005,Customer 000639,Individual,Female,18-25,2018-04-30,Surat,Active
+CU000640,BR005,Customer 000640,Individual,Female,26-35,2015-06-27,Surat,Active
+CU000641,BR005,Customer 000641,Business,Female,26-35,2015-06-02,Surat,Active
+CU000642,BR005,Customer 000642,Individual,Male,36-45,2016-07-14,Surat,Active
+CU000643,BR005,Customer 000643,Individual,Female,26-35,2018-06-23,Surat,Active
+CU000644,BR005,Customer 000644,Senior Citizen,Female,36-45,2017-09-19,Surat,Active
+CU000645,BR005,Customer 000645,Individual,Female,26-35,2018-05-22,Surat,Active
+CU000646,BR005,Customer 000646,Individual,Male,18-25,2023-05-24,Surat,Active
+CU000647,BR005,Customer 000647,Corporate,Other,18-25,2025-05-14,Surat,Active
+CU000648,BR005,Customer 000648,Individual,Male,26-35,2020-10-10,Surat,Active
+CU000649,BR005,Customer 000649,Corporate,Male,26-35,2018-01-19,Surat,Active
+CU000650,BR005,Customer 000650,Business,Male,60+,2024-09-06,Surat,Active
+CU000651,BR005,Customer 000651,Senior Citizen,Male,18-25,2026-06-28,Surat,Active
+CU000652,BR005,Customer 000652,Senior Citizen,Male,36-45,2019-11-13,Surat,Active
+CU000653,BR005,Customer 000653,Individual,Male,36-45,2025-09-17,Surat,Active
+CU000654,BR005,Customer 000654,Business,Female,36-45,2023-02-26,Surat,Active
+CU000655,BR005,Customer 000655,Individual,Male,36-45,2015-09-23,Surat,Inactive
+CU000656,BR005,Customer 000656,Business,Male,18-25,2021-05-26,Surat,Active
+CU000657,BR005,Customer 000657,Individual,Female,36-45,2023-03-14,Surat,Active
+CU000658,BR005,Customer 000658,Individual,Female,26-35,2024-12-25,Surat,Active
+CU000659,BR005,Customer 000659,Individual,Male,46-60,2023-03-13,Surat,Active
+CU000660,BR005,Customer 000660,Individual,Male,26-35,2020-09-14,Surat,Active
+CU000661,BR005,Customer 000661,Individual,Female,46-60,2022-02-11,Surat,Active
+CU000662,BR005,Customer 000662,Individual,Female,36-45,2019-06-19,Surat,Active
+CU000663,BR005,Customer 000663,Senior Citizen,Female,36-45,2016-10-14,Surat,Active
+CU000664,BR005,Customer 000664,Individual,Male,26-35,2024-08-16,Surat,Inactive
+CU000665,BR005,Customer 000665,Corporate,Female,36-45,2018-07-06,Surat,Inactive
+CU000666,BR005,Customer 000666,NRI,Female,46-60,2022-04-14,Surat,Active
+CU000667,BR005,Customer 000667,Business,Female,36-45,2020-08-26,Surat,Active
+CU000668,BR005,Customer 000668,Individual,Female,26-35,2022-03-25,Surat,Active
+CU000669,BR005,Customer 000669,NRI,Female,26-35,2018-02-26,Surat,Inactive
+CU000670,BR005,Customer 000670,Business,Female,26-35,2022-09-15,Surat,Active
+CU000671,BR005,Customer 000671,Business,Female,46-60,2018-01-14,Surat,Active
+CU000672,BR005,Customer 000672,Senior Citizen,Female,26-35,2026-08-05,Surat,Inactive
+CU000673,BR005,Customer 000673,Individual,Male,46-60,2021-01-27,Surat,Inactive
+CU000674,BR005,Customer 000674,Individual,Male,46-60,2026-07-13,Surat,Active
+CU000675,BR005,Customer 000675,Senior Citizen,Female,36-45,2022-09-22,Surat,Inactive
+CU000676,BR005,Customer 000676,Individual,Female,36-45,2022-10-31,Surat,Active
+CU000677,BR005,Customer 000677,Corporate,Male,36-45,2024-04-19,Surat,Active
+CU000678,BR005,Customer 000678,Individual,Male,36-45,2019-04-11,Surat,Closed
+CU000679,BR005,Customer 000679,Individual,Female,26-35,2026-04-04,Surat,Active
+CU000680,BR005,Customer 000680,Individual,Female,46-60,2015-04-22,Surat,Active
+CU000681,BR005,Customer 000681,Individual,Male,60+,2020-11-09,Surat,Active
+CU000682,BR005,Customer 000682,Senior Citizen,Male,36-45,2021-04-25,Surat,Active
+CU000683,BR005,Customer 000683,Individual,Male,60+,2022-01-14,Surat,Active
+CU000684,BR005,Customer 000684,Business,Female,60+,2021-03-23,Surat,Active
+CU000685,BR005,Customer 000685,Individual,Female,36-45,2022-04-21,Surat,Active
+CU000686,BR005,Customer 000686,Senior Citizen,Female,46-60,2019-08-09,Surat,Active
+CU000687,BR005,Customer 000687,Individual,Male,36-45,2024-06-28,Surat,Inactive
+CU000688,BR005,Customer 000688,Individual,Female,26-35,2023-10-07,Surat,Active
+CU000689,BR005,Customer 000689,Individual,Male,18-25,2016-10-11,Surat,Active
+CU000690,BR006,Customer 000690,Individual,Female,36-45,2020-06-14,New Delhi,Active
+CU000691,BR006,Customer 000691,Senior Citizen,Male,46-60,2020-05-18,New Delhi,Active
+CU000692,BR006,Customer 000692,Senior Citizen,Male,26-35,2025-11-06,New Delhi,Active
+CU000693,BR006,Customer 000693,Individual,Female,46-60,2025-03-28,New Delhi,Active
+CU000694,BR006,Customer 000694,Individual,Male,36-45,2025-07-09,New Delhi,Inactive
+CU000695,BR006,Customer 000695,Individual,Female,36-45,2019-06-19,New Delhi,Active
+CU000696,BR006,Customer 000696,Individual,Female,26-35,2020-01-03,New Delhi,Closed
+CU000697,BR006,Customer 000697,Individual,Male,36-45,2025-12-27,New Delhi,Active
+CU000698,BR006,Customer 000698,Individual,Male,26-35,2026-05-09,New Delhi,Active
+CU000699,BR006,Customer 000699,Individual,Female,26-35,2015-07-03,New Delhi,Active
+CU000700,BR006,Customer 000700,Senior Citizen,Female,18-25,2022-05-11,New Delhi,Active
+CU000701,BR006,Customer 000701,Individual,Male,18-25,2025-09-25,New Delhi,Inactive
+CU000702,BR006,Customer 000702,Individual,Male,26-35,2021-02-11,New Delhi,Active
+CU000703,BR006,Customer 000703,Individual,Female,36-45,2020-07-31,New Delhi,Active
+CU000704,BR006,Customer 000704,Individual,Male,36-45,2024-02-24,New Delhi,Active
+CU000705,BR006,Customer 000705,Individual,Female,26-35,2021-09-30,New Delhi,Active
+CU000706,BR006,Customer 000706,Business,Female,46-60,2019-11-12,New Delhi,Active
+CU000707,BR006,Customer 000707,Individual,Male,36-45,2016-08-31,New Delhi,Inactive
+CU000708,BR006,Customer 000708,Business,Female,60+,2016-03-07,New Delhi,Active
+CU000709,BR006,Customer 000709,Senior Citizen,Male,36-45,2021-09-05,New Delhi,Active
+CU000710,BR006,Customer 000710,Senior Citizen,Male,18-25,2020-09-17,New Delhi,Active
+CU000711,BR006,Customer 000711,Business,Female,60+,2017-11-23,New Delhi,Active
+CU000712,BR006,Customer 000712,Individual,Female,46-60,2018-01-08,New Delhi,Active
+CU000713,BR006,Customer 000713,Individual,Female,36-45,2020-07-14,New Delhi,Active
+CU000714,BR006,Customer 000714,Individual,Male,36-45,2024-07-24,New Delhi,Active
+CU000715,BR006,Customer 000715,Senior Citizen,Female,36-45,2020-05-22,New Delhi,Active
+CU000716,BR006,Customer 000716,Senior Citizen,Male,36-45,2022-05-06,New Delhi,Active
+CU000717,BR006,Customer 000717,Individual,Female,46-60,2024-03-04,New Delhi,Active
+CU000718,BR006,Customer 000718,Individual,Male,36-45,2016-11-26,New Delhi,Active
+CU000719,BR006,Customer 000719,Individual,Male,26-35,2023-02-11,New Delhi,Active
+CU000720,BR006,Customer 000720,Individual,Male,18-25,2023-11-21,New Delhi,Active
+CU000721,BR006,Customer 000721,Senior Citizen,Female,18-25,2017-04-26,New Delhi,Active
+CU000722,BR006,Customer 000722,Individual,Male,26-35,2018-03-03,New Delhi,Active
+CU000723,BR006,Customer 000723,Individual,Female,26-35,2025-09-27,New Delhi,Active
+CU000724,BR006,Customer 000724,Individual,Female,46-60,2017-11-29,New Delhi,Active
+CU000725,BR006,Customer 000725,Individual,Male,26-35,2018-04-30,New Delhi,Inactive
+CU000726,BR006,Customer 000726,Individual,Male,26-35,2019-05-12,New Delhi,Inactive
+CU000727,BR006,Customer 000727,NRI,Male,26-35,2017-08-26,New Delhi,Active
+CU000728,BR006,Customer 000728,Individual,Male,36-45,2026-06-13,New Delhi,Active
+CU000729,BR006,Customer 000729,Individual,Female,36-45,2021-06-20,New Delhi,Active
+CU000730,BR006,Customer 000730,Individual,Female,36-45,2019-02-24,New Delhi,Active
+CU000731,BR006,Customer 000731,Individual,Female,60+,2024-04-16,New Delhi,Active
+CU000732,BR006,Customer 000732,Individual,Male,60+,2023-04-09,New Delhi,Active
+CU000733,BR006,Customer 000733,Individual,Male,46-60,2022-09-14,New Delhi,Active
+CU000734,BR006,Customer 000734,Individual,Male,46-60,2023-01-18,New Delhi,Active
+CU000735,BR006,Customer 000735,Individual,Female,26-35,2015-08-17,New Delhi,Active
+CU000736,BR006,Customer 000736,Corporate,Male,36-45,2018-05-22,New Delhi,Active
+CU000737,BR006,Customer 000737,Business,Male,26-35,2025-05-18,New Delhi,Active
+CU000738,BR006,Customer 000738,Senior Citizen,Female,46-60,2020-11-09,New Delhi,Active
+CU000739,BR006,Customer 000739,Individual,Female,26-35,2023-12-24,New Delhi,Active
+CU000740,BR006,Customer 000740,Business,Male,26-35,2017-06-19,New Delhi,Active
+CU000741,BR006,Customer 000741,Business,Female,18-25,2019-07-12,New Delhi,Inactive
+CU000742,BR006,Customer 000742,Individual,Male,36-45,2026-01-12,New Delhi,Active
+CU000743,BR006,Customer 000743,Individual,Male,36-45,2019-07-19,New Delhi,Inactive
+CU000744,BR006,Customer 000744,Individual,Male,18-25,2025-07-04,New Delhi,Closed
+CU000745,BR006,Customer 000745,Corporate,Male,36-45,2024-08-29,New Delhi,Active
+CU000746,BR006,Customer 000746,Individual,Female,26-35,2025-08-15,New Delhi,Active
+CU000747,BR006,Customer 000747,Individual,Female,46-60,2019-02-17,New Delhi,Active
+CU000748,BR006,Customer 000748,Senior Citizen,Female,18-25,2018-05-20,New Delhi,Active
+CU000749,BR006,Customer 000749,Individual,Male,18-25,2024-06-18,New Delhi,Active
+CU000750,BR006,Customer 000750,Senior Citizen,Female,36-45,2021-03-22,New Delhi,Active
+CU000751,BR006,Customer 000751,Corporate,Female,36-45,2018-08-23,New Delhi,Active
+CU000752,BR006,Customer 000752,NRI,Male,46-60,2016-08-25,New Delhi,Active
+CU000753,BR006,Customer 000753,Corporate,Other,36-45,2020-03-26,New Delhi,Active
+CU000754,BR006,Customer 000754,Individual,Female,60+,2021-06-03,New Delhi,Active
+CU000755,BR006,Customer 000755,Business,Female,26-35,2016-07-11,New Delhi,Active
+CU000756,BR006,Customer 000756,Business,Male,26-35,2023-08-18,New Delhi,Active
+CU000757,BR006,Customer 000757,Business,Female,60+,2023-01-04,New Delhi,Active
+CU000758,BR006,Customer 000758,Individual,Male,18-25,2024-02-21,New Delhi,Active
+CU000759,BR006,Customer 000759,Individual,Female,46-60,2016-06-23,New Delhi,Active
+CU000760,BR006,Customer 000760,Individual,Female,18-25,2026-10-10,New Delhi,Active
+CU000761,BR006,Customer 000761,Individual,Male,36-45,2016-12-16,New Delhi,Inactive
+CU000762,BR006,Customer 000762,Individual,Female,26-35,2019-11-18,New Delhi,Active
+CU000763,BR006,Customer 000763,NRI,Female,36-45,2026-07-16,New Delhi,Active
+CU000764,BR006,Customer 000764,Business,Female,46-60,2021-01-30,New Delhi,Inactive
+CU000765,BR006,Customer 000765,Business,Male,18-25,2020-03-18,New Delhi,Active
+CU000766,BR006,Customer 000766,Individual,Male,26-35,2020-07-08,New Delhi,Inactive
+CU000767,BR006,Customer 000767,Individual,Male,26-35,2026-07-13,New Delhi,Active
+CU000768,BR006,Customer 000768,Individual,Male,26-35,2025-05-22,New Delhi,Active
+CU000769,BR006,Customer 000769,Individual,Female,26-35,2017-11-16,New Delhi,Active
+CU000770,BR006,Customer 000770,Individual,Male,60+,2018-08-13,New Delhi,Active
+CU000771,BR006,Customer 000771,Individual,Female,18-25,2019-06-11,New Delhi,Inactive
+CU000772,BR006,Customer 000772,Individual,Female,26-35,2023-11-15,New Delhi,Active
+CU000773,BR006,Customer 000773,Individual,Female,36-45,2024-05-28,New Delhi,Active
+CU000774,BR006,Customer 000774,Individual,Male,26-35,2018-03-12,New Delhi,Active
+CU000775,BR006,Customer 000775,Individual,Female,26-35,2024-01-05,New Delhi,Inactive
+CU000776,BR006,Customer 000776,Individual,Female,46-60,2025-11-26,New Delhi,Active
+CU000777,BR006,Customer 000777,Business,Female,36-45,2015-11-09,New Delhi,Active
+CU000778,BR006,Customer 000778,Individual,Male,46-60,2025-08-08,New Delhi,Closed
+CU000779,BR006,Customer 000779,Individual,Female,26-35,2019-12-05,New Delhi,Active
+CU000780,BR006,Customer 000780,Individual,Male,36-45,2024-03-11,New Delhi,Active
+CU000781,BR006,Customer 000781,Senior Citizen,Female,46-60,2017-08-01,New Delhi,Active
+CU000782,BR006,Customer 000782,Individual,Male,46-60,2019-05-03,New Delhi,Active
+CU000783,BR006,Customer 000783,Business,Male,60+,2025-11-06,New Delhi,Active
+CU000784,BR006,Customer 000784,Individual,Female,26-35,2024-02-14,New Delhi,Active
+CU000785,BR006,Customer 000785,Corporate,Male,60+,2018-09-19,New Delhi,Inactive
+CU000786,BR006,Customer 000786,Senior Citizen,Female,46-60,2015-05-20,New Delhi,Active
+CU000787,BR006,Customer 000787,Individual,Female,46-60,2018-07-28,New Delhi,Active
+CU000788,BR006,Customer 000788,Business,Male,36-45,2018-11-08,New Delhi,Active
+CU000789,BR006,Customer 000789,Individual,Male,60+,2018-04-29,New Delhi,Active
+CU000790,BR006,Customer 000790,Business,Male,36-45,2024-01-23,New Delhi,Active
+CU000791,BR006,Customer 000791,Individual,Female,46-60,2015-07-21,New Delhi,Active
+CU000792,BR006,Customer 000792,Individual,Female,36-45,2025-12-01,New Delhi,Active
+CU000793,BR006,Customer 000793,Senior Citizen,Male,46-60,2015-12-08,New Delhi,Inactive
+CU000794,BR006,Customer 000794,NRI,Male,46-60,2025-10-19,New Delhi,Active
+CU000795,BR006,Customer 000795,Individual,Male,26-35,2016-11-26,New Delhi,Active
+CU000796,BR006,Customer 000796,Senior Citizen,Female,26-35,2018-08-14,New Delhi,Active
+CU000797,BR006,Customer 000797,Individual,Male,26-35,2026-03-09,New Delhi,Active
+CU000798,BR006,Customer 000798,Individual,Male,46-60,2026-02-04,New Delhi,Active
+CU000799,BR006,Customer 000799,NRI,Female,46-60,2018-12-09,New Delhi,Closed
+CU000800,BR006,Customer 000800,Individual,Male,46-60,2017-12-05,New Delhi,Active
+CU000801,BR006,Customer 000801,Individual,Female,46-60,2025-05-10,New Delhi,Active
+CU000802,BR006,Customer 000802,Business,Female,36-45,2018-02-03,New Delhi,Active
+CU000803,BR006,Customer 000803,Individual,Female,18-25,2015-11-27,New Delhi,Active
+CU000804,BR006,Customer 000804,Individual,Male,36-45,2017-07-09,New Delhi,Active
+CU000805,BR006,Customer 000805,Individual,Female,46-60,2020-07-23,New Delhi,Active
+CU000806,BR006,Customer 000806,Business,Male,36-45,2025-10-10,New Delhi,Active
+CU000807,BR006,Customer 000807,Individual,Female,46-60,2015-08-18,New Delhi,Active
+CU000808,BR006,Customer 000808,Individual,Male,60+,2024-02-09,New Delhi,Active
+CU000809,BR006,Customer 000809,Business,Female,26-35,2022-08-01,New Delhi,Active
+CU000810,BR006,Customer 000810,Individual,Male,46-60,2024-11-21,New Delhi,Active
+CU000811,BR006,Customer 000811,Individual,Other,36-45,2025-03-31,New Delhi,Active
+CU000812,BR006,Customer 000812,Business,Female,36-45,2024-04-09,New Delhi,Active
+CU000813,BR006,Customer 000813,Business,Male,26-35,2023-08-06,New Delhi,Active
+CU000814,BR006,Customer 000814,Individual,Male,26-35,2023-05-15,New Delhi,Active
+CU000815,BR006,Customer 000815,NRI,Female,26-35,2024-08-26,New Delhi,Active
+CU000816,BR006,Customer 000816,Business,Male,36-45,2020-11-06,New Delhi,Active
+CU000817,BR006,Customer 000817,Individual,Female,26-35,2020-04-26,New Delhi,Active
+CU000818,BR006,Customer 000818,Business,Female,26-35,2022-06-17,New Delhi,Inactive
+CU000819,BR006,Customer 000819,Business,Male,36-45,2023-06-20,New Delhi,Closed
+CU000820,BR006,Customer 000820,Individual,Male,26-35,2021-04-12,New Delhi,Inactive
+CU000821,BR006,Customer 000821,Individual,Female,46-60,2017-07-27,New Delhi,Active
+CU000822,BR006,Customer 000822,Business,Male,36-45,2020-08-14,New Delhi,Active
+CU000823,BR006,Customer 000823,Senior Citizen,Female,18-25,2024-09-01,New Delhi,Active
+CU000824,BR006,Customer 000824,Individual,Male,60+,2021-10-25,New Delhi,Active
+CU000825,BR006,Customer 000825,Corporate,Male,46-60,2026-10-15,New Delhi,Inactive
+CU000826,BR006,Customer 000826,Business,Male,36-45,2020-12-24,New Delhi,Active
+CU000827,BR006,Customer 000827,NRI,Male,46-60,2024-11-26,New Delhi,Active
+CU000828,BR006,Customer 000828,Senior Citizen,Female,18-25,2023-03-21,New Delhi,Closed
+CU000829,BR006,Customer 000829,Individual,Male,46-60,2019-10-13,New Delhi,Active
+CU000830,BR006,Customer 000830,Individual,Female,26-35,2016-12-13,New Delhi,Active
+CU000831,BR006,Customer 000831,Individual,Female,36-45,2015-02-24,New Delhi,Active
+CU000832,BR006,Customer 000832,Individual,Male,26-35,2015-12-06,New Delhi,Active
+CU000833,BR006,Customer 000833,Individual,Male,46-60,2023-11-23,New Delhi,Closed
+CU000834,BR006,Customer 000834,Corporate,Female,26-35,2024-01-19,New Delhi,Active
+CU000835,BR006,Customer 000835,Senior Citizen,Female,26-35,2023-11-11,New Delhi,Active
+CU000836,BR006,Customer 000836,Individual,Female,18-25,2015-11-17,New Delhi,Active
+CU000837,BR006,Customer 000837,Business,Male,46-60,2016-08-19,New Delhi,Inactive
+CU000838,BR006,Customer 000838,Individual,Female,26-35,2022-10-04,New Delhi,Inactive
+CU000839,BR006,Customer 000839,Individual,Male,36-45,2019-12-20,New Delhi,Inactive
+CU000840,BR006,Customer 000840,Individual,Female,26-35,2017-09-13,New Delhi,Inactive
+CU000841,BR006,Customer 000841,Individual,Male,46-60,2017-06-11,New Delhi,Active
+CU000842,BR006,Customer 000842,Individual,Female,26-35,2016-09-14,New Delhi,Active
+CU000843,BR006,Customer 000843,Business,Male,60+,2019-03-04,New Delhi,Inactive
+CU000844,BR006,Customer 000844,Business,Female,26-35,2015-11-30,New Delhi,Active
+CU000845,BR006,Customer 000845,Individual,Male,18-25,2026-06-27,New Delhi,Active
+CU000846,BR006,Customer 000846,Individual,Female,26-35,2017-04-19,New Delhi,Active
+CU000847,BR006,Customer 000847,Individual,Male,18-25,2018-06-25,New Delhi,Active
+CU000848,BR006,Customer 000848,Senior Citizen,Female,36-45,2021-10-09,New Delhi,Active
+CU000849,BR006,Customer 000849,Senior Citizen,Male,26-35,2024-09-15,New Delhi,Inactive
+CU000850,BR006,Customer 000850,Individual,Male,46-60,2021-10-31,New Delhi,Active
+CU000851,BR006,Customer 000851,Individual,Female,36-45,2023-06-12,New Delhi,Active
+CU000852,BR006,Customer 000852,Individual,Male,26-35,2020-02-28,New Delhi,Active
+CU000853,BR006,Customer 000853,Business,Male,36-45,2026-06-09,New Delhi,Active
+CU000854,BR006,Customer 000854,Individual,Female,26-35,2022-04-11,New Delhi,Active
+CU000855,BR006,Customer 000855,Individual,Female,26-35,2026-07-25,New Delhi,Active
+CU000856,BR006,Customer 000856,Individual,Female,26-35,2019-04-28,New Delhi,Active
+CU000857,BR006,Customer 000857,Individual,Male,18-25,2017-05-03,New Delhi,Active
+CU000858,BR006,Customer 000858,Individual,Male,26-35,2017-01-05,New Delhi,Active
+CU000859,BR007,Customer 000859,Individual,Female,60+,2025-12-23,Gurugram,Active
+CU000860,BR007,Customer 000860,Business,Male,36-45,2024-11-30,Gurugram,Active
+CU000861,BR007,Customer 000861,Individual,Female,60+,2025-12-09,Gurugram,Active
+CU000862,BR007,Customer 000862,Individual,Male,26-35,2025-08-31,Gurugram,Active
+CU000863,BR007,Customer 000863,Individual,Female,46-60,2016-03-24,Gurugram,Active
+CU000864,BR007,Customer 000864,Individual,Female,26-35,2021-09-29,Gurugram,Inactive
+CU000865,BR007,Customer 000865,Corporate,Male,26-35,2021-08-29,Gurugram,Active
+CU000866,BR007,Customer 000866,Senior Citizen,Male,46-60,2025-05-20,Gurugram,Active
+CU000867,BR007,Customer 000867,Individual,Male,18-25,2025-12-03,Gurugram,Active
+CU000868,BR007,Customer 000868,Senior Citizen,Male,26-35,2025-05-25,Gurugram,Active
+CU000869,BR007,Customer 000869,Business,Female,46-60,2026-05-31,Gurugram,Active
+CU000870,BR007,Customer 000870,Business,Female,36-45,2019-04-16,Gurugram,Active
+CU000871,BR007,Customer 000871,Individual,Male,36-45,2017-08-22,Gurugram,Active
+CU000872,BR007,Customer 000872,Individual,Male,26-35,2023-03-30,Gurugram,Active
+CU000873,BR007,Customer 000873,Individual,Female,18-25,2026-04-12,Gurugram,Inactive
+CU000874,BR007,Customer 000874,Senior Citizen,Male,60+,2026-02-04,Gurugram,Active
+CU000875,BR007,Customer 000875,Individual,Male,26-35,2026-02-02,Gurugram,Inactive
+CU000876,BR007,Customer 000876,Individual,Female,26-35,2026-06-10,Gurugram,Inactive
+CU000877,BR007,Customer 000877,Individual,Male,26-35,2021-07-15,Gurugram,Active
+CU000878,BR007,Customer 000878,Individual,Male,60+,2022-12-08,Gurugram,Active
+CU000879,BR007,Customer 000879,Individual,Other,46-60,2020-10-03,Gurugram,Active
+CU000880,BR007,Customer 000880,Business,Male,36-45,2015-04-28,Gurugram,Active
+CU000881,BR007,Customer 000881,Individual,Female,60+,2017-12-15,Gurugram,Active
+CU000882,BR007,Customer 000882,Corporate,Female,18-25,2026-10-02,Gurugram,Active
+CU000883,BR007,Customer 000883,Business,Female,46-60,2017-10-18,Gurugram,Active
+CU000884,BR007,Customer 000884,Individual,Male,18-25,2019-05-15,Gurugram,Active
+CU000885,BR007,Customer 000885,Corporate,Male,26-35,2026-02-24,Gurugram,Active
+CU000886,BR007,Customer 000886,Individual,Male,18-25,2026-02-09,Gurugram,Active
+CU000887,BR007,Customer 000887,Business,Male,60+,2021-05-31,Gurugram,Active
+CU000888,BR007,Customer 000888,Business,Male,60+,2026-07-31,Gurugram,Active
+CU000889,BR007,Customer 000889,Individual,Female,36-45,2026-06-08,Gurugram,Active
+CU000890,BR007,Customer 000890,Individual,Female,26-35,2020-04-23,Gurugram,Active
+CU000891,BR007,Customer 000891,Individual,Male,26-35,2021-09-27,Gurugram,Inactive
+CU000892,BR007,Customer 000892,Individual,Female,36-45,2024-03-08,Gurugram,Active
+CU000893,BR007,Customer 000893,Individual,Female,26-35,2020-04-01,Gurugram,Active
+CU000894,BR007,Customer 000894,Individual,Female,18-25,2020-04-28,Gurugram,Inactive
+CU000895,BR007,Customer 000895,Business,Female,36-45,2026-01-31,Gurugram,Active
+CU000896,BR007,Customer 000896,Individual,Female,36-45,2026-01-01,Gurugram,Active
+CU000897,BR007,Customer 000897,Individual,Male,60+,2026-05-02,Gurugram,Active
+CU000898,BR007,Customer 000898,Individual,Male,36-45,2026-08-04,Gurugram,Active
+CU000899,BR007,Customer 000899,Individual,Female,26-35,2026-06-19,Gurugram,Active
+CU000900,BR007,Customer 000900,Senior Citizen,Female,36-45,2026-02-24,Gurugram,Active
+CU000901,BR007,Customer 000901,Individual,Female,26-35,2026-06-05,Gurugram,Active
+CU000902,BR007,Customer 000902,Individual,Female,36-45,2026-10-08,Gurugram,Active
+CU000903,BR007,Customer 000903,Individual,Male,46-60,2026-04-12,Gurugram,Active
+CU000904,BR007,Customer 000904,Individual,Male,26-35,2026-05-09,Gurugram,Inactive
+CU000905,BR007,Customer 000905,Individual,Female,26-35,2017-06-10,Gurugram,Active
+CU000906,BR007,Customer 000906,Corporate,Male,46-60,2025-10-01,Gurugram,Active
+CU000907,BR007,Customer 000907,Individual,Female,36-45,2025-08-09,Gurugram,Active
+CU000908,BR007,Customer 000908,Business,Female,36-45,2021-08-17,Gurugram,Active
+CU000909,BR007,Customer 000909,Individual,Female,46-60,2026-10-10,Gurugram,Active
+CU000910,BR007,Customer 000910,NRI,Male,36-45,2026-01-29,Gurugram,Active
+CU000911,BR007,Customer 000911,Individual,Female,18-25,2019-04-05,Gurugram,Active
+CU000912,BR007,Customer 000912,Individual,Male,46-60,2019-10-30,Gurugram,Active
+CU000913,BR007,Customer 000913,Business,Female,60+,2022-05-13,Gurugram,Active
+CU000914,BR007,Customer 000914,Corporate,Male,18-25,2017-05-05,Gurugram,Active
+CU000915,BR007,Customer 000915,Individual,Female,18-25,2015-05-29,Gurugram,Active
+CU000916,BR007,Customer 000916,Senior Citizen,Male,46-60,2023-07-30,Gurugram,Active
+CU000917,BR007,Customer 000917,NRI,Male,36-45,2025-08-24,Gurugram,Active
+CU000918,BR007,Customer 000918,Individual,Male,26-35,2024-08-04,Gurugram,Active
+CU000919,BR007,Customer 000919,Corporate,Male,36-45,2022-05-10,Gurugram,Active
+CU000920,BR007,Customer 000920,Individual,Male,46-60,2020-05-27,Gurugram,Active
+CU000921,BR007,Customer 000921,Individual,Female,36-45,2022-09-01,Gurugram,Active
+CU000922,BR007,Customer 000922,Individual,Female,26-35,2025-08-18,Gurugram,Inactive
+CU000923,BR007,Customer 000923,NRI,Male,18-25,2025-08-24,Gurugram,Active
+CU000924,BR007,Customer 000924,Individual,Female,26-35,2018-03-19,Gurugram,Active
+CU000925,BR007,Customer 000925,Individual,Female,60+,2017-06-05,Gurugram,Active
+CU000926,BR007,Customer 000926,Individual,Female,36-45,2026-06-02,Gurugram,Active
+CU000927,BR007,Customer 000927,Individual,Male,26-35,2020-06-23,Gurugram,Active
+CU000928,BR007,Customer 000928,Senior Citizen,Male,60+,2020-06-12,Gurugram,Active
+CU000929,BR007,Customer 000929,Business,Female,26-35,2020-08-25,Gurugram,Active
+CU000930,BR007,Customer 000930,Individual,Male,36-45,2015-04-23,Gurugram,Active
+CU000931,BR007,Customer 000931,Senior Citizen,Male,18-25,2019-11-25,Gurugram,Active
+CU000932,BR007,Customer 000932,Corporate,Female,46-60,2026-01-17,Gurugram,Active
+CU000933,BR007,Customer 000933,Individual,Male,46-60,2026-03-21,Gurugram,Active
+CU000934,BR007,Customer 000934,Individual,Female,46-60,2018-12-31,Gurugram,Active
+CU000935,BR007,Customer 000935,Individual,Male,26-35,2025-10-09,Gurugram,Active
+CU000936,BR007,Customer 000936,Individual,Female,26-35,2021-10-27,Gurugram,Active
+CU000937,BR007,Customer 000937,Individual,Female,26-35,2026-09-26,Gurugram,Active
+CU000938,BR007,Customer 000938,Business,Other,60+,2026-04-10,Gurugram,Active
+CU000939,BR007,Customer 000939,Senior Citizen,Female,18-25,2022-09-19,Gurugram,Active
+CU000940,BR007,Customer 000940,Individual,Female,36-45,2026-09-21,Gurugram,Inactive
+CU000941,BR007,Customer 000941,NRI,Male,46-60,2023-07-23,Gurugram,Active
+CU000942,BR007,Customer 000942,Senior Citizen,Female,26-35,2017-06-07,Gurugram,Active
+CU000943,BR007,Customer 000943,Individual,Female,26-35,2026-03-10,Gurugram,Active
+CU000944,BR007,Customer 000944,Individual,Male,18-25,2025-12-19,Gurugram,Active
+CU000945,BR007,Customer 000945,Business,Male,36-45,2020-04-08,Gurugram,Active
+CU000946,BR007,Customer 000946,Business,Male,60+,2023-03-31,Gurugram,Active
+CU000947,BR007,Customer 000947,Individual,Female,26-35,2025-09-20,Gurugram,Active
+CU000948,BR007,Customer 000948,Business,Female,60+,2026-05-04,Gurugram,Active
+CU000949,BR007,Customer 000949,Individual,Male,18-25,2026-09-08,Gurugram,Active
+CU000950,BR007,Customer 000950,Business,Male,26-35,2025-07-20,Gurugram,Active
+CU000951,BR007,Customer 000951,Business,Female,60+,2015-12-18,Gurugram,Active
+CU000952,BR007,Customer 000952,Individual,Male,46-60,2026-02-01,Gurugram,Active
+CU000953,BR007,Customer 000953,Individual,Female,26-35,2021-07-10,Gurugram,Active
+CU000954,BR007,Customer 000954,Individual,Male,36-45,2024-10-02,Gurugram,Active
+CU000955,BR007,Customer 000955,Senior Citizen,Male,46-60,2026-04-26,Gurugram,Active
+CU000956,BR007,Customer 000956,Senior Citizen,Male,46-60,2016-05-15,Gurugram,Active
+CU000957,BR007,Customer 000957,Corporate,Female,36-45,2026-01-17,Gurugram,Active
+CU000958,BR007,Customer 000958,Individual,Female,26-35,2025-08-15,Gurugram,Active
+CU000959,BR007,Customer 000959,Individual,Male,18-25,2024-10-11,Gurugram,Active
+CU000960,BR007,Customer 000960,Individual,Male,36-45,2025-12-20,Gurugram,Active
+CU000961,BR007,Customer 000961,Individual,Male,36-45,2026-03-10,Gurugram,Active
+CU000962,BR007,Customer 000962,Individual,Male,26-35,2026-02-05,Gurugram,Active
+CU000963,BR007,Customer 000963,Corporate,Female,26-35,2026-10-10,Gurugram,Inactive
+CU000964,BR007,Customer 000964,Individual,Male,26-35,2026-03-22,Gurugram,Inactive
+CU000965,BR007,Customer 000965,Business,Female,36-45,2025-07-09,Gurugram,Active
+CU000966,BR007,Customer 000966,Senior Citizen,Male,26-35,2025-06-23,Gurugram,Active
+CU000967,BR007,Customer 000967,Business,Male,26-35,2026-03-08,Gurugram,Closed
+CU000968,BR007,Customer 000968,Individual,Male,18-25,2018-11-04,Gurugram,Active
+CU000969,BR007,Customer 000969,Senior Citizen,Male,46-60,2026-04-21,Gurugram,Active
+CU000970,BR007,Customer 000970,Business,Male,36-45,2026-01-04,Gurugram,Inactive
+CU000971,BR007,Customer 000971,Individual,Male,26-35,2025-10-11,Gurugram,Active
+CU000972,BR007,Customer 000972,Business,Male,26-35,2015-11-26,Gurugram,Inactive
+CU000973,BR007,Customer 000973,NRI,Female,26-35,2019-11-12,Gurugram,Active
+CU000974,BR007,Customer 000974,Individual,Male,36-45,2025-04-15,Gurugram,Inactive
+CU000975,BR007,Customer 000975,Individual,Male,36-45,2025-07-13,Gurugram,Active
+CU000976,BR007,Customer 000976,Individual,Male,36-45,2025-10-21,Gurugram,Active
+CU000977,BR007,Customer 000977,Individual,Female,36-45,2025-07-23,Gurugram,Active
+CU000978,BR007,Customer 000978,Corporate,Female,18-25,2022-06-02,Gurugram,Active
+CU000979,BR007,Customer 000979,Individual,Female,26-35,2026-06-24,Gurugram,Active
+CU000980,BR007,Customer 000980,Individual,Female,18-25,2026-08-26,Gurugram,Inactive
+CU000981,BR007,Customer 000981,Individual,Female,36-45,2026-03-30,Gurugram,Inactive
+CU000982,BR007,Customer 000982,Individual,Male,26-35,2026-03-09,Gurugram,Closed
+CU000983,BR007,Customer 000983,Individual,Female,46-60,2025-09-05,Gurugram,Active
+CU000984,BR007,Customer 000984,Individual,Female,26-35,2018-07-05,Gurugram,Active
+CU000985,BR007,Customer 000985,Individual,Male,36-45,2025-09-12,Gurugram,Active
+CU000986,BR007,Customer 000986,Individual,Male,26-35,2020-09-06,Gurugram,Active
+CU000987,BR007,Customer 000987,NRI,Male,26-35,2015-06-12,Gurugram,Active
+CU000988,BR007,Customer 000988,Senior Citizen,Male,46-60,2021-09-12,Gurugram,Active
+CU000989,BR008,Customer 000989,Individual,Female,18-25,2017-08-03,Lucknow,Active
+CU000990,BR008,Customer 000990,Individual,Male,26-35,2026-05-18,Lucknow,Active
+CU000991,BR008,Customer 000991,Individual,Female,26-35,2025-02-14,Lucknow,Active
+CU000992,BR008,Customer 000992,Individual,Other,46-60,2016-12-30,Lucknow,Active
+CU000993,BR008,Customer 000993,Individual,Male,26-35,2022-07-26,Lucknow,Active
+CU000994,BR008,Customer 000994,Senior Citizen,Male,60+,2023-03-24,Lucknow,Active
+CU000995,BR008,Customer 000995,Business,Female,60+,2022-03-16,Lucknow,Closed
+CU000996,BR008,Customer 000996,Individual,Female,46-60,2021-11-05,Lucknow,Active
+CU000997,BR008,Customer 000997,Senior Citizen,Male,26-35,2019-01-10,Lucknow,Inactive
+CU000998,BR008,Customer 000998,Individual,Male,36-45,2020-04-11,Lucknow,Inactive
+CU000999,BR008,Customer 000999,Individual,Female,18-25,2017-03-07,Lucknow,Active
+CU001000,BR008,Customer 001000,Individual,Female,46-60,2020-08-22,Lucknow,Active
+CU001001,BR008,Customer 001001,Individual,Male,36-45,2021-10-12,Lucknow,Active
+CU001002,BR008,Customer 001002,Senior Citizen,Male,26-35,2018-03-27,Lucknow,Active
+CU001003,BR008,Customer 001003,Individual,Other,26-35,2015-06-07,Lucknow,Active
+CU001004,BR008,Customer 001004,Business,Male,46-60,2023-06-26,Lucknow,Active
+CU001005,BR008,Customer 001005,Individual,Male,46-60,2022-03-07,Lucknow,Inactive
+CU001006,BR008,Customer 001006,Senior Citizen,Female,36-45,2016-05-25,Lucknow,Active
+CU001007,BR008,Customer 001007,Business,Male,36-45,2020-05-27,Lucknow,Active
+CU001008,BR008,Customer 001008,Individual,Male,46-60,2017-09-06,Lucknow,Closed
+CU001009,BR008,Customer 001009,Individual,Female,46-60,2018-06-18,Lucknow,Inactive
+CU001010,BR008,Customer 001010,Senior Citizen,Female,46-60,2018-10-15,Lucknow,Active
+CU001011,BR008,Customer 001011,Individual,Male,26-35,2016-11-13,Lucknow,Active
+CU001012,BR008,Customer 001012,Individual,Male,36-45,2021-11-28,Lucknow,Closed
+CU001013,BR008,Customer 001013,NRI,Female,46-60,2021-10-05,Lucknow,Active
+CU001014,BR008,Customer 001014,Individual,Female,26-35,2023-07-21,Lucknow,Inactive
+CU001015,BR008,Customer 001015,Individual,Female,26-35,2018-03-17,Lucknow,Active
+CU001016,BR008,Customer 001016,Individual,Female,18-25,2024-11-05,Lucknow,Active
+CU001017,BR008,Customer 001017,Individual,Female,26-35,2020-01-07,Lucknow,Active
+CU001018,BR008,Customer 001018,Individual,Female,46-60,2024-12-25,Lucknow,Active
+CU001019,BR008,Customer 001019,Individual,Female,26-35,2019-08-21,Lucknow,Active
+CU001020,BR008,Customer 001020,Individual,Male,36-45,2026-06-27,Lucknow,Active
+CU001021,BR008,Customer 001021,Individual,Female,18-25,2021-01-19,Lucknow,Active
+CU001022,BR008,Customer 001022,Individual,Female,46-60,2023-06-07,Lucknow,Active
+CU001023,BR008,Customer 001023,Senior Citizen,Male,46-60,2024-05-25,Lucknow,Active
+CU001024,BR008,Customer 001024,Individual,Male,36-45,2019-03-01,Lucknow,Active
+CU001025,BR008,Customer 001025,Individual,Female,46-60,2021-09-06,Lucknow,Active
+CU001026,BR008,Customer 001026,Individual,Male,18-25,2016-01-01,Lucknow,Active
+CU001027,BR008,Customer 001027,Business,Female,46-60,2015-04-20,Lucknow,Active
+CU001028,BR008,Customer 001028,Individual,Male,46-60,2019-07-01,Lucknow,Active
+CU001029,BR008,Customer 001029,Individual,Male,18-25,2020-12-05,Lucknow,Active
+CU001030,BR008,Customer 001030,Business,Male,60+,2016-09-23,Lucknow,Active
+CU001031,BR008,Customer 001031,Individual,Female,18-25,2018-10-25,Lucknow,Active
+CU001032,BR008,Customer 001032,Business,Male,36-45,2016-02-07,Lucknow,Inactive
+CU001033,BR008,Customer 001033,Senior Citizen,Female,26-35,2018-03-14,Lucknow,Closed
+CU001034,BR008,Customer 001034,Corporate,Male,46-60,2018-01-26,Lucknow,Active
+CU001035,BR008,Customer 001035,Individual,Male,18-25,2020-07-27,Lucknow,Active
+CU001036,BR008,Customer 001036,Individual,Male,18-25,2025-07-22,Lucknow,Active
+CU001037,BR008,Customer 001037,Individual,Male,36-45,2026-06-13,Lucknow,Active
+CU001038,BR008,Customer 001038,Corporate,Female,60+,2019-07-06,Lucknow,Active
+CU001039,BR008,Customer 001039,Senior Citizen,Female,26-35,2016-12-04,Lucknow,Active
+CU001040,BR008,Customer 001040,Senior Citizen,Male,36-45,2017-03-19,Lucknow,Closed
+CU001041,BR008,Customer 001041,Individual,Male,36-45,2021-02-07,Lucknow,Closed
+CU001042,BR008,Customer 001042,NRI,Female,46-60,2020-04-18,Lucknow,Active
+CU001043,BR008,Customer 001043,Individual,Female,26-35,2024-05-07,Lucknow,Active
+CU001044,BR008,Customer 001044,Corporate,Female,36-45,2019-07-15,Lucknow,Active
+CU001045,BR008,Customer 001045,Individual,Female,60+,2020-10-12,Lucknow,Active
+CU001046,BR008,Customer 001046,Individual,Male,26-35,2021-12-22,Lucknow,Active
+CU001047,BR008,Customer 001047,Individual,Male,26-35,2015-12-27,Lucknow,Active
+CU001048,BR008,Customer 001048,Senior Citizen,Female,46-60,2021-02-02,Lucknow,Active
+CU001049,BR008,Customer 001049,Individual,Female,26-35,2024-06-14,Lucknow,Active
+CU001050,BR008,Customer 001050,Individual,Female,26-35,2021-05-19,Lucknow,Active
+CU001051,BR008,Customer 001051,Individual,Male,26-35,2023-07-20,Lucknow,Active
+CU001052,BR008,Customer 001052,Individual,Male,46-60,2018-07-04,Lucknow,Active
+CU001053,BR008,Customer 001053,Senior Citizen,Female,60+,2022-12-06,Lucknow,Active
+CU001054,BR008,Customer 001054,Individual,Male,36-45,2018-08-29,Lucknow,Active
+CU001055,BR008,Customer 001055,Individual,Male,36-45,2023-12-08,Lucknow,Active
+CU001056,BR008,Customer 001056,Corporate,Female,26-35,2022-03-31,Lucknow,Active
+CU001057,BR008,Customer 001057,Individual,Male,18-25,2024-10-27,Lucknow,Active
+CU001058,BR008,Customer 001058,Individual,Male,26-35,2019-03-07,Lucknow,Active
+CU001059,BR008,Customer 001059,Individual,Male,26-35,2018-12-24,Lucknow,Active
+CU001060,BR008,Customer 001060,Individual,Female,18-25,2015-06-04,Lucknow,Active
+CU001061,BR008,Customer 001061,Individual,Male,36-45,2020-05-10,Lucknow,Inactive
+CU001062,BR008,Customer 001062,Individual,Male,18-25,2020-05-01,Lucknow,Closed
+CU001063,BR008,Customer 001063,Individual,Male,18-25,2024-05-20,Lucknow,Active
+CU001064,BR008,Customer 001064,Business,Male,26-35,2015-07-08,Lucknow,Inactive
+CU001065,BR008,Customer 001065,NRI,Male,26-35,2019-06-01,Lucknow,Active
+CU001066,BR008,Customer 001066,Senior Citizen,Female,26-35,2018-07-20,Lucknow,Active
+CU001067,BR008,Customer 001067,Individual,Male,26-35,2015-03-18,Lucknow,Active
+CU001068,BR008,Customer 001068,Individual,Male,26-35,2022-11-01,Lucknow,Active
+CU001069,BR008,Customer 001069,Senior Citizen,Male,36-45,2022-04-29,Lucknow,Active
+CU001070,BR008,Customer 001070,Business,Male,46-60,2015-01-02,Lucknow,Active
+CU001071,BR008,Customer 001071,Individual,Male,46-60,2025-11-07,Lucknow,Active
+CU001072,BR008,Customer 001072,Individual,Female,46-60,2020-06-18,Lucknow,Inactive
+CU001073,BR008,Customer 001073,Individual,Female,36-45,2015-08-14,Lucknow,Active
+CU001074,BR008,Customer 001074,Individual,Female,60+,2015-04-28,Lucknow,Inactive
+CU001075,BR008,Customer 001075,Individual,Male,36-45,2015-10-20,Lucknow,Inactive
+CU001076,BR008,Customer 001076,Individual,Female,36-45,2019-04-17,Lucknow,Active
+CU001077,BR008,Customer 001077,Senior Citizen,Female,26-35,2018-05-29,Lucknow,Active
+CU001078,BR008,Customer 001078,Individual,Male,26-35,2019-07-11,Lucknow,Active
+CU001079,BR008,Customer 001079,Individual,Male,26-35,2015-07-21,Lucknow,Active
+CU001080,BR008,Customer 001080,Individual,Female,26-35,2015-01-24,Lucknow,Closed
+CU001081,BR008,Customer 001081,Business,Male,46-60,2025-12-15,Lucknow,Active
+CU001082,BR008,Customer 001082,Business,Male,18-25,2021-11-13,Lucknow,Active
+CU001083,BR008,Customer 001083,Individual,Female,36-45,2020-05-29,Lucknow,Active
+CU001084,BR008,Customer 001084,Individual,Male,46-60,2018-04-09,Lucknow,Active
+CU001085,BR008,Customer 001085,Business,Female,36-45,2019-02-04,Lucknow,Active
+CU001086,BR008,Customer 001086,NRI,Male,18-25,2022-05-13,Lucknow,Active
+CU001087,BR008,Customer 001087,Individual,Male,26-35,2015-03-15,Lucknow,Active
+CU001088,BR008,Customer 001088,NRI,Male,26-35,2021-08-07,Lucknow,Active
+CU001089,BR008,Customer 001089,Individual,Male,60+,2019-09-30,Lucknow,Active
+CU001090,BR008,Customer 001090,Individual,Female,36-45,2018-02-09,Lucknow,Active
+CU001091,BR008,Customer 001091,Individual,Female,46-60,2025-04-13,Lucknow,Active
+CU001092,BR008,Customer 001092,Individual,Female,36-45,2016-04-30,Lucknow,Active
+CU001093,BR008,Customer 001093,Individual,Male,46-60,2020-09-26,Lucknow,Closed
+CU001094,BR008,Customer 001094,Individual,Male,46-60,2024-08-22,Lucknow,Active
+CU001095,BR008,Customer 001095,Business,Male,18-25,2021-10-02,Lucknow,Closed
+CU001096,BR008,Customer 001096,Individual,Male,26-35,2022-12-22,Lucknow,Active
+CU001097,BR008,Customer 001097,Senior Citizen,Female,18-25,2016-04-25,Lucknow,Active
+CU001098,BR008,Customer 001098,Individual,Male,36-45,2020-01-21,Lucknow,Active
+CU001099,BR008,Customer 001099,Individual,Male,46-60,2024-06-27,Lucknow,Active
+CU001100,BR008,Customer 001100,Senior Citizen,Male,36-45,2025-06-30,Lucknow,Active
+CU001101,BR008,Customer 001101,NRI,Female,36-45,2026-01-07,Lucknow,Active
+CU001102,BR008,Customer 001102,Business,Male,60+,2026-05-19,Lucknow,Active
+CU001103,BR008,Customer 001103,Business,Female,26-35,2021-04-09,Lucknow,Active
+CU001104,BR009,Customer 001104,Individual,Female,18-25,2023-08-19,Jaipur,Active
+CU001105,BR009,Customer 001105,Individual,Female,60+,2024-08-09,Jaipur,Active
+CU001106,BR009,Customer 001106,Individual,Male,60+,2016-03-19,Jaipur,Active
+CU001107,BR009,Customer 001107,Individual,Male,36-45,2025-06-14,Jaipur,Active
+CU001108,BR009,Customer 001108,Individual,Male,26-35,2026-07-07,Jaipur,Active
+CU001109,BR009,Customer 001109,Individual,Female,60+,2026-03-17,Jaipur,Active
+CU001110,BR009,Customer 001110,Senior Citizen,Female,46-60,2024-06-15,Jaipur,Inactive
+CU001111,BR009,Customer 001111,Senior Citizen,Female,36-45,2025-05-26,Jaipur,Active
+CU001112,BR009,Customer 001112,Corporate,Male,26-35,2022-10-04,Jaipur,Active
+CU001113,BR009,Customer 001113,Business,Male,36-45,2026-05-05,Jaipur,Active
+CU001114,BR009,Customer 001114,Individual,Female,46-60,2015-09-07,Jaipur,Active
+CU001115,BR009,Customer 001115,Individual,Male,46-60,2026-02-18,Jaipur,Active
+CU001116,BR009,Customer 001116,Business,Female,36-45,2026-04-23,Jaipur,Inactive
+CU001117,BR009,Customer 001117,Business,Female,36-45,2026-10-16,Jaipur,Active
+CU001118,BR009,Customer 001118,Individual,Male,36-45,2019-08-22,Jaipur,Active
+CU001119,BR009,Customer 001119,Individual,Male,36-45,2025-05-06,Jaipur,Inactive
+CU001120,BR009,Customer 001120,Individual,Male,26-35,2020-02-27,Jaipur,Active
+CU001121,BR009,Customer 001121,Individual,Male,18-25,2026-08-15,Jaipur,Active
+CU001122,BR009,Customer 001122,Individual,Female,18-25,2016-07-30,Jaipur,Active
+CU001123,BR009,Customer 001123,Individual,Male,46-60,2026-02-12,Jaipur,Active
+CU001124,BR009,Customer 001124,Individual,Male,18-25,2022-09-10,Jaipur,Active
+CU001125,BR009,Customer 001125,Senior Citizen,Male,18-25,2026-05-25,Jaipur,Active
+CU001126,BR009,Customer 001126,Individual,Male,60+,2025-01-30,Jaipur,Active
+CU001127,BR009,Customer 001127,Business,Female,46-60,2025-07-18,Jaipur,Closed
+CU001128,BR009,Customer 001128,Corporate,Female,18-25,2023-05-02,Jaipur,Active
+CU001129,BR009,Customer 001129,Individual,Male,26-35,2023-12-19,Jaipur,Active
+CU001130,BR009,Customer 001130,Business,Male,46-60,2021-07-24,Jaipur,Active
+CU001131,BR009,Customer 001131,Individual,Male,26-35,2023-02-01,Jaipur,Active
+CU001132,BR009,Customer 001132,Individual,Male,36-45,2019-10-06,Jaipur,Active
+CU001133,BR009,Customer 001133,Individual,Male,36-45,2020-04-03,Jaipur,Active
+CU001134,BR009,Customer 001134,Senior Citizen,Female,26-35,2019-09-23,Jaipur,Active
+CU001135,BR009,Customer 001135,Senior Citizen,Male,46-60,2025-07-31,Jaipur,Active
+CU001136,BR009,Customer 001136,Individual,Male,18-25,2023-10-29,Jaipur,Active
+CU001137,BR009,Customer 001137,Individual,Male,36-45,2017-11-24,Jaipur,Active
+CU001138,BR009,Customer 001138,Individual,Female,26-35,2026-01-29,Jaipur,Active
+CU001139,BR009,Customer 001139,Corporate,Male,18-25,2016-07-19,Jaipur,Active
+CU001140,BR009,Customer 001140,Individual,Female,26-35,2025-05-12,Jaipur,Active
+CU001141,BR009,Customer 001141,Individual,Male,46-60,2020-03-09,Jaipur,Active
+CU001142,BR009,Customer 001142,Corporate,Female,26-35,2024-11-15,Jaipur,Active
+CU001143,BR009,Customer 001143,Individual,Female,26-35,2022-07-12,Jaipur,Active
+CU001144,BR009,Customer 001144,Individual,Male,18-25,2024-03-02,Jaipur,Active
+CU001145,BR009,Customer 001145,Individual,Male,46-60,2024-08-04,Jaipur,Inactive
+CU001146,BR009,Customer 001146,Individual,Male,36-45,2022-01-31,Jaipur,Active
+CU001147,BR009,Customer 001147,Individual,Female,60+,2020-02-21,Jaipur,Active
+CU001148,BR009,Customer 001148,Individual,Female,36-45,2023-06-04,Jaipur,Active
+CU001149,BR009,Customer 001149,Individual,Male,36-45,2020-03-27,Jaipur,Active
+CU001150,BR009,Customer 001150,Senior Citizen,Male,36-45,2025-04-23,Jaipur,Active
+CU001151,BR009,Customer 001151,Individual,Male,18-25,2022-03-31,Jaipur,Inactive
+CU001152,BR009,Customer 001152,Senior Citizen,Male,60+,2025-05-17,Jaipur,Active
+CU001153,BR009,Customer 001153,Individual,Female,60+,2023-11-28,Jaipur,Inactive
+CU001154,BR009,Customer 001154,Business,Male,26-35,2024-04-05,Jaipur,Active
+CU001155,BR009,Customer 001155,Individual,Male,36-45,2017-12-26,Jaipur,Active
+CU001156,BR009,Customer 001156,Corporate,Female,26-35,2025-10-23,Jaipur,Inactive
+CU001157,BR009,Customer 001157,Individual,Female,36-45,2023-01-26,Jaipur,Active
+CU001158,BR009,Customer 001158,Individual,Female,46-60,2016-05-04,Jaipur,Active
+CU001159,BR009,Customer 001159,Individual,Male,60+,2026-09-06,Jaipur,Active
+CU001160,BR009,Customer 001160,Individual,Female,26-35,2026-10-27,Jaipur,Inactive
+CU001161,BR009,Customer 001161,Senior Citizen,Female,36-45,2017-01-13,Jaipur,Inactive
+CU001162,BR009,Customer 001162,Senior Citizen,Male,46-60,2025-06-01,Jaipur,Active
+CU001163,BR009,Customer 001163,Business,Male,26-35,2015-11-15,Jaipur,Active
+CU001164,BR009,Customer 001164,Individual,Female,36-45,2019-03-30,Jaipur,Active
+CU001165,BR009,Customer 001165,Senior Citizen,Female,36-45,2019-02-28,Jaipur,Active
+CU001166,BR009,Customer 001166,Business,Female,46-60,2025-04-20,Jaipur,Active
+CU001167,BR009,Customer 001167,Individual,Female,60+,2020-07-03,Jaipur,Active
+CU001168,BR009,Customer 001168,Individual,Female,18-25,2017-08-02,Jaipur,Active
+CU001169,BR009,Customer 001169,Business,Female,26-35,2022-05-16,Jaipur,Active
+CU001170,BR009,Customer 001170,Individual,Female,26-35,2022-07-04,Jaipur,Active
+CU001171,BR009,Customer 001171,Individual,Male,26-35,2026-02-10,Jaipur,Closed
+CU001172,BR009,Customer 001172,Business,Male,36-45,2015-02-16,Jaipur,Active
+CU001173,BR009,Customer 001173,Individual,Female,46-60,2015-02-23,Jaipur,Active
+CU001174,BR009,Customer 001174,Individual,Male,36-45,2021-06-24,Jaipur,Active
+CU001175,BR009,Customer 001175,Individual,Female,36-45,2017-05-27,Jaipur,Active
+CU001176,BR009,Customer 001176,Business,Female,26-35,2017-09-02,Jaipur,Active
+CU001177,BR009,Customer 001177,Senior Citizen,Female,26-35,2026-03-20,Jaipur,Active
+CU001178,BR009,Customer 001178,NRI,Female,46-60,2023-05-27,Jaipur,Active
+CU001179,BR009,Customer 001179,Business,Male,36-45,2023-02-19,Jaipur,Active
+CU001180,BR009,Customer 001180,Individual,Female,26-35,2021-02-01,Jaipur,Active
+CU001181,BR009,Customer 001181,Individual,Male,60+,2023-07-07,Jaipur,Active
+CU001182,BR009,Customer 001182,Individual,Female,36-45,2022-01-09,Jaipur,Active
+CU001183,BR009,Customer 001183,Individual,Female,26-35,2026-02-09,Jaipur,Inactive
+CU001184,BR009,Customer 001184,Business,Male,36-45,2026-05-30,Jaipur,Active
+CU001185,BR009,Customer 001185,Business,Male,36-45,2015-08-11,Jaipur,Active
+CU001186,BR009,Customer 001186,Individual,Male,26-35,2024-09-21,Jaipur,Active
+CU001187,BR009,Customer 001187,NRI,Female,46-60,2016-01-19,Jaipur,Active
+CU001188,BR009,Customer 001188,Business,Male,36-45,2025-12-28,Jaipur,Active
+CU001189,BR009,Customer 001189,Individual,Male,36-45,2022-01-04,Jaipur,Active
+CU001190,BR009,Customer 001190,Individual,Female,46-60,2025-05-10,Jaipur,Active
+CU001191,BR009,Customer 001191,Individual,Male,36-45,2015-09-23,Jaipur,Inactive
+CU001192,BR009,Customer 001192,Individual,Male,26-35,2024-03-29,Jaipur,Active
+CU001193,BR009,Customer 001193,Individual,Female,18-25,2026-02-19,Jaipur,Active
+CU001194,BR009,Customer 001194,Individual,Male,26-35,2026-05-23,Jaipur,Active
+CU001195,BR009,Customer 001195,Individual,Male,26-35,2016-04-25,Jaipur,Active
+CU001196,BR009,Customer 001196,Individual,Female,26-35,2019-09-10,Jaipur,Active
+CU001197,BR009,Customer 001197,Corporate,Female,36-45,2024-01-22,Jaipur,Active
+CU001198,BR009,Customer 001198,Business,Male,26-35,2020-10-02,Jaipur,Active
+CU001199,BR009,Customer 001199,Individual,Female,26-35,2026-04-10,Jaipur,Inactive
+CU001200,BR009,Customer 001200,Individual,Male,36-45,2026-08-27,Jaipur,Active
+CU001201,BR009,Customer 001201,Individual,Male,26-35,2016-11-20,Jaipur,Active
+CU001202,BR009,Customer 001202,Individual,Female,36-45,2020-04-30,Jaipur,Active
+CU001203,BR009,Customer 001203,Individual,Male,36-45,2018-03-29,Jaipur,Active
+CU001204,BR009,Customer 001204,Individual,Male,26-35,2022-05-03,Jaipur,Active
+CU001205,BR009,Customer 001205,Individual,Female,18-25,2017-07-04,Jaipur,Active
+CU001206,BR009,Customer 001206,Senior Citizen,Male,36-45,2024-03-17,Jaipur,Active
+CU001207,BR009,Customer 001207,Individual,Male,18-25,2025-02-09,Jaipur,Active
+CU001208,BR009,Customer 001208,Corporate,Male,36-45,2025-12-28,Jaipur,Active
+CU001209,BR009,Customer 001209,Individual,Female,46-60,2019-07-15,Jaipur,Active
+CU001210,BR009,Customer 001210,Individual,Female,36-45,2016-07-07,Jaipur,Active
+CU001211,BR009,Customer 001211,Senior Citizen,Female,36-45,2024-01-31,Jaipur,Active
+CU001212,BR009,Customer 001212,Individual,Male,60+,2016-03-24,Jaipur,Active
+CU001213,BR009,Customer 001213,Business,Female,18-25,2026-03-04,Jaipur,Active
+CU001214,BR009,Customer 001214,Senior Citizen,Female,46-60,2026-05-19,Jaipur,Active
+CU001215,BR009,Customer 001215,Individual,Male,46-60,2026-08-29,Jaipur,Inactive
+CU001216,BR009,Customer 001216,Individual,Male,26-35,2026-01-24,Jaipur,Active
+CU001217,BR009,Customer 001217,Individual,Female,26-35,2018-02-02,Jaipur,Active
+CU001218,BR009,Customer 001218,Individual,Male,26-35,2017-04-28,Jaipur,Active
+CU001219,BR009,Customer 001219,Individual,Female,60+,2020-04-12,Jaipur,Inactive
+CU001220,BR009,Customer 001220,Individual,Female,26-35,2024-06-14,Jaipur,Inactive
+CU001221,BR009,Customer 001221,Senior Citizen,Male,46-60,2026-05-17,Jaipur,Active
+CU001222,BR010,Customer 001222,Business,Other,36-45,2020-07-22,Bengaluru,Active
+CU001223,BR010,Customer 001223,Individual,Female,36-45,2017-01-28,Bengaluru,Active
+CU001224,BR010,Customer 001224,Individual,Male,36-45,2017-07-23,Bengaluru,Inactive
+CU001225,BR010,Customer 001225,Business,Female,26-35,2021-09-30,Bengaluru,Inactive
+CU001226,BR010,Customer 001226,Senior Citizen,Male,26-35,2021-04-28,Bengaluru,Active
+CU001227,BR010,Customer 001227,Individual,Female,60+,2016-11-11,Bengaluru,Active
+CU001228,BR010,Customer 001228,Individual,Male,26-35,2026-06-20,Bengaluru,Inactive
+CU001229,BR010,Customer 001229,NRI,Male,60+,2023-01-16,Bengaluru,Active
+CU001230,BR010,Customer 001230,Senior Citizen,Male,60+,2025-09-09,Bengaluru,Active
+CU001231,BR010,Customer 001231,Senior Citizen,Male,18-25,2022-09-17,Bengaluru,Active
+CU001232,BR010,Customer 001232,Individual,Male,36-45,2020-09-07,Bengaluru,Active
+CU001233,BR010,Customer 001233,Individual,Male,26-35,2024-06-29,Bengaluru,Active
+CU001234,BR010,Customer 001234,Individual,Female,36-45,2022-10-23,Bengaluru,Active
+CU001235,BR010,Customer 001235,Individual,Male,60+,2016-09-08,Bengaluru,Active
+CU001236,BR010,Customer 001236,Senior Citizen,Male,46-60,2026-05-30,Bengaluru,Active
+CU001237,BR010,Customer 001237,Individual,Male,60+,2025-08-31,Bengaluru,Active
+CU001238,BR010,Customer 001238,Business,Female,26-35,2024-11-11,Bengaluru,Active
+CU001239,BR010,Customer 001239,Senior Citizen,Male,36-45,2025-05-01,Bengaluru,Active
+CU001240,BR010,Customer 001240,Senior Citizen,Male,26-35,2020-07-09,Bengaluru,Active
+CU001241,BR010,Customer 001241,Business,Female,46-60,2021-08-25,Bengaluru,Active
+CU001242,BR010,Customer 001242,Senior Citizen,Male,26-35,2016-11-11,Bengaluru,Active
+CU001243,BR010,Customer 001243,Individual,Other,26-35,2026-03-04,Bengaluru,Active
+CU001244,BR010,Customer 001244,Individual,Male,18-25,2020-08-11,Bengaluru,Active
+CU001245,BR010,Customer 001245,Individual,Female,26-35,2025-08-21,Bengaluru,Active
+CU001246,BR010,Customer 001246,Senior Citizen,Male,26-35,2025-09-28,Bengaluru,Active
+CU001247,BR010,Customer 001247,Senior Citizen,Female,18-25,2016-12-05,Bengaluru,Active
+CU001248,BR010,Customer 001248,Individual,Female,46-60,2016-01-13,Bengaluru,Active
+CU001249,BR010,Customer 001249,Individual,Male,46-60,2018-11-04,Bengaluru,Inactive
+CU001250,BR010,Customer 001250,Individual,Male,26-35,2023-04-23,Bengaluru,Active
+CU001251,BR010,Customer 001251,Individual,Male,46-60,2025-09-21,Bengaluru,Active
+CU001252,BR010,Customer 001252,NRI,Male,26-35,2023-07-23,Bengaluru,Active
+CU001253,BR010,Customer 001253,Individual,Other,46-60,2025-10-01,Bengaluru,Active
+CU001254,BR010,Customer 001254,Corporate,Female,26-35,2021-12-22,Bengaluru,Active
+CU001255,BR010,Customer 001255,Individual,Female,36-45,2025-12-19,Bengaluru,Active
+CU001256,BR010,Customer 001256,Individual,Female,26-35,2024-06-02,Bengaluru,Active
+CU001257,BR010,Customer 001257,Individual,Female,26-35,2017-12-09,Bengaluru,Inactive
+CU001258,BR010,Customer 001258,Senior Citizen,Female,36-45,2026-07-28,Bengaluru,Inactive
+CU001259,BR010,Customer 001259,Individual,Male,46-60,2020-09-23,Bengaluru,Active
+CU001260,BR010,Customer 001260,Individual,Male,46-60,2024-04-14,Bengaluru,Active
+CU001261,BR010,Customer 001261,Individual,Male,26-35,2021-10-27,Bengaluru,Active
+CU001262,BR010,Customer 001262,Senior Citizen,Male,36-45,2022-01-10,Bengaluru,Active
+CU001263,BR010,Customer 001263,Corporate,Male,46-60,2016-07-15,Bengaluru,Inactive
+CU001264,BR010,Customer 001264,Corporate,Male,18-25,2026-07-18,Bengaluru,Active
+CU001265,BR010,Customer 001265,Individual,Male,18-25,2021-10-01,Bengaluru,Active
+CU001266,BR010,Customer 001266,Senior Citizen,Male,26-35,2019-04-14,Bengaluru,Active
+CU001267,BR010,Customer 001267,Individual,Male,26-35,2021-11-17,Bengaluru,Active
+CU001268,BR010,Customer 001268,Business,Male,26-35,2025-07-15,Bengaluru,Active
+CU001269,BR010,Customer 001269,Individual,Male,18-25,2016-10-21,Bengaluru,Active
+CU001270,BR010,Customer 001270,Individual,Male,36-45,2024-04-01,Bengaluru,Active
+CU001271,BR010,Customer 001271,Senior Citizen,Female,36-45,2017-06-07,Bengaluru,Active
+CU001272,BR010,Customer 001272,Senior Citizen,Female,46-60,2026-04-05,Bengaluru,Active
+CU001273,BR010,Customer 001273,Individual,Male,36-45,2026-01-09,Bengaluru,Active
+CU001274,BR010,Customer 001274,Individual,Male,26-35,2018-10-24,Bengaluru,Active
+CU001275,BR010,Customer 001275,Senior Citizen,Male,60+,2026-07-20,Bengaluru,Active
+CU001276,BR010,Customer 001276,Senior Citizen,Male,46-60,2020-07-15,Bengaluru,Active
+CU001277,BR010,Customer 001277,Business,Male,36-45,2024-02-18,Bengaluru,Active
+CU001278,BR010,Customer 001278,Individual,Female,26-35,2021-07-26,Bengaluru,Active
+CU001279,BR010,Customer 001279,Individual,Male,36-45,2026-08-10,Bengaluru,Active
+CU001280,BR010,Customer 001280,Senior Citizen,Male,36-45,2026-06-19,Bengaluru,Active
+CU001281,BR010,Customer 001281,Business,Female,36-45,2025-09-17,Bengaluru,Inactive
+CU001282,BR010,Customer 001282,Business,Male,46-60,2025-04-21,Bengaluru,Active
+CU001283,BR010,Customer 001283,Business,Male,60+,2020-06-03,Bengaluru,Inactive
+CU001284,BR010,Customer 001284,Individual,Male,60+,2022-09-14,Bengaluru,Active
+CU001285,BR010,Customer 001285,Individual,Female,36-45,2025-10-24,Bengaluru,Active
+CU001286,BR010,Customer 001286,Corporate,Male,60+,2016-02-09,Bengaluru,Active
+CU001287,BR010,Customer 001287,Individual,Female,60+,2017-04-06,Bengaluru,Active
+CU001288,BR010,Customer 001288,Business,Female,18-25,2023-11-04,Bengaluru,Inactive
+CU001289,BR010,Customer 001289,Business,Male,36-45,2025-12-17,Bengaluru,Active
+CU001290,BR010,Customer 001290,NRI,Female,26-35,2023-02-17,Bengaluru,Active
+CU001291,BR010,Customer 001291,Individual,Male,26-35,2025-11-15,Bengaluru,Active
+CU001292,BR010,Customer 001292,Business,Male,26-35,2019-10-03,Bengaluru,Active
+CU001293,BR010,Customer 001293,Individual,Male,36-45,2026-06-08,Bengaluru,Active
+CU001294,BR010,Customer 001294,Individual,Other,18-25,2022-10-07,Bengaluru,Inactive
+CU001295,BR010,Customer 001295,Individual,Male,26-35,2021-01-30,Bengaluru,Active
+CU001296,BR010,Customer 001296,Individual,Male,18-25,2025-01-24,Bengaluru,Active
+CU001297,BR010,Customer 001297,Senior Citizen,Female,36-45,2025-09-23,Bengaluru,Active
+CU001298,BR010,Customer 001298,Senior Citizen,Male,46-60,2016-04-05,Bengaluru,Active
+CU001299,BR010,Customer 001299,Individual,Female,60+,2026-06-12,Bengaluru,Active
+CU001300,BR010,Customer 001300,NRI,Female,36-45,2025-06-06,Bengaluru,Inactive
+CU001301,BR010,Customer 001301,Individual,Female,26-35,2024-11-24,Bengaluru,Active
+CU001302,BR010,Customer 001302,Business,Female,46-60,2022-12-27,Bengaluru,Active
+CU001303,BR010,Customer 001303,Senior Citizen,Female,18-25,2015-04-25,Bengaluru,Inactive
+CU001304,BR010,Customer 001304,Individual,Male,60+,2020-10-05,Bengaluru,Active
+CU001305,BR010,Customer 001305,Individual,Other,46-60,2023-09-04,Bengaluru,Inactive
+CU001306,BR010,Customer 001306,Individual,Female,36-45,2017-06-03,Bengaluru,Active
+CU001307,BR010,Customer 001307,Individual,Female,18-25,2021-08-09,Bengaluru,Active
+CU001308,BR010,Customer 001308,Senior Citizen,Female,18-25,2018-04-11,Bengaluru,Active
+CU001309,BR010,Customer 001309,Individual,Male,36-45,2020-03-07,Bengaluru,Active
+CU001310,BR010,Customer 001310,Individual,Male,26-35,2026-04-16,Bengaluru,Active
+CU001311,BR010,Customer 001311,Individual,Male,46-60,2020-03-12,Bengaluru,Active
+CU001312,BR010,Customer 001312,Senior Citizen,Male,36-45,2025-10-29,Bengaluru,Active
+CU001313,BR010,Customer 001313,Individual,Female,26-35,2025-05-12,Bengaluru,Active
+CU001314,BR010,Customer 001314,Business,Female,26-35,2022-01-22,Bengaluru,Active
+CU001315,BR010,Customer 001315,Business,Male,36-45,2020-02-05,Bengaluru,Active
+CU001316,BR010,Customer 001316,Individual,Male,26-35,2026-10-18,Bengaluru,Active
+CU001317,BR010,Customer 001317,Individual,Female,36-45,2026-05-21,Bengaluru,Active
+CU001318,BR010,Customer 001318,Individual,Male,36-45,2025-05-30,Bengaluru,Active
+CU001319,BR010,Customer 001319,Individual,Female,46-60,2017-06-05,Bengaluru,Active
+CU001320,BR010,Customer 001320,Business,Female,36-45,2015-01-07,Bengaluru,Active
+CU001321,BR010,Customer 001321,Corporate,Male,26-35,2026-06-02,Bengaluru,Active
+CU001322,BR010,Customer 001322,Individual,Male,46-60,2020-05-08,Bengaluru,Active
+CU001323,BR010,Customer 001323,Individual,Female,36-45,2026-05-08,Bengaluru,Active
+CU001324,BR010,Customer 001324,Individual,Male,46-60,2022-06-24,Bengaluru,Active
+CU001325,BR010,Customer 001325,Individual,Female,36-45,2025-09-10,Bengaluru,Active
+CU001326,BR010,Customer 001326,Business,Male,46-60,2016-01-08,Bengaluru,Active
+CU001327,BR010,Customer 001327,Corporate,Male,26-35,2016-08-28,Bengaluru,Active
+CU001328,BR010,Customer 001328,Business,Male,26-35,2017-03-10,Bengaluru,Active
+CU001329,BR010,Customer 001329,Individual,Female,46-60,2015-05-21,Bengaluru,Active
+CU001330,BR010,Customer 001330,Individual,Female,18-25,2020-03-05,Bengaluru,Active
+CU001331,BR010,Customer 001331,Individual,Female,46-60,2018-02-18,Bengaluru,Active
+CU001332,BR010,Customer 001332,Senior Citizen,Male,26-35,2025-10-28,Bengaluru,Active
+CU001333,BR010,Customer 001333,Business,Female,18-25,2023-09-12,Bengaluru,Active
+CU001334,BR010,Customer 001334,Senior Citizen,Male,18-25,2016-12-20,Bengaluru,Active
+CU001335,BR010,Customer 001335,Individual,Female,46-60,2026-01-05,Bengaluru,Active
+CU001336,BR010,Customer 001336,Individual,Female,46-60,2026-04-23,Bengaluru,Active
+CU001337,BR010,Customer 001337,Business,Male,26-35,2024-10-08,Bengaluru,Active
+CU001338,BR010,Customer 001338,Individual,Female,18-25,2023-10-11,Bengaluru,Active
+CU001339,BR010,Customer 001339,Business,Male,26-35,2020-08-06,Bengaluru,Active
+CU001340,BR010,Customer 001340,Individual,Male,26-35,2022-12-10,Bengaluru,Active
+CU001341,BR010,Customer 001341,Senior Citizen,Male,46-60,2015-10-01,Bengaluru,Active
+CU001342,BR010,Customer 001342,Individual,Female,26-35,2021-08-25,Bengaluru,Inactive
+CU001343,BR010,Customer 001343,Senior Citizen,Male,26-35,2026-01-09,Bengaluru,Inactive
+CU001344,BR010,Customer 001344,Individual,Female,18-25,2015-05-10,Bengaluru,Active
+CU001345,BR010,Customer 001345,Individual,Male,36-45,2026-10-17,Bengaluru,Active
+CU001346,BR010,Customer 001346,Individual,Female,36-45,2017-02-03,Bengaluru,Active
+CU001347,BR010,Customer 001347,Individual,Female,36-45,2025-10-10,Bengaluru,Inactive
+CU001348,BR010,Customer 001348,Senior Citizen,Male,36-45,2019-09-10,Bengaluru,Active
+CU001349,BR010,Customer 001349,Senior Citizen,Female,60+,2021-06-08,Bengaluru,Active
+CU001350,BR010,Customer 001350,Senior Citizen,Female,36-45,2018-10-16,Bengaluru,Active
+CU001351,BR010,Customer 001351,Senior Citizen,Male,46-60,2021-09-24,Bengaluru,Active
+CU001352,BR010,Customer 001352,Business,Male,36-45,2024-09-06,Bengaluru,Active
+CU001353,BR010,Customer 001353,Individual,Male,18-25,2025-06-16,Bengaluru,Active
+CU001354,BR010,Customer 001354,NRI,Female,46-60,2023-11-08,Bengaluru,Active
+CU001355,BR010,Customer 001355,Individual,Female,36-45,2019-06-13,Bengaluru,Active
+CU001356,BR010,Customer 001356,NRI,Female,36-45,2018-02-19,Bengaluru,Active
+CU001357,BR010,Customer 001357,Individual,Female,26-35,2023-05-14,Bengaluru,Active
+CU001358,BR010,Customer 001358,Business,Female,26-35,2025-07-01,Bengaluru,Active
+CU001359,BR010,Customer 001359,Individual,Male,46-60,2018-05-03,Bengaluru,Active
+CU001360,BR010,Customer 001360,Individual,Male,26-35,2021-08-24,Bengaluru,Active
+CU001361,BR010,Customer 001361,Individual,Female,18-25,2026-09-24,Bengaluru,Closed
+CU001362,BR010,Customer 001362,Individual,Male,26-35,2020-04-15,Bengaluru,Active
+CU001363,BR010,Customer 001363,Individual,Male,36-45,2020-03-25,Bengaluru,Active
+CU001364,BR010,Customer 001364,Individual,Female,46-60,2016-02-17,Bengaluru,Active
+CU001365,BR010,Customer 001365,Individual,Female,36-45,2023-12-26,Bengaluru,Active
+CU001366,BR010,Customer 001366,Individual,Female,60+,2025-09-05,Bengaluru,Inactive
+CU001367,BR010,Customer 001367,Individual,Male,36-45,2025-12-13,Bengaluru,Active
+CU001368,BR010,Customer 001368,NRI,Female,26-35,2018-06-02,Bengaluru,Active
+CU001369,BR010,Customer 001369,Individual,Male,26-35,2026-04-06,Bengaluru,Active
+CU001370,BR010,Customer 001370,Individual,Male,26-35,2025-10-15,Bengaluru,Active
+CU001371,BR010,Customer 001371,Individual,Female,46-60,2016-10-09,Bengaluru,Active
+CU001372,BR010,Customer 001372,Individual,Female,18-25,2025-08-02,Bengaluru,Active
+CU001373,BR010,Customer 001373,Individual,Female,26-35,2025-12-27,Bengaluru,Active
+CU001374,BR010,Customer 001374,Business,Female,46-60,2025-09-09,Bengaluru,Active
+CU001375,BR010,Customer 001375,Individual,Female,36-45,2016-10-25,Bengaluru,Active
+CU001376,BR010,Customer 001376,Individual,Male,18-25,2016-12-26,Bengaluru,Active
+CU001377,BR010,Customer 001377,Individual,Male,46-60,2017-03-22,Bengaluru,Active
+CU001378,BR010,Customer 001378,Individual,Female,36-45,2017-01-27,Bengaluru,Active
+CU001379,BR010,Customer 001379,Individual,Female,46-60,2023-09-21,Bengaluru,Active
+CU001380,BR011,Customer 001380,Business,Male,36-45,2025-08-12,Bengaluru,Active
+CU001381,BR011,Customer 001381,Individual,Male,18-25,2026-09-03,Bengaluru,Active
+CU001382,BR011,Customer 001382,Business,Male,26-35,2017-09-15,Bengaluru,Active
+CU001383,BR011,Customer 001383,Individual,Male,26-35,2017-09-04,Bengaluru,Active
+CU001384,BR011,Customer 001384,Individual,Female,46-60,2026-06-10,Bengaluru,Active
+CU001385,BR011,Customer 001385,Individual,Male,36-45,2020-04-01,Bengaluru,Active
+CU001386,BR011,Customer 001386,Individual,Male,46-60,2026-04-20,Bengaluru,Active
+CU001387,BR011,Customer 001387,Individual,Female,36-45,2026-08-07,Bengaluru,Active
+CU001388,BR011,Customer 001388,NRI,Female,26-35,2026-09-05,Bengaluru,Active
+CU001389,BR011,Customer 001389,Business,Male,18-25,2025-09-02,Bengaluru,Active
+CU001390,BR011,Customer 001390,Individual,Male,26-35,2025-06-07,Bengaluru,Active
+CU001391,BR011,Customer 001391,Individual,Male,26-35,2026-05-29,Bengaluru,Active
+CU001392,BR011,Customer 001392,NRI,Male,36-45,2025-08-03,Bengaluru,Active
+CU001393,BR011,Customer 001393,Individual,Male,60+,2025-07-10,Bengaluru,Active
+CU001394,BR011,Customer 001394,Individual,Male,26-35,2020-08-26,Bengaluru,Active
+CU001395,BR011,Customer 001395,NRI,Male,36-45,2024-10-21,Bengaluru,Active
+CU001396,BR011,Customer 001396,Individual,Male,26-35,2017-02-25,Bengaluru,Active
+CU001397,BR011,Customer 001397,Individual,Male,46-60,2023-05-24,Bengaluru,Active
+CU001398,BR011,Customer 001398,Individual,Female,18-25,2025-11-18,Bengaluru,Active
+CU001399,BR011,Customer 001399,Individual,Male,36-45,2026-08-28,Bengaluru,Active
+CU001400,BR011,Customer 001400,Individual,Male,26-35,2025-04-20,Bengaluru,Active
+CU001401,BR011,Customer 001401,Business,Female,26-35,2025-10-25,Bengaluru,Active
+CU001402,BR011,Customer 001402,Individual,Male,36-45,2023-07-26,Bengaluru,Active
+CU001403,BR011,Customer 001403,Individual,Male,26-35,2026-06-02,Bengaluru,Active
+CU001404,BR011,Customer 001404,Individual,Female,36-45,2026-02-28,Bengaluru,Active
+CU001405,BR011,Customer 001405,Corporate,Female,26-35,2026-07-22,Bengaluru,Inactive
+CU001406,BR011,Customer 001406,Individual,Male,60+,2024-01-30,Bengaluru,Active
+CU001407,BR011,Customer 001407,Business,Female,26-35,2025-12-19,Bengaluru,Active
+CU001408,BR011,Customer 001408,Individual,Female,36-45,2025-08-18,Bengaluru,Active
+CU001409,BR011,Customer 001409,Individual,Male,46-60,2025-07-17,Bengaluru,Active
+CU001410,BR011,Customer 001410,Individual,Male,36-45,2025-09-09,Bengaluru,Active
+CU001411,BR011,Customer 001411,Individual,Male,26-35,2026-07-30,Bengaluru,Active
+CU001412,BR011,Customer 001412,Individual,Female,36-45,2026-05-05,Bengaluru,Inactive
+CU001413,BR011,Customer 001413,Corporate,Male,18-25,2020-07-10,Bengaluru,Active
+CU001414,BR011,Customer 001414,Senior Citizen,Male,36-45,2025-12-20,Bengaluru,Active
+CU001415,BR011,Customer 001415,Corporate,Male,26-35,2021-08-13,Bengaluru,Active
+CU001416,BR011,Customer 001416,Individual,Female,46-60,2025-08-28,Bengaluru,Active
+CU001417,BR011,Customer 001417,Individual,Male,46-60,2026-04-02,Bengaluru,Active
+CU001418,BR011,Customer 001418,Business,Male,26-35,2026-05-06,Bengaluru,Active
+CU001419,BR011,Customer 001419,Individual,Male,18-25,2025-12-16,Bengaluru,Active
+CU001420,BR011,Customer 001420,Corporate,Female,26-35,2018-11-25,Bengaluru,Active
+CU001421,BR011,Customer 001421,NRI,Male,36-45,2018-12-23,Bengaluru,Active
+CU001422,BR011,Customer 001422,Individual,Female,26-35,2025-12-05,Bengaluru,Active
+CU001423,BR011,Customer 001423,Senior Citizen,Male,36-45,2017-10-26,Bengaluru,Active
+CU001424,BR011,Customer 001424,NRI,Male,36-45,2026-09-20,Bengaluru,Active
+CU001425,BR011,Customer 001425,Individual,Male,60+,2019-09-12,Bengaluru,Active
+CU001426,BR011,Customer 001426,Senior Citizen,Male,26-35,2018-05-09,Bengaluru,Active
+CU001427,BR011,Customer 001427,Individual,Male,18-25,2026-05-18,Bengaluru,Active
+CU001428,BR011,Customer 001428,Individual,Female,26-35,2025-10-14,Bengaluru,Active
+CU001429,BR011,Customer 001429,Individual,Male,36-45,2017-03-07,Bengaluru,Inactive
+CU001430,BR011,Customer 001430,Individual,Female,26-35,2025-07-06,Bengaluru,Active
+CU001431,BR011,Customer 001431,Individual,Male,26-35,2026-02-10,Bengaluru,Active
+CU001432,BR011,Customer 001432,Senior Citizen,Female,26-35,2020-02-22,Bengaluru,Active
+CU001433,BR011,Customer 001433,Individual,Male,46-60,2025-09-27,Bengaluru,Active
+CU001434,BR011,Customer 001434,Individual,Male,60+,2025-12-31,Bengaluru,Closed
+CU001435,BR011,Customer 001435,Business,Male,26-35,2026-09-27,Bengaluru,Active
+CU001436,BR011,Customer 001436,Individual,Female,26-35,2026-01-27,Bengaluru,Active
+CU001437,BR011,Customer 001437,Business,Female,26-35,2024-03-15,Bengaluru,Active
+CU001438,BR011,Customer 001438,Individual,Female,26-35,2026-10-01,Bengaluru,Active
+CU001439,BR011,Customer 001439,Senior Citizen,Female,60+,2026-03-13,Bengaluru,Active
+CU001440,BR011,Customer 001440,Business,Male,36-45,2023-11-10,Bengaluru,Closed
+CU001441,BR011,Customer 001441,Individual,Male,36-45,2025-11-10,Bengaluru,Active
+CU001442,BR011,Customer 001442,Individual,Male,60+,2021-02-07,Bengaluru,Active
+CU001443,BR011,Customer 001443,Individual,Female,36-45,2023-01-29,Bengaluru,Active
+CU001444,BR011,Customer 001444,Senior Citizen,Male,26-35,2018-08-05,Bengaluru,Active
+CU001445,BR011,Customer 001445,Business,Male,36-45,2018-12-25,Bengaluru,Active
+CU001446,BR011,Customer 001446,Individual,Female,26-35,2026-02-12,Bengaluru,Active
+CU001447,BR011,Customer 001447,Individual,Male,26-35,2025-07-08,Bengaluru,Active
+CU001448,BR011,Customer 001448,NRI,Female,60+,2025-07-14,Bengaluru,Active
+CU001449,BR011,Customer 001449,Individual,Male,26-35,2026-05-26,Bengaluru,Inactive
+CU001450,BR011,Customer 001450,Business,Female,36-45,2026-10-29,Bengaluru,Active
+CU001451,BR011,Customer 001451,Business,Female,26-35,2020-02-29,Bengaluru,Active
+CU001452,BR011,Customer 001452,Individual,Female,26-35,2020-03-01,Bengaluru,Active
+CU001453,BR011,Customer 001453,Individual,Male,36-45,2025-01-16,Bengaluru,Inactive
+CU001454,BR011,Customer 001454,Individual,Male,46-60,2026-07-10,Bengaluru,Active
+CU001455,BR011,Customer 001455,Individual,Male,36-45,2026-06-09,Bengaluru,Inactive
+CU001456,BR011,Customer 001456,Senior Citizen,Male,26-35,2025-05-21,Bengaluru,Active
+CU001457,BR011,Customer 001457,Business,Female,18-25,2026-10-11,Bengaluru,Inactive
+CU001458,BR011,Customer 001458,NRI,Male,36-45,2025-09-17,Bengaluru,Active
+CU001459,BR011,Customer 001459,Individual,Male,36-45,2026-03-01,Bengaluru,Active
+CU001460,BR011,Customer 001460,Individual,Male,46-60,2021-07-16,Bengaluru,Active
+CU001461,BR011,Customer 001461,Business,Female,36-45,2025-10-04,Bengaluru,Inactive
+CU001462,BR011,Customer 001462,Individual,Male,46-60,2026-02-20,Bengaluru,Active
+CU001463,BR011,Customer 001463,Individual,Male,46-60,2023-04-03,Bengaluru,Active
+CU001464,BR011,Customer 001464,Individual,Male,26-35,2017-06-09,Bengaluru,Active
+CU001465,BR011,Customer 001465,Business,Male,36-45,2020-04-04,Bengaluru,Active
+CU001466,BR011,Customer 001466,Business,Female,46-60,2026-04-19,Bengaluru,Inactive
+CU001467,BR011,Customer 001467,Individual,Male,60+,2026-06-07,Bengaluru,Active
+CU001468,BR011,Customer 001468,NRI,Female,26-35,2026-10-04,Bengaluru,Active
+CU001469,BR011,Customer 001469,Individual,Female,36-45,2025-05-20,Bengaluru,Active
+CU001470,BR011,Customer 001470,Individual,Female,26-35,2026-03-12,Bengaluru,Active
+CU001471,BR011,Customer 001471,Individual,Female,46-60,2026-04-06,Bengaluru,Active
+CU001472,BR011,Customer 001472,Corporate,Female,60+,2020-08-10,Bengaluru,Active
+CU001473,BR011,Customer 001473,Individual,Male,60+,2019-02-09,Bengaluru,Active
+CU001474,BR011,Customer 001474,Individual,Male,26-35,2025-02-28,Bengaluru,Active
+CU001475,BR011,Customer 001475,Individual,Female,26-35,2025-09-16,Bengaluru,Active
+CU001476,BR011,Customer 001476,Business,Female,46-60,2026-07-27,Bengaluru,Active
+CU001477,BR011,Customer 001477,Corporate,Male,36-45,2020-04-12,Bengaluru,Active
+CU001478,BR011,Customer 001478,Individual,Male,60+,2017-08-08,Bengaluru,Inactive
+CU001479,BR011,Customer 001479,Senior Citizen,Male,26-35,2019-04-28,Bengaluru,Active
+CU001480,BR011,Customer 001480,Individual,Male,46-60,2018-04-07,Bengaluru,Active
+CU001481,BR011,Customer 001481,Individual,Male,36-45,2019-08-09,Bengaluru,Active
+CU001482,BR011,Customer 001482,Individual,Male,26-35,2025-05-15,Bengaluru,Active
+CU001483,BR011,Customer 001483,Business,Male,18-25,2025-09-01,Bengaluru,Active
+CU001484,BR011,Customer 001484,Individual,Female,46-60,2020-07-07,Bengaluru,Active
+CU001485,BR011,Customer 001485,Individual,Female,26-35,2026-02-03,Bengaluru,Active
+CU001486,BR011,Customer 001486,Individual,Female,46-60,2025-11-26,Bengaluru,Inactive
+CU001487,BR011,Customer 001487,Individual,Female,36-45,2026-05-27,Bengaluru,Active
+CU001488,BR011,Customer 001488,Business,Male,36-45,2026-07-22,Bengaluru,Inactive
+CU001489,BR011,Customer 001489,Senior Citizen,Male,26-35,2026-07-01,Bengaluru,Active
+CU001490,BR011,Customer 001490,Individual,Female,60+,2020-05-25,Bengaluru,Active
+CU001491,BR011,Customer 001491,Business,Female,46-60,2025-07-17,Bengaluru,Active
+CU001492,BR011,Customer 001492,Individual,Female,46-60,2021-03-17,Bengaluru,Inactive
+CU001493,BR011,Customer 001493,Individual,Female,46-60,2020-09-21,Bengaluru,Active
+CU001494,BR011,Customer 001494,Individual,Female,36-45,2025-11-14,Bengaluru,Active
+CU001495,BR011,Customer 001495,Senior Citizen,Female,60+,2026-09-10,Bengaluru,Active
+CU001496,BR011,Customer 001496,Individual,Female,36-45,2026-07-22,Bengaluru,Active
+CU001497,BR011,Customer 001497,Corporate,Female,36-45,2024-07-23,Bengaluru,Active
+CU001498,BR011,Customer 001498,Individual,Male,26-35,2025-10-21,Bengaluru,Active
+CU001499,BR011,Customer 001499,Corporate,Male,26-35,2026-05-17,Bengaluru,Active
+CU001500,BR011,Customer 001500,Individual,Male,46-60,2025-10-25,Bengaluru,Active
+CU001501,BR011,Customer 001501,Senior Citizen,Male,26-35,2017-09-28,Bengaluru,Inactive
+CU001502,BR011,Customer 001502,Business,Female,46-60,2022-10-29,Bengaluru,Active
+CU001503,BR011,Customer 001503,Individual,Male,60+,2021-03-16,Bengaluru,Active
+CU001504,BR011,Customer 001504,Business,Male,26-35,2026-06-07,Bengaluru,Active
+CU001505,BR011,Customer 001505,Individual,Female,18-25,2025-12-30,Bengaluru,Active
+CU001506,BR011,Customer 001506,Individual,Male,36-45,2026-04-28,Bengaluru,Active
+CU001507,BR011,Customer 001507,Individual,Female,18-25,2019-10-21,Bengaluru,Inactive
+CU001508,BR011,Customer 001508,Business,Male,46-60,2019-09-03,Bengaluru,Active
+CU001509,BR011,Customer 001509,Business,Male,36-45,2023-11-14,Bengaluru,Active
+CU001510,BR011,Customer 001510,Individual,Male,36-45,2017-09-09,Bengaluru,Active
+CU001511,BR011,Customer 001511,NRI,Male,36-45,2026-10-30,Bengaluru,Active
+CU001512,BR011,Customer 001512,Individual,Male,36-45,2025-11-15,Bengaluru,Active
+CU001513,BR012,Customer 001513,Individual,Male,26-35,2020-05-27,Chennai,Active
+CU001514,BR012,Customer 001514,Individual,Male,26-35,2017-10-10,Chennai,Active
+CU001515,BR012,Customer 001515,Individual,Male,26-35,2015-08-05,Chennai,Active
+CU001516,BR012,Customer 001516,Individual,Female,46-60,2017-04-13,Chennai,Inactive
+CU001517,BR012,Customer 001517,Individual,Male,18-25,2022-05-16,Chennai,Active
+CU001518,BR012,Customer 001518,Individual,Male,26-35,2023-03-08,Chennai,Active
+CU001519,BR012,Customer 001519,Individual,Male,26-35,2024-03-12,Chennai,Active
+CU001520,BR012,Customer 001520,Business,Female,26-35,2016-11-09,Chennai,Closed
+CU001521,BR012,Customer 001521,Individual,Female,18-25,2025-03-22,Chennai,Active
+CU001522,BR012,Customer 001522,NRI,Other,46-60,2020-11-28,Chennai,Active
+CU001523,BR012,Customer 001523,Individual,Female,18-25,2026-04-25,Chennai,Active
+CU001524,BR012,Customer 001524,Individual,Male,36-45,2023-04-02,Chennai,Active
+CU001525,BR012,Customer 001525,Individual,Female,26-35,2016-03-30,Chennai,Active
+CU001526,BR012,Customer 001526,Corporate,Male,36-45,2024-05-25,Chennai,Inactive
+CU001527,BR012,Customer 001527,Individual,Female,26-35,2024-09-20,Chennai,Active
+CU001528,BR012,Customer 001528,Individual,Male,46-60,2018-11-09,Chennai,Active
+CU001529,BR012,Customer 001529,NRI,Male,60+,2022-09-25,Chennai,Inactive
+CU001530,BR012,Customer 001530,Business,Female,26-35,2016-01-20,Chennai,Active
+CU001531,BR012,Customer 001531,Individual,Female,60+,2019-03-19,Chennai,Active
+CU001532,BR012,Customer 001532,Individual,Female,26-35,2025-09-10,Chennai,Closed
+CU001533,BR012,Customer 001533,Individual,Male,36-45,2021-10-29,Chennai,Active
+CU001534,BR012,Customer 001534,Individual,Male,46-60,2019-11-25,Chennai,Active
+CU001535,BR012,Customer 001535,Business,Male,26-35,2021-10-11,Chennai,Active
+CU001536,BR012,Customer 001536,Individual,Male,36-45,2020-01-04,Chennai,Active
+CU001537,BR012,Customer 001537,Individual,Male,18-25,2020-06-19,Chennai,Active
+CU001538,BR012,Customer 001538,Individual,Male,36-45,2022-10-29,Chennai,Active
+CU001539,BR012,Customer 001539,Individual,Female,26-35,2017-10-12,Chennai,Active
+CU001540,BR012,Customer 001540,Business,Male,46-60,2017-08-04,Chennai,Active
+CU001541,BR012,Customer 001541,Individual,Female,26-35,2025-10-28,Chennai,Active
+CU001542,BR012,Customer 001542,Individual,Female,60+,2025-02-24,Chennai,Inactive
+CU001543,BR012,Customer 001543,Individual,Female,26-35,2021-07-10,Chennai,Active
+CU001544,BR012,Customer 001544,Individual,Male,36-45,2018-12-12,Chennai,Active
+CU001545,BR012,Customer 001545,Individual,Male,26-35,2015-07-21,Chennai,Active
+CU001546,BR012,Customer 001546,Individual,Male,26-35,2024-08-23,Chennai,Active
+CU001547,BR012,Customer 001547,Business,Female,18-25,2020-06-27,Chennai,Active
+CU001548,BR012,Customer 001548,Business,Male,36-45,2019-11-23,Chennai,Active
+CU001549,BR012,Customer 001549,Senior Citizen,Male,26-35,2023-02-01,Chennai,Active
+CU001550,BR012,Customer 001550,Senior Citizen,Other,36-45,2020-12-28,Chennai,Active
+CU001551,BR012,Customer 001551,Individual,Female,60+,2017-05-09,Chennai,Active
+CU001552,BR012,Customer 001552,Individual,Female,26-35,2024-01-25,Chennai,Active
+CU001553,BR012,Customer 001553,Individual,Male,18-25,2025-02-15,Chennai,Active
+CU001554,BR012,Customer 001554,Business,Female,26-35,2019-06-20,Chennai,Active
+CU001555,BR012,Customer 001555,Individual,Male,18-25,2023-11-13,Chennai,Active
+CU001556,BR012,Customer 001556,Individual,Male,36-45,2021-12-10,Chennai,Active
+CU001557,BR012,Customer 001557,Individual,Female,46-60,2025-07-12,Chennai,Active
+CU001558,BR012,Customer 001558,Individual,Female,26-35,2022-05-19,Chennai,Active
+CU001559,BR012,Customer 001559,Business,Male,26-35,2017-03-07,Chennai,Active
+CU001560,BR012,Customer 001560,Business,Male,36-45,2025-10-31,Chennai,Active
+CU001561,BR012,Customer 001561,Individual,Male,26-35,2017-06-07,Chennai,Active
+CU001562,BR012,Customer 001562,Senior Citizen,Female,36-45,2026-03-21,Chennai,Active
+CU001563,BR012,Customer 001563,Individual,Female,60+,2023-05-11,Chennai,Active
+CU001564,BR012,Customer 001564,Individual,Male,26-35,2015-09-25,Chennai,Active
+CU001565,BR012,Customer 001565,Individual,Male,36-45,2024-06-27,Chennai,Active
+CU001566,BR012,Customer 001566,Business,Female,46-60,2021-01-04,Chennai,Inactive
+CU001567,BR012,Customer 001567,Individual,Female,36-45,2020-04-18,Chennai,Active
+CU001568,BR012,Customer 001568,Individual,Male,46-60,2017-02-24,Chennai,Active
+CU001569,BR012,Customer 001569,Senior Citizen,Female,46-60,2016-02-08,Chennai,Active
+CU001570,BR012,Customer 001570,Individual,Other,36-45,2024-05-28,Chennai,Active
+CU001571,BR012,Customer 001571,Individual,Male,36-45,2023-04-05,Chennai,Active
+CU001572,BR012,Customer 001572,Business,Female,46-60,2016-08-28,Chennai,Active
+CU001573,BR012,Customer 001573,Senior Citizen,Female,36-45,2021-03-22,Chennai,Active
+CU001574,BR012,Customer 001574,Business,Female,36-45,2021-07-16,Chennai,Active
+CU001575,BR012,Customer 001575,Senior Citizen,Female,26-35,2017-08-06,Chennai,Active
+CU001576,BR012,Customer 001576,Individual,Female,46-60,2026-08-05,Chennai,Active
+CU001577,BR012,Customer 001577,Individual,Male,26-35,2016-01-24,Chennai,Active
+CU001578,BR012,Customer 001578,Corporate,Male,26-35,2021-10-31,Chennai,Active
+CU001579,BR012,Customer 001579,Individual,Female,26-35,2021-02-24,Chennai,Active
+CU001580,BR012,Customer 001580,Individual,Male,26-35,2025-12-26,Chennai,Active
+CU001581,BR012,Customer 001581,Senior Citizen,Male,36-45,2020-11-03,Chennai,Active
+CU001582,BR012,Customer 001582,Individual,Male,26-35,2021-05-09,Chennai,Active
+CU001583,BR012,Customer 001583,Individual,Female,36-45,2017-09-13,Chennai,Closed
+CU001584,BR012,Customer 001584,NRI,Other,36-45,2025-05-18,Chennai,Inactive
+CU001585,BR012,Customer 001585,Senior Citizen,Female,26-35,2022-12-02,Chennai,Active
+CU001586,BR012,Customer 001586,Senior Citizen,Female,26-35,2022-02-05,Chennai,Active
+CU001587,BR012,Customer 001587,Senior Citizen,Male,36-45,2021-09-20,Chennai,Active
+CU001588,BR012,Customer 001588,Individual,Male,46-60,2017-02-04,Chennai,Inactive
+CU001589,BR012,Customer 001589,Senior Citizen,Female,26-35,2017-06-05,Chennai,Active
+CU001590,BR012,Customer 001590,Individual,Male,26-35,2024-12-28,Chennai,Active
+CU001591,BR012,Customer 001591,Business,Female,26-35,2022-07-02,Chennai,Active
+CU001592,BR012,Customer 001592,Individual,Male,18-25,2023-11-07,Chennai,Active
+CU001593,BR012,Customer 001593,Corporate,Male,18-25,2020-03-25,Chennai,Active
+CU001594,BR012,Customer 001594,Individual,Female,60+,2024-11-26,Chennai,Active
+CU001595,BR012,Customer 001595,NRI,Male,18-25,2019-07-09,Chennai,Active
+CU001596,BR012,Customer 001596,Individual,Male,18-25,2020-07-11,Chennai,Active
+CU001597,BR012,Customer 001597,Individual,Male,46-60,2024-01-30,Chennai,Active
+CU001598,BR012,Customer 001598,Individual,Male,36-45,2018-05-15,Chennai,Active
+CU001599,BR012,Customer 001599,Individual,Male,26-35,2021-04-16,Chennai,Active
+CU001600,BR012,Customer 001600,Business,Female,36-45,2022-07-18,Chennai,Active
+CU001601,BR012,Customer 001601,Individual,Male,60+,2025-05-03,Chennai,Active
+CU001602,BR012,Customer 001602,Individual,Female,18-25,2021-02-11,Chennai,Active
+CU001603,BR012,Customer 001603,Individual,Female,26-35,2026-01-25,Chennai,Active
+CU001604,BR012,Customer 001604,Individual,Male,46-60,2017-06-10,Chennai,Active
+CU001605,BR012,Customer 001605,Business,Male,46-60,2017-01-17,Chennai,Active
+CU001606,BR012,Customer 001606,Individual,Female,60+,2020-10-19,Chennai,Active
+CU001607,BR012,Customer 001607,Individual,Female,26-35,2024-02-19,Chennai,Active
+CU001608,BR012,Customer 001608,Individual,Female,60+,2017-04-04,Chennai,Active
+CU001609,BR012,Customer 001609,Individual,Male,26-35,2016-07-22,Chennai,Active
+CU001610,BR012,Customer 001610,Business,Female,46-60,2019-05-07,Chennai,Active
+CU001611,BR012,Customer 001611,Individual,Female,46-60,2017-07-16,Chennai,Active
+CU001612,BR012,Customer 001612,Individual,Female,26-35,2023-05-14,Chennai,Inactive
+CU001613,BR012,Customer 001613,Business,Male,26-35,2026-10-19,Chennai,Active
+CU001614,BR012,Customer 001614,Individual,Female,36-45,2023-07-31,Chennai,Active
+CU001615,BR012,Customer 001615,Individual,Male,46-60,2020-01-19,Chennai,Active
+CU001616,BR012,Customer 001616,Individual,Female,18-25,2026-07-13,Chennai,Active
+CU001617,BR012,Customer 001617,Senior Citizen,Female,46-60,2020-10-07,Chennai,Inactive
+CU001618,BR012,Customer 001618,Individual,Female,26-35,2022-04-07,Chennai,Closed
+CU001619,BR012,Customer 001619,Individual,Male,26-35,2020-09-04,Chennai,Active
+CU001620,BR012,Customer 001620,Senior Citizen,Female,26-35,2025-07-17,Chennai,Inactive
+CU001621,BR012,Customer 001621,Business,Male,60+,2025-09-24,Chennai,Active
+CU001622,BR012,Customer 001622,Individual,Male,18-25,2026-09-14,Chennai,Closed
+CU001623,BR012,Customer 001623,Senior Citizen,Female,36-45,2025-02-18,Chennai,Active
+CU001624,BR012,Customer 001624,Individual,Female,26-35,2021-06-10,Chennai,Active
+CU001625,BR012,Customer 001625,NRI,Male,60+,2017-06-28,Chennai,Active
+CU001626,BR012,Customer 001626,Business,Female,46-60,2020-03-12,Chennai,Active
+CU001627,BR012,Customer 001627,Individual,Male,26-35,2017-05-12,Chennai,Active
+CU001628,BR012,Customer 001628,Individual,Female,26-35,2019-09-04,Chennai,Active
+CU001629,BR012,Customer 001629,Individual,Female,26-35,2021-05-03,Chennai,Active
+CU001630,BR012,Customer 001630,Senior Citizen,Female,26-35,2017-04-22,Chennai,Active
+CU001631,BR012,Customer 001631,Individual,Female,46-60,2025-10-20,Chennai,Active
+CU001632,BR012,Customer 001632,Individual,Female,36-45,2023-09-10,Chennai,Active
+CU001633,BR012,Customer 001633,Business,Male,26-35,2016-10-20,Chennai,Active
+CU001634,BR012,Customer 001634,Business,Female,46-60,2018-09-19,Chennai,Active
+CU001635,BR012,Customer 001635,Individual,Male,36-45,2015-07-14,Chennai,Active
+CU001636,BR012,Customer 001636,Corporate,Male,18-25,2020-05-07,Chennai,Active
+CU001637,BR012,Customer 001637,Individual,Female,18-25,2023-02-04,Chennai,Active
+CU001638,BR012,Customer 001638,NRI,Male,26-35,2023-07-29,Chennai,Active
+CU001639,BR012,Customer 001639,Individual,Male,36-45,2017-12-31,Chennai,Active
+CU001640,BR012,Customer 001640,Individual,Other,18-25,2023-08-18,Chennai,Active
+CU001641,BR012,Customer 001641,Business,Male,36-45,2018-07-20,Chennai,Active
+CU001642,BR012,Customer 001642,Individual,Male,26-35,2015-03-27,Chennai,Active
+CU001643,BR012,Customer 001643,Individual,Male,36-45,2020-09-26,Chennai,Active
+CU001644,BR012,Customer 001644,Individual,Male,18-25,2021-04-05,Chennai,Active
+CU001645,BR012,Customer 001645,Business,Female,36-45,2023-07-20,Chennai,Active
+CU001646,BR012,Customer 001646,Senior Citizen,Female,18-25,2023-06-16,Chennai,Inactive
+CU001647,BR012,Customer 001647,NRI,Female,26-35,2026-03-17,Chennai,Active
+CU001648,BR012,Customer 001648,Senior Citizen,Male,18-25,2018-01-16,Chennai,Active
+CU001649,BR012,Customer 001649,Senior Citizen,Male,36-45,2023-11-13,Chennai,Active
+CU001650,BR012,Customer 001650,Individual,Male,46-60,2016-09-13,Chennai,Active
+CU001651,BR012,Customer 001651,Individual,Female,18-25,2022-02-02,Chennai,Active
+CU001652,BR013,Customer 001652,Senior Citizen,Female,46-60,2026-03-16,Hyderabad,Active
+CU001653,BR013,Customer 001653,Senior Citizen,Male,36-45,2023-08-22,Hyderabad,Active
+CU001654,BR013,Customer 001654,Senior Citizen,Female,36-45,2015-11-10,Hyderabad,Active
+CU001655,BR013,Customer 001655,Business,Female,36-45,2016-03-16,Hyderabad,Closed
+CU001656,BR013,Customer 001656,Individual,Male,26-35,2023-05-25,Hyderabad,Active
+CU001657,BR013,Customer 001657,Senior Citizen,Female,46-60,2026-01-15,Hyderabad,Active
+CU001658,BR013,Customer 001658,Senior Citizen,Female,46-60,2022-12-01,Hyderabad,Active
+CU001659,BR013,Customer 001659,Business,Male,46-60,2016-02-06,Hyderabad,Active
+CU001660,BR013,Customer 001660,NRI,Male,26-35,2019-06-17,Hyderabad,Active
+CU001661,BR013,Customer 001661,Individual,Female,36-45,2021-01-08,Hyderabad,Active
+CU001662,BR013,Customer 001662,Senior Citizen,Female,26-35,2015-06-07,Hyderabad,Active
+CU001663,BR013,Customer 001663,Individual,Female,36-45,2026-09-10,Hyderabad,Active
+CU001664,BR013,Customer 001664,NRI,Female,18-25,2016-11-10,Hyderabad,Active
+CU001665,BR013,Customer 001665,Individual,Female,26-35,2025-08-12,Hyderabad,Active
+CU001666,BR013,Customer 001666,Individual,Male,36-45,2018-02-04,Hyderabad,Active
+CU001667,BR013,Customer 001667,Individual,Male,46-60,2025-01-17,Hyderabad,Inactive
+CU001668,BR013,Customer 001668,Individual,Male,18-25,2025-05-16,Hyderabad,Active
+CU001669,BR013,Customer 001669,Individual,Female,36-45,2020-03-01,Hyderabad,Active
+CU001670,BR013,Customer 001670,Senior Citizen,Female,36-45,2022-05-14,Hyderabad,Active
+CU001671,BR013,Customer 001671,Individual,Female,60+,2021-06-02,Hyderabad,Active
+CU001672,BR013,Customer 001672,Senior Citizen,Male,36-45,2022-09-10,Hyderabad,Active
+CU001673,BR013,Customer 001673,Individual,Male,18-25,2024-08-06,Hyderabad,Active
+CU001674,BR013,Customer 001674,Individual,Female,26-35,2015-10-21,Hyderabad,Active
+CU001675,BR013,Customer 001675,Business,Male,36-45,2024-04-02,Hyderabad,Active
+CU001676,BR013,Customer 001676,Business,Male,26-35,2022-12-13,Hyderabad,Active
+CU001677,BR013,Customer 001677,Individual,Female,60+,2017-11-10,Hyderabad,Active
+CU001678,BR013,Customer 001678,Corporate,Female,60+,2025-12-28,Hyderabad,Active
+CU001679,BR013,Customer 001679,NRI,Female,60+,2025-05-27,Hyderabad,Active
+CU001680,BR013,Customer 001680,Individual,Male,26-35,2025-10-07,Hyderabad,Active
+CU001681,BR013,Customer 001681,Senior Citizen,Male,46-60,2018-03-09,Hyderabad,Active
+CU001682,BR013,Customer 001682,Business,Male,36-45,2019-09-14,Hyderabad,Active
+CU001683,BR013,Customer 001683,Business,Male,18-25,2020-01-07,Hyderabad,Active
+CU001684,BR013,Customer 001684,Individual,Male,26-35,2025-11-25,Hyderabad,Active
+CU001685,BR013,Customer 001685,Individual,Male,26-35,2024-09-13,Hyderabad,Active
+CU001686,BR013,Customer 001686,Individual,Female,26-35,2020-03-05,Hyderabad,Active
+CU001687,BR013,Customer 001687,Business,Male,60+,2018-10-13,Hyderabad,Active
+CU001688,BR013,Customer 001688,Business,Male,46-60,2025-10-10,Hyderabad,Active
+CU001689,BR013,Customer 001689,Individual,Male,26-35,2023-08-29,Hyderabad,Active
+CU001690,BR013,Customer 001690,Business,Female,36-45,2021-06-18,Hyderabad,Active
+CU001691,BR013,Customer 001691,Individual,Male,26-35,2025-07-20,Hyderabad,Active
+CU001692,BR013,Customer 001692,Individual,Male,26-35,2025-07-29,Hyderabad,Active
+CU001693,BR013,Customer 001693,Senior Citizen,Male,18-25,2026-01-14,Hyderabad,Active
+CU001694,BR013,Customer 001694,Individual,Male,36-45,2019-08-10,Hyderabad,Active
+CU001695,BR013,Customer 001695,Individual,Female,36-45,2021-10-17,Hyderabad,Active
+CU001696,BR013,Customer 001696,Individual,Male,46-60,2026-04-21,Hyderabad,Active
+CU001697,BR013,Customer 001697,Individual,Male,46-60,2026-08-11,Hyderabad,Active
+CU001698,BR013,Customer 001698,Business,Female,26-35,2026-01-28,Hyderabad,Active
+CU001699,BR013,Customer 001699,Senior Citizen,Male,46-60,2018-03-29,Hyderabad,Active
+CU001700,BR013,Customer 001700,Individual,Female,18-25,2020-11-29,Hyderabad,Active
+CU001701,BR013,Customer 001701,Individual,Male,26-35,2022-09-05,Hyderabad,Active
+CU001702,BR013,Customer 001702,Individual,Female,36-45,2016-04-06,Hyderabad,Inactive
+CU001703,BR013,Customer 001703,Individual,Male,18-25,2016-02-18,Hyderabad,Active
+CU001704,BR013,Customer 001704,Individual,Male,26-35,2025-01-22,Hyderabad,Active
+CU001705,BR013,Customer 001705,Individual,Male,26-35,2022-09-24,Hyderabad,Active
+CU001706,BR013,Customer 001706,NRI,Other,18-25,2022-10-12,Hyderabad,Inactive
+CU001707,BR013,Customer 001707,Individual,Male,60+,2022-02-28,Hyderabad,Active
+CU001708,BR013,Customer 001708,Individual,Female,26-35,2025-12-19,Hyderabad,Active
+CU001709,BR013,Customer 001709,Individual,Female,36-45,2025-05-08,Hyderabad,Active
+CU001710,BR013,Customer 001710,NRI,Male,60+,2026-09-18,Hyderabad,Active
+CU001711,BR013,Customer 001711,Individual,Male,36-45,2025-05-31,Hyderabad,Active
+CU001712,BR013,Customer 001712,Individual,Male,26-35,2016-10-11,Hyderabad,Active
+CU001713,BR013,Customer 001713,NRI,Other,60+,2016-06-16,Hyderabad,Active
+CU001714,BR013,Customer 001714,Individual,Female,26-35,2024-12-10,Hyderabad,Inactive
+CU001715,BR013,Customer 001715,Senior Citizen,Female,26-35,2020-12-17,Hyderabad,Inactive
+CU001716,BR013,Customer 001716,Individual,Male,36-45,2019-08-20,Hyderabad,Closed
+CU001717,BR013,Customer 001717,Business,Female,26-35,2025-09-19,Hyderabad,Active
+CU001718,BR013,Customer 001718,Senior Citizen,Male,46-60,2025-06-14,Hyderabad,Active
+CU001719,BR013,Customer 001719,Individual,Male,18-25,2024-01-10,Hyderabad,Active
+CU001720,BR013,Customer 001720,Business,Male,36-45,2025-12-31,Hyderabad,Active
+CU001721,BR013,Customer 001721,Individual,Male,46-60,2016-01-08,Hyderabad,Active
+CU001722,BR013,Customer 001722,Business,Female,60+,2025-05-02,Hyderabad,Active
+CU001723,BR013,Customer 001723,Senior Citizen,Female,26-35,2025-08-20,Hyderabad,Inactive
+CU001724,BR013,Customer 001724,Business,Male,26-35,2015-03-12,Hyderabad,Active
+CU001725,BR013,Customer 001725,Senior Citizen,Male,60+,2024-06-15,Hyderabad,Active
+CU001726,BR013,Customer 001726,Individual,Female,36-45,2022-11-09,Hyderabad,Active
+CU001727,BR013,Customer 001727,Individual,Male,18-25,2022-05-11,Hyderabad,Active
+CU001728,BR013,Customer 001728,Individual,Male,18-25,2025-06-17,Hyderabad,Active
+CU001729,BR013,Customer 001729,Business,Male,46-60,2021-07-31,Hyderabad,Active
+CU001730,BR013,Customer 001730,Senior Citizen,Female,36-45,2025-09-20,Hyderabad,Active
+CU001731,BR013,Customer 001731,Business,Female,36-45,2020-10-31,Hyderabad,Active
+CU001732,BR013,Customer 001732,Individual,Female,46-60,2025-03-11,Hyderabad,Inactive
+CU001733,BR013,Customer 001733,Individual,Male,26-35,2019-10-04,Hyderabad,Active
+CU001734,BR013,Customer 001734,Business,Female,26-35,2019-04-22,Hyderabad,Active
+CU001735,BR013,Customer 001735,Senior Citizen,Male,36-45,2026-07-16,Hyderabad,Active
+CU001736,BR013,Customer 001736,Individual,Female,46-60,2017-01-29,Hyderabad,Active
+CU001737,BR013,Customer 001737,Individual,Male,26-35,2025-09-01,Hyderabad,Active
+CU001738,BR013,Customer 001738,Individual,Male,36-45,2019-08-05,Hyderabad,Active
+CU001739,BR013,Customer 001739,Individual,Male,26-35,2022-10-06,Hyderabad,Active
+CU001740,BR013,Customer 001740,Senior Citizen,Male,26-35,2018-08-21,Hyderabad,Active
+CU001741,BR013,Customer 001741,Individual,Male,60+,2019-05-15,Hyderabad,Active
+CU001742,BR013,Customer 001742,Individual,Female,18-25,2026-04-07,Hyderabad,Active
+CU001743,BR013,Customer 001743,Individual,Female,18-25,2019-02-22,Hyderabad,Active
+CU001744,BR013,Customer 001744,Individual,Female,46-60,2016-08-07,Hyderabad,Active
+CU001745,BR013,Customer 001745,Senior Citizen,Male,26-35,2017-08-25,Hyderabad,Active
+CU001746,BR013,Customer 001746,Individual,Male,26-35,2015-07-07,Hyderabad,Inactive
+CU001747,BR013,Customer 001747,Individual,Male,46-60,2016-04-28,Hyderabad,Active
+CU001748,BR013,Customer 001748,Individual,Male,26-35,2024-06-20,Hyderabad,Active
+CU001749,BR013,Customer 001749,Senior Citizen,Male,36-45,2021-10-15,Hyderabad,Inactive
+CU001750,BR013,Customer 001750,Senior Citizen,Female,26-35,2024-01-15,Hyderabad,Closed
+CU001751,BR013,Customer 001751,Individual,Female,18-25,2019-04-02,Hyderabad,Active
+CU001752,BR013,Customer 001752,Individual,Male,36-45,2018-12-11,Hyderabad,Active
+CU001753,BR013,Customer 001753,Individual,Female,26-35,2024-08-05,Hyderabad,Inactive
+CU001754,BR013,Customer 001754,Individual,Female,46-60,2026-05-24,Hyderabad,Active
+CU001755,BR013,Customer 001755,Individual,Male,60+,2022-06-07,Hyderabad,Active
+CU001756,BR013,Customer 001756,Corporate,Female,46-60,2025-01-04,Hyderabad,Active
+CU001757,BR013,Customer 001757,Senior Citizen,Male,26-35,2025-03-08,Hyderabad,Inactive
+CU001758,BR014,Customer 001758,Individual,Male,26-35,2025-06-19,Kochi,Active
+CU001759,BR014,Customer 001759,Individual,Other,46-60,2021-04-10,Kochi,Active
+CU001760,BR014,Customer 001760,Individual,Female,36-45,2020-09-23,Kochi,Active
+CU001761,BR014,Customer 001761,Individual,Male,46-60,2022-08-22,Kochi,Active
+CU001762,BR014,Customer 001762,Individual,Male,46-60,2018-06-06,Kochi,Active
+CU001763,BR014,Customer 001763,Individual,Female,26-35,2019-01-24,Kochi,Active
+CU001764,BR014,Customer 001764,Senior Citizen,Male,18-25,2021-11-25,Kochi,Active
+CU001765,BR014,Customer 001765,Individual,Female,36-45,2017-11-29,Kochi,Inactive
+CU001766,BR014,Customer 001766,NRI,Female,36-45,2025-09-03,Kochi,Active
+CU001767,BR014,Customer 001767,Individual,Male,26-35,2026-02-11,Kochi,Active
+CU001768,BR014,Customer 001768,Individual,Female,36-45,2025-03-28,Kochi,Active
+CU001769,BR014,Customer 001769,Individual,Female,46-60,2020-06-16,Kochi,Active
+CU001770,BR014,Customer 001770,Senior Citizen,Female,26-35,2026-03-27,Kochi,Closed
+CU001771,BR014,Customer 001771,Individual,Male,26-35,2018-06-19,Kochi,Active
+CU001772,BR014,Customer 001772,Individual,Male,46-60,2024-12-08,Kochi,Active
+CU001773,BR014,Customer 001773,Business,Male,46-60,2016-11-24,Kochi,Active
+CU001774,BR014,Customer 001774,Business,Female,60+,2025-04-10,Kochi,Active
+CU001775,BR014,Customer 001775,Business,Female,26-35,2017-08-04,Kochi,Active
+CU001776,BR014,Customer 001776,Individual,Female,46-60,2022-03-01,Kochi,Active
+CU001777,BR014,Customer 001777,Individual,Female,46-60,2018-07-25,Kochi,Active
+CU001778,BR014,Customer 001778,NRI,Male,46-60,2026-09-11,Kochi,Active
+CU001779,BR014,Customer 001779,Individual,Male,26-35,2022-11-21,Kochi,Active
+CU001780,BR014,Customer 001780,Individual,Female,18-25,2026-03-29,Kochi,Active
+CU001781,BR014,Customer 001781,Individual,Female,36-45,2018-05-22,Kochi,Active
+CU001782,BR014,Customer 001782,Individual,Female,26-35,2025-07-05,Kochi,Inactive
+CU001783,BR014,Customer 001783,Senior Citizen,Male,26-35,2026-03-10,Kochi,Active
+CU001784,BR014,Customer 001784,Business,Male,60+,2022-12-13,Kochi,Active
+CU001785,BR014,Customer 001785,Individual,Female,26-35,2019-07-10,Kochi,Active
+CU001786,BR014,Customer 001786,Senior Citizen,Male,60+,2017-09-14,Kochi,Active
+CU001787,BR014,Customer 001787,Individual,Male,36-45,2025-07-13,Kochi,Active
+CU001788,BR014,Customer 001788,Individual,Female,46-60,2022-09-01,Kochi,Active
+CU001789,BR014,Customer 001789,Individual,Female,26-35,2018-06-05,Kochi,Active
+CU001790,BR014,Customer 001790,Business,Female,36-45,2022-03-06,Kochi,Active
+CU001791,BR014,Customer 001791,Individual,Female,36-45,2017-06-11,Kochi,Active
+CU001792,BR014,Customer 001792,Individual,Female,60+,2017-11-11,Kochi,Active
+CU001793,BR014,Customer 001793,Business,Male,26-35,2026-08-13,Kochi,Active
+CU001794,BR014,Customer 001794,Individual,Male,26-35,2023-10-08,Kochi,Active
+CU001795,BR014,Customer 001795,Senior Citizen,Female,60+,2026-05-19,Kochi,Inactive
+CU001796,BR014,Customer 001796,Individual,Male,18-25,2018-01-29,Kochi,Active
+CU001797,BR014,Customer 001797,Individual,Female,36-45,2022-11-19,Kochi,Active
+CU001798,BR014,Customer 001798,Business,Female,18-25,2017-02-07,Kochi,Active
+CU001799,BR014,Customer 001799,Individual,Male,18-25,2020-06-23,Kochi,Active
+CU001800,BR014,Customer 001800,Individual,Male,36-45,2021-10-17,Kochi,Active
+CU001801,BR014,Customer 001801,Business,Female,36-45,2018-01-20,Kochi,Active
+CU001802,BR014,Customer 001802,Senior Citizen,Male,36-45,2024-08-02,Kochi,Active
+CU001803,BR014,Customer 001803,Corporate,Male,36-45,2021-09-23,Kochi,Active
+CU001804,BR014,Customer 001804,Corporate,Female,46-60,2018-10-04,Kochi,Active
+CU001805,BR014,Customer 001805,Individual,Male,60+,2015-04-28,Kochi,Active
+CU001806,BR014,Customer 001806,Individual,Male,26-35,2026-09-01,Kochi,Active
+CU001807,BR014,Customer 001807,Individual,Female,26-35,2015-10-19,Kochi,Active
+CU001808,BR014,Customer 001808,Individual,Female,26-35,2017-06-13,Kochi,Active
+CU001809,BR014,Customer 001809,Business,Male,46-60,2019-06-02,Kochi,Inactive
+CU001810,BR014,Customer 001810,Individual,Female,26-35,2015-03-30,Kochi,Active
+CU001811,BR014,Customer 001811,Individual,Female,36-45,2026-10-29,Kochi,Active
+CU001812,BR014,Customer 001812,Individual,Male,36-45,2026-03-07,Kochi,Closed
+CU001813,BR014,Customer 001813,Individual,Male,36-45,2018-04-05,Kochi,Active
+CU001814,BR014,Customer 001814,Individual,Female,46-60,2018-01-27,Kochi,Active
+CU001815,BR014,Customer 001815,Individual,Male,36-45,2017-08-22,Kochi,Active
+CU001816,BR014,Customer 001816,Individual,Female,36-45,2026-07-20,Kochi,Inactive
+CU001817,BR014,Customer 001817,Individual,Female,26-35,2026-05-04,Kochi,Active
+CU001818,BR014,Customer 001818,Individual,Male,36-45,2024-11-04,Kochi,Active
+CU001819,BR014,Customer 001819,Corporate,Female,26-35,2026-06-21,Kochi,Active
+CU001820,BR014,Customer 001820,Individual,Male,46-60,2025-07-28,Kochi,Active
+CU001821,BR014,Customer 001821,Individual,Female,26-35,2016-12-13,Kochi,Active
+CU001822,BR014,Customer 001822,Individual,Male,18-25,2017-03-13,Kochi,Active
+CU001823,BR014,Customer 001823,Individual,Female,26-35,2020-10-20,Kochi,Inactive
+CU001824,BR014,Customer 001824,Senior Citizen,Male,36-45,2015-01-23,Kochi,Active
+CU001825,BR014,Customer 001825,Business,Female,60+,2019-10-16,Kochi,Active
+CU001826,BR014,Customer 001826,Senior Citizen,Female,26-35,2018-03-11,Kochi,Active
+CU001827,BR014,Customer 001827,NRI,Male,26-35,2018-03-23,Kochi,Active
+CU001828,BR014,Customer 001828,Individual,Male,26-35,2015-12-29,Kochi,Active
+CU001829,BR014,Customer 001829,Individual,Female,60+,2015-06-04,Kochi,Active
+CU001830,BR014,Customer 001830,Individual,Female,46-60,2025-11-08,Kochi,Active
+CU001831,BR014,Customer 001831,Individual,Male,26-35,2026-02-10,Kochi,Active
+CU001832,BR014,Customer 001832,Individual,Male,36-45,2020-03-24,Kochi,Active
+CU001833,BR014,Customer 001833,Individual,Female,46-60,2025-08-15,Kochi,Active
+CU001834,BR014,Customer 001834,Individual,Male,46-60,2018-08-30,Kochi,Inactive
+CU001835,BR014,Customer 001835,Individual,Female,36-45,2026-06-18,Kochi,Active
+CU001836,BR014,Customer 001836,Business,Male,46-60,2021-02-16,Kochi,Inactive
+CU001837,BR014,Customer 001837,Business,Male,36-45,2016-12-12,Kochi,Active
+CU001838,BR014,Customer 001838,Senior Citizen,Female,26-35,2018-06-14,Kochi,Active
+CU001839,BR014,Customer 001839,Individual,Male,18-25,2015-04-28,Kochi,Active
+CU001840,BR014,Customer 001840,Individual,Female,26-35,2025-10-22,Kochi,Active
+CU001841,BR014,Customer 001841,Senior Citizen,Female,18-25,2025-04-27,Kochi,Inactive
+CU001842,BR014,Customer 001842,Business,Male,26-35,2020-01-21,Kochi,Active
+CU001843,BR014,Customer 001843,Individual,Male,46-60,2026-09-20,Kochi,Inactive
+CU001844,BR014,Customer 001844,Individual,Male,46-60,2024-07-16,Kochi,Active
+CU001845,BR014,Customer 001845,Individual,Female,18-25,2024-10-25,Kochi,Active
+CU001846,BR014,Customer 001846,Senior Citizen,Female,18-25,2016-07-07,Kochi,Active
+CU001847,BR014,Customer 001847,Business,Female,36-45,2021-03-16,Kochi,Inactive
+CU001848,BR014,Customer 001848,Individual,Male,36-45,2023-05-18,Kochi,Active
+CU001849,BR014,Customer 001849,Individual,Male,26-35,2021-10-18,Kochi,Active
+CU001850,BR014,Customer 001850,Individual,Male,46-60,2017-10-01,Kochi,Inactive
+CU001851,BR014,Customer 001851,Individual,Female,26-35,2015-12-13,Kochi,Active
+CU001852,BR014,Customer 001852,Business,Male,18-25,2026-09-27,Kochi,Active
+CU001853,BR014,Customer 001853,Individual,Male,46-60,2025-06-27,Kochi,Inactive
+CU001854,BR014,Customer 001854,Individual,Male,36-45,2016-08-26,Kochi,Active
+CU001855,BR014,Customer 001855,Individual,Male,26-35,2023-06-16,Kochi,Active
+CU001856,BR014,Customer 001856,Senior Citizen,Female,36-45,2019-11-30,Kochi,Active
+CU001857,BR014,Customer 001857,Individual,Female,60+,2017-10-17,Kochi,Active
+CU001858,BR014,Customer 001858,Individual,Female,18-25,2022-08-06,Kochi,Active
+CU001859,BR015,Customer 001859,Business,Male,36-45,2020-07-20,Kolkata,Active
+CU001860,BR015,Customer 001860,Corporate,Female,26-35,2026-02-22,Kolkata,Active
+CU001861,BR015,Customer 001861,Business,Male,36-45,2024-03-28,Kolkata,Active
+CU001862,BR015,Customer 001862,NRI,Female,26-35,2016-10-20,Kolkata,Active
+CU001863,BR015,Customer 001863,Individual,Female,26-35,2016-10-28,Kolkata,Active
+CU001864,BR015,Customer 001864,Senior Citizen,Male,26-35,2016-11-03,Kolkata,Active
+CU001865,BR015,Customer 001865,Senior Citizen,Female,46-60,2016-05-19,Kolkata,Active
+CU001866,BR015,Customer 001866,Individual,Male,26-35,2015-08-28,Kolkata,Inactive
+CU001867,BR015,Customer 001867,Business,Male,46-60,2025-06-16,Kolkata,Active
+CU001868,BR015,Customer 001868,Individual,Male,26-35,2018-01-17,Kolkata,Active
+CU001869,BR015,Customer 001869,Individual,Male,46-60,2015-07-28,Kolkata,Closed
+CU001870,BR015,Customer 001870,Individual,Female,36-45,2019-10-14,Kolkata,Active
+CU001871,BR015,Customer 001871,Individual,Female,26-35,2016-06-17,Kolkata,Active
+CU001872,BR015,Customer 001872,Senior Citizen,Female,46-60,2026-03-28,Kolkata,Active
+CU001873,BR015,Customer 001873,Individual,Female,46-60,2026-09-27,Kolkata,Active
+CU001874,BR015,Customer 001874,Individual,Female,36-45,2024-06-04,Kolkata,Active
+CU001875,BR015,Customer 001875,Individual,Male,26-35,2025-08-07,Kolkata,Active
+CU001876,BR015,Customer 001876,Individual,Male,36-45,2022-01-19,Kolkata,Inactive
+CU001877,BR015,Customer 001877,Individual,Male,36-45,2021-10-21,Kolkata,Active
+CU001878,BR015,Customer 001878,Individual,Female,26-35,2025-05-01,Kolkata,Active
+CU001879,BR015,Customer 001879,Business,Female,46-60,2025-04-25,Kolkata,Active
+CU001880,BR015,Customer 001880,Senior Citizen,Female,26-35,2015-04-26,Kolkata,Active
+CU001881,BR015,Customer 001881,Individual,Male,36-45,2024-02-16,Kolkata,Inactive
+CU001882,BR015,Customer 001882,Senior Citizen,Male,36-45,2023-06-19,Kolkata,Active
+CU001883,BR015,Customer 001883,Business,Female,60+,2016-06-24,Kolkata,Active
+CU001884,BR015,Customer 001884,Individual,Male,26-35,2020-03-04,Kolkata,Active
+CU001885,BR015,Customer 001885,Individual,Female,26-35,2018-03-25,Kolkata,Active
+CU001886,BR015,Customer 001886,Individual,Male,26-35,2023-08-28,Kolkata,Active
+CU001887,BR015,Customer 001887,NRI,Male,36-45,2018-05-04,Kolkata,Active
+CU001888,BR015,Customer 001888,Individual,Female,36-45,2024-06-15,Kolkata,Active
+CU001889,BR015,Customer 001889,Individual,Female,26-35,2024-12-16,Kolkata,Active
+CU001890,BR015,Customer 001890,Corporate,Female,26-35,2025-08-30,Kolkata,Active
+CU001891,BR015,Customer 001891,Individual,Male,46-60,2021-07-24,Kolkata,Active
+CU001892,BR015,Customer 001892,Corporate,Male,36-45,2026-03-24,Kolkata,Active
+CU001893,BR015,Customer 001893,Individual,Female,36-45,2020-03-26,Kolkata,Active
+CU001894,BR015,Customer 001894,Senior Citizen,Female,18-25,2015-04-27,Kolkata,Active
+CU001895,BR015,Customer 001895,Individual,Male,18-25,2016-09-27,Kolkata,Active
+CU001896,BR015,Customer 001896,Individual,Female,18-25,2016-08-22,Kolkata,Active
+CU001897,BR015,Customer 001897,Business,Male,26-35,2026-02-01,Kolkata,Inactive
+CU001898,BR015,Customer 001898,Individual,Male,36-45,2021-02-09,Kolkata,Active
+CU001899,BR015,Customer 001899,Senior Citizen,Female,26-35,2018-09-08,Kolkata,Active
+CU001900,BR015,Customer 001900,Business,Female,26-35,2016-02-20,Kolkata,Active
+CU001901,BR015,Customer 001901,Individual,Male,18-25,2019-12-26,Kolkata,Active
+CU001902,BR015,Customer 001902,Individual,Male,26-35,2016-12-28,Kolkata,Active
+CU001903,BR015,Customer 001903,Senior Citizen,Other,18-25,2021-07-17,Kolkata,Inactive
+CU001904,BR015,Customer 001904,Individual,Female,18-25,2019-08-01,Kolkata,Active
+CU001905,BR015,Customer 001905,Senior Citizen,Female,18-25,2019-08-30,Kolkata,Active
+CU001906,BR015,Customer 001906,Individual,Male,36-45,2021-12-15,Kolkata,Active
+CU001907,BR015,Customer 001907,Senior Citizen,Female,60+,2024-08-12,Kolkata,Active
+CU001908,BR015,Customer 001908,Individual,Female,36-45,2018-03-01,Kolkata,Active
+CU001909,BR015,Customer 001909,Business,Female,18-25,2024-02-15,Kolkata,Inactive
+CU001910,BR015,Customer 001910,Individual,Male,60+,2023-05-16,Kolkata,Active
+CU001911,BR015,Customer 001911,Individual,Female,60+,2023-05-30,Kolkata,Active
+CU001912,BR015,Customer 001912,Senior Citizen,Female,36-45,2020-05-10,Kolkata,Inactive
+CU001913,BR015,Customer 001913,Senior Citizen,Female,18-25,2018-11-20,Kolkata,Active
+CU001914,BR015,Customer 001914,Individual,Female,46-60,2022-10-08,Kolkata,Active
+CU001915,BR015,Customer 001915,Senior Citizen,Female,60+,2019-12-15,Kolkata,Inactive
+CU001916,BR015,Customer 001916,Individual,Male,46-60,2026-10-08,Kolkata,Active
+CU001917,BR015,Customer 001917,Individual,Male,36-45,2018-10-25,Kolkata,Active
+CU001918,BR015,Customer 001918,Individual,Female,36-45,2019-06-29,Kolkata,Active
+CU001919,BR015,Customer 001919,Individual,Male,60+,2021-03-12,Kolkata,Inactive
+CU001920,BR015,Customer 001920,Individual,Male,18-25,2015-07-25,Kolkata,Active
+CU001921,BR015,Customer 001921,Individual,Female,26-35,2025-01-12,Kolkata,Active
+CU001922,BR015,Customer 001922,Individual,Male,46-60,2016-05-21,Kolkata,Active
+CU001923,BR015,Customer 001923,Business,Female,26-35,2019-09-12,Kolkata,Inactive
+CU001924,BR015,Customer 001924,NRI,Male,26-35,2025-10-20,Kolkata,Active
+CU001925,BR015,Customer 001925,Business,Male,26-35,2017-05-14,Kolkata,Active
+CU001926,BR015,Customer 001926,Individual,Male,26-35,2021-11-02,Kolkata,Inactive
+CU001927,BR015,Customer 001927,Business,Female,18-25,2020-10-13,Kolkata,Active
+CU001928,BR015,Customer 001928,Individual,Female,36-45,2018-06-09,Kolkata,Active
+CU001929,BR015,Customer 001929,Business,Male,26-35,2017-09-04,Kolkata,Active
+CU001930,BR015,Customer 001930,Individual,Male,36-45,2024-08-06,Kolkata,Active
+CU001931,BR015,Customer 001931,Individual,Male,26-35,2025-07-20,Kolkata,Active
+CU001932,BR015,Customer 001932,Individual,Female,60+,2022-10-21,Kolkata,Active
+CU001933,BR015,Customer 001933,Corporate,Other,36-45,2017-07-21,Kolkata,Active
+CU001934,BR015,Customer 001934,Senior Citizen,Female,60+,2022-08-09,Kolkata,Active
+CU001935,BR015,Customer 001935,Business,Male,26-35,2017-01-02,Kolkata,Active
+CU001936,BR015,Customer 001936,Senior Citizen,Female,18-25,2023-05-26,Kolkata,Active
+CU001937,BR015,Customer 001937,Senior Citizen,Male,46-60,2015-03-12,Kolkata,Inactive
+CU001938,BR015,Customer 001938,Individual,Male,46-60,2023-10-08,Kolkata,Active
+CU001939,BR015,Customer 001939,Business,Male,18-25,2026-10-20,Kolkata,Active
+CU001940,BR015,Customer 001940,Individual,Male,36-45,2018-05-14,Kolkata,Active
+CU001941,BR015,Customer 001941,Individual,Male,36-45,2022-06-18,Kolkata,Active
+CU001942,BR015,Customer 001942,Individual,Female,26-35,2022-10-08,Kolkata,Active
+CU001943,BR015,Customer 001943,Senior Citizen,Male,36-45,2021-02-20,Kolkata,Active
+CU001944,BR015,Customer 001944,Business,Female,26-35,2018-05-08,Kolkata,Inactive
+CU001945,BR015,Customer 001945,Individual,Female,18-25,2019-08-19,Kolkata,Active
+CU001946,BR015,Customer 001946,Individual,Female,46-60,2024-10-25,Kolkata,Active
+CU001947,BR015,Customer 001947,Individual,Male,36-45,2020-12-07,Kolkata,Active
+CU001948,BR015,Customer 001948,Business,Female,46-60,2020-01-21,Kolkata,Active
+CU001949,BR015,Customer 001949,Senior Citizen,Male,46-60,2021-04-25,Kolkata,Active
+CU001950,BR015,Customer 001950,Individual,Male,60+,2023-03-04,Kolkata,Active
+CU001951,BR015,Customer 001951,Individual,Male,26-35,2026-02-20,Kolkata,Active
+CU001952,BR015,Customer 001952,Individual,Female,26-35,2021-12-31,Kolkata,Active
+CU001953,BR015,Customer 001953,Individual,Female,26-35,2024-06-14,Kolkata,Active
+CU001954,BR015,Customer 001954,Individual,Female,36-45,2020-03-07,Kolkata,Active
+CU001955,BR015,Customer 001955,Individual,Female,36-45,2019-11-27,Kolkata,Active
+CU001956,BR015,Customer 001956,Individual,Male,46-60,2026-08-30,Kolkata,Active
+CU001957,BR015,Customer 001957,Individual,Female,26-35,2020-07-02,Kolkata,Active
+CU001958,BR015,Customer 001958,Senior Citizen,Female,18-25,2020-08-29,Kolkata,Active
+CU001959,BR015,Customer 001959,Individual,Male,46-60,2026-03-08,Kolkata,Active
+CU001960,BR015,Customer 001960,Individual,Other,46-60,2018-01-14,Kolkata,Inactive
+CU001961,BR015,Customer 001961,Business,Female,26-35,2026-05-12,Kolkata,Active
+CU001962,BR015,Customer 001962,Senior Citizen,Male,36-45,2022-04-28,Kolkata,Active
+CU001963,BR015,Customer 001963,Individual,Male,36-45,2019-07-09,Kolkata,Inactive
+CU001964,BR015,Customer 001964,Individual,Male,46-60,2021-06-23,Kolkata,Active
+CU001965,BR015,Customer 001965,Business,Female,26-35,2015-11-13,Kolkata,Active
+CU001966,BR015,Customer 001966,Individual,Male,36-45,2023-08-19,Kolkata,Active
+CU001967,BR015,Customer 001967,Business,Male,18-25,2025-12-10,Kolkata,Active
+CU001968,BR015,Customer 001968,Individual,Female,26-35,2020-08-18,Kolkata,Active
+CU001969,BR015,Customer 001969,Individual,Female,46-60,2021-08-17,Kolkata,Active
+CU001970,BR015,Customer 001970,Individual,Female,26-35,2026-03-13,Kolkata,Active
+CU001971,BR015,Customer 001971,Business,Female,18-25,2021-05-19,Kolkata,Active
+CU001972,BR015,Customer 001972,Individual,Male,26-35,2025-09-25,Kolkata,Inactive
+CU001973,BR015,Customer 001973,Individual,Male,26-35,2022-12-09,Kolkata,Active
+CU001974,BR015,Customer 001974,Individual,Female,46-60,2025-01-18,Kolkata,Closed
+CU001975,BR015,Customer 001975,Business,Male,26-35,2025-06-19,Kolkata,Active
+CU001976,BR015,Customer 001976,Individual,Female,46-60,2019-05-07,Kolkata,Active
+CU001977,BR015,Customer 001977,Business,Other,46-60,2016-02-12,Kolkata,Inactive
+CU001978,BR015,Customer 001978,Business,Female,26-35,2026-02-16,Kolkata,Active
+CU001979,BR015,Customer 001979,Individual,Female,46-60,2022-05-07,Kolkata,Active
+CU001980,BR015,Customer 001980,Senior Citizen,Female,18-25,2021-07-05,Kolkata,Active
+CU001981,BR015,Customer 001981,Senior Citizen,Female,26-35,2023-02-05,Kolkata,Active
+CU001982,BR015,Customer 001982,Individual,Male,18-25,2023-06-26,Kolkata,Active
+CU001983,BR015,Customer 001983,Individual,Male,18-25,2017-05-08,Kolkata,Closed
+CU001984,BR015,Customer 001984,Individual,Male,18-25,2025-12-06,Kolkata,Active
+CU001985,BR015,Customer 001985,Individual,Female,18-25,2025-03-04,Kolkata,Active
+CU001986,BR016,Customer 001986,Individual,Male,46-60,2024-02-15,Bhubaneswar,Active
+CU001987,BR016,Customer 001987,Senior Citizen,Male,36-45,2016-12-14,Bhubaneswar,Active
+CU001988,BR016,Customer 001988,NRI,Female,60+,2025-09-30,Bhubaneswar,Active
+CU001989,BR016,Customer 001989,Individual,Male,36-45,2018-09-21,Bhubaneswar,Active
+CU001990,BR016,Customer 001990,Individual,Female,36-45,2016-08-22,Bhubaneswar,Active
+CU001991,BR016,Customer 001991,Individual,Male,26-35,2016-05-17,Bhubaneswar,Active
+CU001992,BR016,Customer 001992,Individual,Male,36-45,2020-05-28,Bhubaneswar,Active
+CU001993,BR016,Customer 001993,Individual,Male,26-35,2015-02-28,Bhubaneswar,Active
+CU001994,BR016,Customer 001994,Senior Citizen,Male,60+,2025-10-05,Bhubaneswar,Active
+CU001995,BR016,Customer 001995,NRI,Other,60+,2024-10-16,Bhubaneswar,Active
+CU001996,BR016,Customer 001996,Individual,Other,26-35,2017-08-27,Bhubaneswar,Active
+CU001997,BR016,Customer 001997,Business,Female,36-45,2022-02-26,Bhubaneswar,Active
+CU001998,BR016,Customer 001998,Individual,Female,36-45,2023-08-06,Bhubaneswar,Active
+CU001999,BR016,Customer 001999,Corporate,Female,36-45,2022-01-26,Bhubaneswar,Active
+CU002000,BR016,Customer 002000,Individual,Female,18-25,2018-09-26,Bhubaneswar,Active
+CU002001,BR016,Customer 002001,Individual,Male,36-45,2021-06-10,Bhubaneswar,Inactive
+CU002002,BR016,Customer 002002,Business,Male,46-60,2026-04-19,Bhubaneswar,Inactive
+CU002003,BR016,Customer 002003,Individual,Female,26-35,2024-05-02,Bhubaneswar,Active
+CU002004,BR016,Customer 002004,Individual,Other,36-45,2023-09-02,Bhubaneswar,Inactive
+CU002005,BR016,Customer 002005,Individual,Male,18-25,2023-12-17,Bhubaneswar,Active
+CU002006,BR016,Customer 002006,Business,Male,60+,2026-04-22,Bhubaneswar,Active
+CU002007,BR016,Customer 002007,Corporate,Male,18-25,2023-08-05,Bhubaneswar,Active
+CU002008,BR016,Customer 002008,Individual,Male,26-35,2025-09-26,Bhubaneswar,Active
+CU002009,BR016,Customer 002009,Individual,Female,26-35,2015-02-27,Bhubaneswar,Active
+CU002010,BR016,Customer 002010,Business,Male,46-60,2017-08-08,Bhubaneswar,Inactive
+CU002011,BR016,Customer 002011,Individual,Female,46-60,2026-03-28,Bhubaneswar,Active
+CU002012,BR016,Customer 002012,Individual,Female,18-25,2020-08-20,Bhubaneswar,Active
+CU002013,BR016,Customer 002013,Business,Male,26-35,2015-01-23,Bhubaneswar,Active
+CU002014,BR016,Customer 002014,Individual,Female,46-60,2026-09-17,Bhubaneswar,Active
+CU002015,BR016,Customer 002015,NRI,Female,26-35,2018-01-03,Bhubaneswar,Active
+CU002016,BR016,Customer 002016,Individual,Male,18-25,2026-08-13,Bhubaneswar,Active
+CU002017,BR016,Customer 002017,Business,Male,60+,2025-06-30,Bhubaneswar,Active
+CU002018,BR016,Customer 002018,Individual,Female,26-35,2021-11-13,Bhubaneswar,Active
+CU002019,BR016,Customer 002019,Individual,Male,36-45,2020-07-15,Bhubaneswar,Active
+CU002020,BR016,Customer 002020,Individual,Male,26-35,2019-08-14,Bhubaneswar,Active
+CU002021,BR016,Customer 002021,Senior Citizen,Male,46-60,2026-05-07,Bhubaneswar,Active
+CU002022,BR016,Customer 002022,Senior Citizen,Male,46-60,2023-09-01,Bhubaneswar,Active
+CU002023,BR016,Customer 002023,Corporate,Female,26-35,2018-04-23,Bhubaneswar,Active
+CU002024,BR016,Customer 002024,Individual,Male,36-45,2025-02-24,Bhubaneswar,Active
+CU002025,BR016,Customer 002025,Individual,Female,60+,2025-09-28,Bhubaneswar,Active
+CU002026,BR016,Customer 002026,Corporate,Male,46-60,2017-04-26,Bhubaneswar,Active
+CU002027,BR016,Customer 002027,Business,Female,26-35,2025-07-27,Bhubaneswar,Inactive
+CU002028,BR016,Customer 002028,Individual,Male,36-45,2025-04-17,Bhubaneswar,Active
+CU002029,BR016,Customer 002029,Senior Citizen,Female,46-60,2025-07-04,Bhubaneswar,Active
+CU002030,BR016,Customer 002030,Individual,Female,18-25,2025-04-19,Bhubaneswar,Closed
+CU002031,BR016,Customer 002031,Individual,Male,18-25,2023-04-08,Bhubaneswar,Active
+CU002032,BR016,Customer 002032,Senior Citizen,Female,26-35,2025-04-15,Bhubaneswar,Inactive
+CU002033,BR016,Customer 002033,Individual,Male,46-60,2018-05-01,Bhubaneswar,Active
+CU002034,BR016,Customer 002034,Individual,Female,26-35,2025-11-12,Bhubaneswar,Inactive
+CU002035,BR016,Customer 002035,Individual,Female,26-35,2016-05-28,Bhubaneswar,Active
+CU002036,BR016,Customer 002036,Senior Citizen,Male,36-45,2022-01-12,Bhubaneswar,Active
+CU002037,BR016,Customer 002037,Individual,Male,26-35,2026-10-09,Bhubaneswar,Active
+CU002038,BR016,Customer 002038,Business,Male,26-35,2024-12-12,Bhubaneswar,Active
+CU002039,BR016,Customer 002039,Individual,Female,36-45,2021-11-24,Bhubaneswar,Active
+CU002040,BR016,Customer 002040,Individual,Female,26-35,2017-06-17,Bhubaneswar,Active
+CU002041,BR016,Customer 002041,Individual,Male,60+,2022-06-07,Bhubaneswar,Active
+CU002042,BR016,Customer 002042,Individual,Male,26-35,2018-03-03,Bhubaneswar,Inactive
+CU002043,BR016,Customer 002043,Individual,Male,46-60,2024-04-06,Bhubaneswar,Active
+CU002044,BR016,Customer 002044,Individual,Female,36-45,2025-09-18,Bhubaneswar,Active
+CU002045,BR016,Customer 002045,Business,Male,18-25,2019-03-27,Bhubaneswar,Active
+CU002046,BR016,Customer 002046,Individual,Male,18-25,2025-01-01,Bhubaneswar,Active
+CU002047,BR016,Customer 002047,Business,Female,36-45,2026-01-10,Bhubaneswar,Closed
+CU002048,BR016,Customer 002048,NRI,Male,26-35,2018-06-10,Bhubaneswar,Active
+CU002049,BR016,Customer 002049,Individual,Female,26-35,2026-05-04,Bhubaneswar,Active
+CU002050,BR016,Customer 002050,Individual,Male,60+,2026-03-08,Bhubaneswar,Active
+CU002051,BR016,Customer 002051,Individual,Male,36-45,2025-06-22,Bhubaneswar,Active
+CU002052,BR016,Customer 002052,Individual,Female,60+,2026-09-21,Bhubaneswar,Active
+CU002053,BR016,Customer 002053,Individual,Male,26-35,2022-10-10,Bhubaneswar,Active
+CU002054,BR016,Customer 002054,Individual,Male,26-35,2023-06-28,Bhubaneswar,Active
+CU002055,BR016,Customer 002055,Individual,Other,36-45,2019-11-08,Bhubaneswar,Active
+CU002056,BR016,Customer 002056,Individual,Female,26-35,2023-08-22,Bhubaneswar,Active
+CU002057,BR016,Customer 002057,Senior Citizen,Female,26-35,2021-05-13,Bhubaneswar,Active
+CU002058,BR016,Customer 002058,Individual,Male,18-25,2023-06-03,Bhubaneswar,Active
+CU002059,BR016,Customer 002059,Individual,Male,18-25,2023-04-11,Bhubaneswar,Active
+CU002060,BR016,Customer 002060,Individual,Male,46-60,2026-03-25,Bhubaneswar,Active
+CU002061,BR016,Customer 002061,Business,Female,26-35,2025-06-09,Bhubaneswar,Active
+CU002062,BR016,Customer 002062,Individual,Female,60+,2021-11-23,Bhubaneswar,Active
+CU002063,BR016,Customer 002063,Individual,Male,26-35,2020-09-01,Bhubaneswar,Active
+CU002064,BR016,Customer 002064,Business,Female,26-35,2026-10-29,Bhubaneswar,Active
+CU002065,BR016,Customer 002065,Individual,Male,26-35,2016-11-22,Bhubaneswar,Active
+CU002066,BR016,Customer 002066,Individual,Female,36-45,2019-10-20,Bhubaneswar,Active
+CU002067,BR016,Customer 002067,Individual,Male,46-60,2026-07-04,Bhubaneswar,Active
+CU002068,BR016,Customer 002068,Business,Male,46-60,2025-01-12,Bhubaneswar,Active
+CU002069,BR016,Customer 002069,Senior Citizen,Female,18-25,2023-05-31,Bhubaneswar,Active
+CU002070,BR016,Customer 002070,Corporate,Female,26-35,2022-11-01,Bhubaneswar,Active
+CU002071,BR016,Customer 002071,Individual,Male,46-60,2023-06-21,Bhubaneswar,Active
+CU002072,BR016,Customer 002072,Individual,Male,18-25,2025-08-05,Bhubaneswar,Active
+CU002073,BR016,Customer 002073,Individual,Female,36-45,2016-01-21,Bhubaneswar,Active
+CU002074,BR016,Customer 002074,NRI,Male,26-35,2021-06-17,Bhubaneswar,Active
+CU002075,BR016,Customer 002075,Senior Citizen,Female,26-35,2020-05-11,Bhubaneswar,Active
+CU002076,BR016,Customer 002076,Corporate,Female,26-35,2021-10-23,Bhubaneswar,Active
+CU002077,BR016,Customer 002077,Individual,Male,26-35,2023-04-06,Bhubaneswar,Active
+CU002078,BR017,Customer 002078,Business,Male,46-60,2021-04-01,Patna,Active
+CU002079,BR017,Customer 002079,Senior Citizen,Male,36-45,2021-05-10,Patna,Active
+CU002080,BR017,Customer 002080,Business,Female,60+,2020-04-03,Patna,Active
+CU002081,BR017,Customer 002081,Business,Male,46-60,2022-12-22,Patna,Active
+CU002082,BR017,Customer 002082,Individual,Female,26-35,2026-06-07,Patna,Active
+CU002083,BR017,Customer 002083,Business,Male,36-45,2023-07-30,Patna,Active
+CU002084,BR017,Customer 002084,Individual,Female,26-35,2026-04-23,Patna,Active
+CU002085,BR017,Customer 002085,Individual,Male,46-60,2020-01-28,Patna,Active
+CU002086,BR017,Customer 002086,Corporate,Male,26-35,2020-05-29,Patna,Active
+CU002087,BR017,Customer 002087,Senior Citizen,Female,60+,2019-04-29,Patna,Inactive
+CU002088,BR017,Customer 002088,NRI,Female,36-45,2017-01-31,Patna,Active
+CU002089,BR017,Customer 002089,Individual,Male,36-45,2020-03-19,Patna,Active
+CU002090,BR017,Customer 002090,Individual,Male,36-45,2022-03-10,Patna,Active
+CU002091,BR017,Customer 002091,Individual,Female,36-45,2016-03-09,Patna,Inactive
+CU002092,BR017,Customer 002092,NRI,Male,36-45,2016-10-18,Patna,Active
+CU002093,BR017,Customer 002093,Business,Male,36-45,2019-11-22,Patna,Active
+CU002094,BR017,Customer 002094,Senior Citizen,Male,26-35,2022-02-03,Patna,Active
+CU002095,BR017,Customer 002095,Individual,Male,36-45,2020-05-07,Patna,Active
+CU002096,BR017,Customer 002096,Individual,Female,26-35,2023-03-06,Patna,Active
+CU002097,BR017,Customer 002097,Corporate,Female,36-45,2023-07-02,Patna,Active
+CU002098,BR017,Customer 002098,Individual,Male,36-45,2018-06-09,Patna,Active
+CU002099,BR017,Customer 002099,Senior Citizen,Female,26-35,2017-05-22,Patna,Active
+CU002100,BR017,Customer 002100,Individual,Male,46-60,2015-12-30,Patna,Active
+CU002101,BR017,Customer 002101,Individual,Female,36-45,2024-02-19,Patna,Active
+CU002102,BR017,Customer 002102,Individual,Male,36-45,2019-11-21,Patna,Active
+CU002103,BR017,Customer 002103,Senior Citizen,Male,36-45,2024-09-12,Patna,Active
+CU002104,BR017,Customer 002104,Business,Female,36-45,2018-06-09,Patna,Inactive
+CU002105,BR017,Customer 002105,Business,Male,46-60,2016-07-21,Patna,Active
+CU002106,BR017,Customer 002106,Corporate,Male,26-35,2019-10-10,Patna,Inactive
+CU002107,BR017,Customer 002107,Individual,Male,18-25,2024-01-16,Patna,Active
+CU002108,BR017,Customer 002108,Corporate,Female,36-45,2017-04-07,Patna,Active
+CU002109,BR017,Customer 002109,Senior Citizen,Male,26-35,2022-01-10,Patna,Active
+CU002110,BR017,Customer 002110,Individual,Female,18-25,2025-04-10,Patna,Active
+CU002111,BR017,Customer 002111,Business,Female,18-25,2025-08-28,Patna,Active
+CU002112,BR017,Customer 002112,Individual,Female,26-35,2026-07-15,Patna,Active
+CU002113,BR017,Customer 002113,Individual,Male,60+,2021-10-30,Patna,Active
+CU002114,BR017,Customer 002114,Individual,Female,26-35,2020-04-21,Patna,Active
+CU002115,BR017,Customer 002115,NRI,Male,26-35,2019-11-09,Patna,Active
+CU002116,BR017,Customer 002116,Individual,Female,60+,2026-04-04,Patna,Active
+CU002117,BR017,Customer 002117,Individual,Female,60+,2021-03-19,Patna,Active
+CU002118,BR017,Customer 002118,Business,Male,26-35,2020-12-26,Patna,Active
+CU002119,BR017,Customer 002119,Individual,Female,46-60,2018-06-06,Patna,Active
+CU002120,BR017,Customer 002120,Corporate,Male,18-25,2016-04-13,Patna,Active
+CU002121,BR017,Customer 002121,Senior Citizen,Male,46-60,2016-04-28,Patna,Active
+CU002122,BR017,Customer 002122,Individual,Male,18-25,2020-10-05,Patna,Active
+CU002123,BR017,Customer 002123,Individual,Female,26-35,2017-12-27,Patna,Active
+CU002124,BR017,Customer 002124,Senior Citizen,Female,26-35,2015-10-17,Patna,Active
+CU002125,BR017,Customer 002125,Individual,Female,46-60,2016-09-16,Patna,Active
+CU002126,BR017,Customer 002126,Individual,Male,18-25,2019-07-17,Patna,Active
+CU002127,BR017,Customer 002127,Senior Citizen,Female,36-45,2016-10-27,Patna,Active
+CU002128,BR017,Customer 002128,Senior Citizen,Female,36-45,2017-02-11,Patna,Active
+CU002129,BR017,Customer 002129,Business,Female,18-25,2018-03-21,Patna,Active
+CU002130,BR017,Customer 002130,Individual,Male,46-60,2022-05-10,Patna,Active
+CU002131,BR017,Customer 002131,Senior Citizen,Male,26-35,2024-11-29,Patna,Closed
+CU002132,BR017,Customer 002132,Business,Female,26-35,2025-09-02,Patna,Active
+CU002133,BR017,Customer 002133,Business,Male,26-35,2022-08-29,Patna,Inactive
+CU002134,BR017,Customer 002134,NRI,Male,26-35,2026-10-10,Patna,Active
+CU002135,BR017,Customer 002135,Business,Female,26-35,2023-09-14,Patna,Active
+CU002136,BR017,Customer 002136,Individual,Male,36-45,2020-07-13,Patna,Active
+CU002137,BR017,Customer 002137,Individual,Male,36-45,2026-06-20,Patna,Active
+CU002138,BR017,Customer 002138,Individual,Male,26-35,2023-10-02,Patna,Closed
+CU002139,BR017,Customer 002139,Individual,Female,26-35,2019-08-16,Patna,Active
+CU002140,BR017,Customer 002140,Individual,Female,46-60,2026-07-23,Patna,Active
+CU002141,BR017,Customer 002141,Individual,Male,26-35,2025-07-02,Patna,Active
+CU002142,BR017,Customer 002142,Corporate,Male,36-45,2020-06-19,Patna,Active
+CU002143,BR017,Customer 002143,Individual,Female,46-60,2017-10-07,Patna,Active
+CU002144,BR017,Customer 002144,Individual,Male,26-35,2024-02-07,Patna,Active
+CU002145,BR017,Customer 002145,Individual,Other,36-45,2020-12-28,Patna,Active
+CU002146,BR017,Customer 002146,Individual,Female,60+,2018-01-07,Patna,Active
+CU002147,BR017,Customer 002147,Corporate,Male,36-45,2020-11-09,Patna,Active
+CU002148,BR017,Customer 002148,Individual,Male,60+,2016-01-31,Patna,Active
+CU002149,BR017,Customer 002149,Individual,Male,26-35,2021-06-19,Patna,Active
+CU002150,BR017,Customer 002150,Corporate,Female,36-45,2017-09-23,Patna,Active
+CU002151,BR017,Customer 002151,Individual,Male,26-35,2024-02-11,Patna,Active
+CU002152,BR017,Customer 002152,Individual,Female,18-25,2023-01-10,Patna,Active
+CU002153,BR017,Customer 002153,Corporate,Female,60+,2020-07-03,Patna,Active
+CU002154,BR017,Customer 002154,Individual,Female,26-35,2026-06-02,Patna,Active
+CU002155,BR017,Customer 002155,Business,Female,60+,2019-10-23,Patna,Active
+CU002156,BR017,Customer 002156,NRI,Male,36-45,2019-12-05,Patna,Active
+CU002157,BR017,Customer 002157,Senior Citizen,Male,60+,2016-09-30,Patna,Inactive
+CU002158,BR017,Customer 002158,Individual,Female,60+,2021-08-25,Patna,Active
+CU002159,BR017,Customer 002159,Corporate,Male,36-45,2026-10-26,Patna,Active
+CU002160,BR017,Customer 002160,Business,Male,60+,2024-01-23,Patna,Closed
+CU002161,BR017,Customer 002161,Individual,Male,46-60,2021-03-02,Patna,Active
+CU002162,BR017,Customer 002162,Senior Citizen,Male,36-45,2017-07-29,Patna,Active
+CU002163,BR017,Customer 002163,Individual,Female,36-45,2015-03-20,Patna,Active
+CU002164,BR018,Customer 002164,Senior Citizen,Male,26-35,2018-02-17,Guwahati,Active
+CU002165,BR018,Customer 002165,Individual,Female,18-25,2024-12-31,Guwahati,Inactive
+CU002166,BR018,Customer 002166,Individual,Female,26-35,2023-10-10,Guwahati,Active
+CU002167,BR018,Customer 002167,Individual,Male,26-35,2023-06-04,Guwahati,Closed
+CU002168,BR018,Customer 002168,Senior Citizen,Female,26-35,2017-04-04,Guwahati,Active
+CU002169,BR018,Customer 002169,Individual,Male,36-45,2025-09-04,Guwahati,Active
+CU002170,BR018,Customer 002170,Individual,Male,36-45,2026-04-17,Guwahati,Active
+CU002171,BR018,Customer 002171,Individual,Male,36-45,2023-03-01,Guwahati,Inactive
+CU002172,BR018,Customer 002172,Business,Male,46-60,2022-01-12,Guwahati,Inactive
+CU002173,BR018,Customer 002173,Individual,Male,60+,2020-08-28,Guwahati,Active
+CU002174,BR018,Customer 002174,Individual,Male,46-60,2025-12-03,Guwahati,Active
+CU002175,BR018,Customer 002175,Business,Male,36-45,2020-03-12,Guwahati,Active
+CU002176,BR018,Customer 002176,Individual,Male,26-35,2016-08-30,Guwahati,Active
+CU002177,BR018,Customer 002177,Individual,Female,60+,2016-07-28,Guwahati,Active
+CU002178,BR018,Customer 002178,Individual,Male,26-35,2024-01-02,Guwahati,Closed
+CU002179,BR018,Customer 002179,Senior Citizen,Female,26-35,2026-01-10,Guwahati,Active
+CU002180,BR018,Customer 002180,NRI,Female,26-35,2015-12-30,Guwahati,Active
+CU002181,BR018,Customer 002181,Individual,Female,36-45,2017-12-23,Guwahati,Closed
+CU002182,BR018,Customer 002182,Individual,Female,36-45,2018-02-20,Guwahati,Active
+CU002183,BR018,Customer 002183,Individual,Female,18-25,2019-02-27,Guwahati,Active
+CU002184,BR018,Customer 002184,Senior Citizen,Female,46-60,2021-09-26,Guwahati,Active
+CU002185,BR018,Customer 002185,Individual,Female,26-35,2019-07-16,Guwahati,Active
+CU002186,BR018,Customer 002186,Individual,Female,26-35,2016-04-20,Guwahati,Active
+CU002187,BR018,Customer 002187,Senior Citizen,Male,26-35,2017-07-21,Guwahati,Active
+CU002188,BR018,Customer 002188,Individual,Female,26-35,2026-06-07,Guwahati,Active
+CU002189,BR018,Customer 002189,Individual,Female,46-60,2025-01-12,Guwahati,Active
+CU002190,BR018,Customer 002190,Individual,Male,18-25,2026-04-16,Guwahati,Active
+CU002191,BR018,Customer 002191,Individual,Male,26-35,2017-02-19,Guwahati,Inactive
+CU002192,BR018,Customer 002192,Individual,Female,18-25,2020-12-18,Guwahati,Active
+CU002193,BR018,Customer 002193,Senior Citizen,Female,46-60,2021-10-09,Guwahati,Active
+CU002194,BR018,Customer 002194,Individual,Male,60+,2022-03-05,Guwahati,Active
+CU002195,BR018,Customer 002195,Individual,Male,36-45,2025-11-04,Guwahati,Inactive
+CU002196,BR018,Customer 002196,NRI,Male,36-45,2024-11-20,Guwahati,Active
+CU002197,BR018,Customer 002197,Corporate,Female,60+,2026-04-29,Guwahati,Active
+CU002198,BR018,Customer 002198,Business,Female,26-35,2020-06-08,Guwahati,Active
+CU002199,BR018,Customer 002199,Business,Female,18-25,2025-02-15,Guwahati,Inactive
+CU002200,BR018,Customer 002200,Individual,Male,36-45,2021-04-10,Guwahati,Closed
+CU002201,BR018,Customer 002201,Business,Male,26-35,2024-09-21,Guwahati,Active
+CU002202,BR018,Customer 002202,Individual,Female,36-45,2023-08-02,Guwahati,Active
+CU002203,BR018,Customer 002203,Individual,Female,36-45,2020-08-31,Guwahati,Active
+CU002204,BR018,Customer 002204,Senior Citizen,Male,26-35,2026-02-19,Guwahati,Active
+CU002205,BR018,Customer 002205,Business,Male,36-45,2025-05-26,Guwahati,Active
+CU002206,BR018,Customer 002206,Individual,Male,26-35,2020-03-04,Guwahati,Active
+CU002207,BR018,Customer 002207,Individual,Female,18-25,2025-02-26,Guwahati,Active
+CU002208,BR018,Customer 002208,Senior Citizen,Female,46-60,2023-12-12,Guwahati,Closed
+CU002209,BR018,Customer 002209,Individual,Male,46-60,2019-07-10,Guwahati,Active
+CU002210,BR018,Customer 002210,Individual,Female,18-25,2023-01-21,Guwahati,Active
+CU002211,BR018,Customer 002211,Individual,Female,18-25,2026-03-24,Guwahati,Active
+CU002212,BR018,Customer 002212,Individual,Female,18-25,2025-05-25,Guwahati,Active
+CU002213,BR018,Customer 002213,Individual,Male,18-25,2026-07-17,Guwahati,Active
+CU002214,BR018,Customer 002214,Senior Citizen,Male,18-25,2022-07-10,Guwahati,Active
+CU002215,BR018,Customer 002215,Individual,Female,26-35,2024-11-03,Guwahati,Active
+CU002216,BR018,Customer 002216,Individual,Female,46-60,2022-10-18,Guwahati,Active
+CU002217,BR018,Customer 002217,Business,Female,46-60,2017-02-12,Guwahati,Active
+CU002218,BR018,Customer 002218,Individual,Female,46-60,2016-11-09,Guwahati,Active
+CU002219,BR018,Customer 002219,Business,Male,36-45,2025-06-21,Guwahati,Active
+CU002220,BR018,Customer 002220,Business,Male,46-60,2024-02-09,Guwahati,Active
+CU002221,BR018,Customer 002221,Individual,Male,46-60,2025-10-30,Guwahati,Active
+CU002222,BR018,Customer 002222,Business,Female,46-60,2018-04-26,Guwahati,Active
+CU002223,BR018,Customer 002223,Corporate,Male,46-60,2026-10-27,Guwahati,Active
+CU002224,BR018,Customer 002224,Business,Female,46-60,2017-01-14,Guwahati,Active
+CU002225,BR018,Customer 002225,Corporate,Female,46-60,2017-07-01,Guwahati,Active
+CU002226,BR018,Customer 002226,Individual,Female,36-45,2025-12-01,Guwahati,Active
+CU002227,BR018,Customer 002227,Business,Female,26-35,2018-07-22,Guwahati,Active
+CU002228,BR018,Customer 002228,Business,Female,18-25,2026-06-21,Guwahati,Active
+CU002229,BR018,Customer 002229,Individual,Male,26-35,2023-04-08,Guwahati,Active
+CU002230,BR018,Customer 002230,NRI,Other,18-25,2020-11-12,Guwahati,Active
+CU002231,BR018,Customer 002231,Individual,Male,26-35,2021-04-13,Guwahati,Active
+CU002232,BR018,Customer 002232,Individual,Male,18-25,2016-10-08,Guwahati,Closed
+CU002233,BR018,Customer 002233,NRI,Female,26-35,2022-08-23,Guwahati,Active
+CU002234,BR018,Customer 002234,Individual,Female,60+,2019-12-13,Guwahati,Active
+CU002235,BR018,Customer 002235,Individual,Male,26-35,2023-02-26,Guwahati,Active
+CU002236,BR018,Customer 002236,Individual,Male,26-35,2025-05-16,Guwahati,Active
+CU002237,BR019,Customer 002237,Senior Citizen,Male,26-35,2026-04-15,Indore,Active
+CU002238,BR019,Customer 002238,Individual,Female,26-35,2017-04-29,Indore,Active
+CU002239,BR019,Customer 002239,Business,Female,36-45,2022-08-24,Indore,Active
+CU002240,BR019,Customer 002240,Corporate,Male,36-45,2025-09-01,Indore,Active
+CU002241,BR019,Customer 002241,Business,Female,18-25,2025-12-14,Indore,Inactive
+CU002242,BR019,Customer 002242,Senior Citizen,Female,36-45,2021-07-23,Indore,Active
+CU002243,BR019,Customer 002243,Corporate,Female,18-25,2023-03-14,Indore,Active
+CU002244,BR019,Customer 002244,Individual,Male,36-45,2025-08-20,Indore,Active
+CU002245,BR019,Customer 002245,Senior Citizen,Female,60+,2017-05-03,Indore,Active
+CU002246,BR019,Customer 002246,Individual,Male,60+,2025-05-17,Indore,Active
+CU002247,BR019,Customer 002247,Individual,Male,26-35,2026-08-07,Indore,Active
+CU002248,BR019,Customer 002248,Individual,Male,46-60,2022-04-14,Indore,Closed
+CU002249,BR019,Customer 002249,Business,Male,46-60,2025-07-04,Indore,Active
+CU002250,BR019,Customer 002250,Individual,Female,46-60,2021-06-18,Indore,Active
+CU002251,BR019,Customer 002251,Individual,Male,26-35,2025-06-05,Indore,Active
+CU002252,BR019,Customer 002252,Individual,Male,36-45,2021-10-30,Indore,Active
+CU002253,BR019,Customer 002253,Individual,Male,26-35,2026-08-02,Indore,Active
+CU002254,BR019,Customer 002254,Individual,Male,18-25,2015-11-11,Indore,Active
+CU002255,BR019,Customer 002255,NRI,Female,36-45,2025-12-22,Indore,Active
+CU002256,BR019,Customer 002256,Individual,Male,26-35,2022-01-22,Indore,Active
+CU002257,BR019,Customer 002257,Individual,Male,26-35,2026-05-08,Indore,Closed
+CU002258,BR019,Customer 002258,Individual,Other,46-60,2015-09-08,Indore,Active
+CU002259,BR019,Customer 002259,Individual,Male,36-45,2022-07-01,Indore,Active
+CU002260,BR019,Customer 002260,Business,Female,60+,2026-03-30,Indore,Active
+CU002261,BR019,Customer 002261,Individual,Female,46-60,2018-11-13,Indore,Active
+CU002262,BR019,Customer 002262,Individual,Female,46-60,2026-04-07,Indore,Inactive
+CU002263,BR019,Customer 002263,NRI,Female,46-60,2026-08-22,Indore,Inactive
+CU002264,BR019,Customer 002264,Individual,Male,18-25,2022-06-21,Indore,Active
+CU002265,BR019,Customer 002265,Individual,Female,18-25,2019-06-09,Indore,Active
+CU002266,BR019,Customer 002266,Business,Female,60+,2015-01-10,Indore,Active
+CU002267,BR019,Customer 002267,Business,Male,18-25,2026-04-30,Indore,Active
+CU002268,BR019,Customer 002268,Business,Female,26-35,2026-01-10,Indore,Active
+CU002269,BR019,Customer 002269,Individual,Female,36-45,2026-10-09,Indore,Active
+CU002270,BR019,Customer 002270,Individual,Female,26-35,2026-07-16,Indore,Inactive
+CU002271,BR019,Customer 002271,Individual,Female,26-35,2025-08-17,Indore,Active
+CU002272,BR019,Customer 002272,Individual,Male,36-45,2016-05-02,Indore,Active
+CU002273,BR019,Customer 002273,Individual,Female,26-35,2025-06-24,Indore,Active
+CU002274,BR019,Customer 002274,Senior Citizen,Female,36-45,2026-06-10,Indore,Closed
+CU002275,BR019,Customer 002275,Business,Female,18-25,2025-07-02,Indore,Active
+CU002276,BR019,Customer 002276,Individual,Male,36-45,2025-10-25,Indore,Active
+CU002277,BR019,Customer 002277,Individual,Female,26-35,2026-03-29,Indore,Active
+CU002278,BR019,Customer 002278,Business,Female,36-45,2025-11-19,Indore,Active
+CU002279,BR019,Customer 002279,Individual,Male,18-25,2018-03-19,Indore,Active
+CU002280,BR019,Customer 002280,Individual,Female,26-35,2025-12-12,Indore,Active
+CU002281,BR019,Customer 002281,Individual,Female,46-60,2026-10-12,Indore,Active
+CU002282,BR019,Customer 002282,Business,Female,26-35,2025-09-18,Indore,Active
+CU002283,BR019,Customer 002283,Business,Female,46-60,2022-06-28,Indore,Active
+CU002284,BR019,Customer 002284,Individual,Male,26-35,2025-09-02,Indore,Closed
+CU002285,BR019,Customer 002285,Individual,Female,26-35,2026-05-19,Indore,Active
+CU002286,BR019,Customer 002286,Business,Female,26-35,2022-02-10,Indore,Active
+CU002287,BR019,Customer 002287,Individual,Male,46-60,2021-09-18,Indore,Active
+CU002288,BR019,Customer 002288,Business,Male,26-35,2026-09-24,Indore,Active
+CU002289,BR019,Customer 002289,Individual,Male,26-35,2022-12-01,Indore,Active
+CU002290,BR019,Customer 002290,Business,Female,36-45,2023-04-24,Indore,Active
+CU002291,BR019,Customer 002291,Senior Citizen,Male,26-35,2025-11-16,Indore,Active
+CU002292,BR019,Customer 002292,Individual,Female,46-60,2017-03-02,Indore,Active
+CU002293,BR019,Customer 002293,Individual,Female,60+,2016-01-01,Indore,Active
+CU002294,BR019,Customer 002294,Business,Female,36-45,2025-05-07,Indore,Active
+CU002295,BR019,Customer 002295,Individual,Male,36-45,2016-07-28,Indore,Active
+CU002296,BR019,Customer 002296,Individual,Female,26-35,2022-02-13,Indore,Active
+CU002297,BR019,Customer 002297,Individual,Male,60+,2026-04-15,Indore,Active
+CU002298,BR019,Customer 002298,Senior Citizen,Female,36-45,2023-10-08,Indore,Inactive
+CU002299,BR019,Customer 002299,Individual,Male,26-35,2021-09-26,Indore,Active
+CU002300,BR019,Customer 002300,NRI,Female,60+,2025-01-05,Indore,Active
+CU002301,BR019,Customer 002301,Individual,Male,60+,2018-07-27,Indore,Active
+CU002302,BR019,Customer 002302,Individual,Male,26-35,2019-01-31,Indore,Active
+CU002303,BR019,Customer 002303,Individual,Other,26-35,2026-02-02,Indore,Inactive
+CU002304,BR019,Customer 002304,Business,Male,36-45,2019-05-22,Indore,Active
+CU002305,BR019,Customer 002305,Individual,Female,46-60,2020-06-08,Indore,Active
+CU002306,BR019,Customer 002306,Individual,Female,36-45,2026-01-04,Indore,Active
+CU002307,BR019,Customer 002307,Individual,Male,26-35,2022-04-19,Indore,Active
+CU002308,BR019,Customer 002308,Individual,Male,26-35,2026-03-25,Indore,Inactive
+CU002309,BR019,Customer 002309,Individual,Female,26-35,2021-05-16,Indore,Inactive
+CU002310,BR019,Customer 002310,Individual,Female,18-25,2026-06-30,Indore,Active
+CU002311,BR019,Customer 002311,Individual,Female,46-60,2021-10-27,Indore,Active
+CU002312,BR019,Customer 002312,Senior Citizen,Male,18-25,2026-05-11,Indore,Active
+CU002313,BR019,Customer 002313,Individual,Female,26-35,2015-06-30,Indore,Active
+CU002314,BR019,Customer 002314,Individual,Male,46-60,2025-09-26,Indore,Active
+CU002315,BR019,Customer 002315,Individual,Female,26-35,2023-09-03,Indore,Inactive
+CU002316,BR019,Customer 002316,Individual,Female,26-35,2026-01-27,Indore,Active
+CU002317,BR019,Customer 002317,Business,Female,60+,2021-04-03,Indore,Active
+CU002318,BR019,Customer 002318,Individual,Male,18-25,2016-07-14,Indore,Active
+CU002319,BR019,Customer 002319,Individual,Male,46-60,2015-07-14,Indore,Closed
+CU002320,BR019,Customer 002320,Business,Male,18-25,2020-03-23,Indore,Inactive
+CU002321,BR019,Customer 002321,Individual,Male,26-35,2020-01-31,Indore,Active
+CU002322,BR019,Customer 002322,Senior Citizen,Male,36-45,2026-06-06,Indore,Active
+CU002323,BR019,Customer 002323,Senior Citizen,Female,26-35,2025-11-20,Indore,Active
+CU002324,BR019,Customer 002324,Individual,Male,36-45,2026-08-23,Indore,Active
+CU002325,BR019,Customer 002325,Individual,Male,26-35,2026-07-10,Indore,Closed
+CU002326,BR020,Customer 002326,Individual,Female,36-45,2016-12-02,Nagpur,Inactive
+CU002327,BR020,Customer 002327,Individual,Male,18-25,2024-04-28,Nagpur,Active
+CU002328,BR020,Customer 002328,Individual,Male,46-60,2017-07-23,Nagpur,Active
+CU002329,BR020,Customer 002329,Individual,Female,36-45,2018-08-01,Nagpur,Active
+CU002330,BR020,Customer 002330,Individual,Male,36-45,2022-03-08,Nagpur,Closed
+CU002331,BR020,Customer 002331,Individual,Male,18-25,2019-03-10,Nagpur,Active
+CU002332,BR020,Customer 002332,Individual,Female,36-45,2019-08-05,Nagpur,Inactive
+CU002333,BR020,Customer 002333,Senior Citizen,Male,36-45,2015-06-26,Nagpur,Active
+CU002334,BR020,Customer 002334,Senior Citizen,Male,26-35,2016-07-04,Nagpur,Closed
+CU002335,BR020,Customer 002335,Individual,Male,36-45,2026-01-03,Nagpur,Active
+CU002336,BR020,Customer 002336,Business,Male,18-25,2017-05-07,Nagpur,Active
+CU002337,BR020,Customer 002337,Individual,Female,26-35,2019-09-02,Nagpur,Active
+CU002338,BR020,Customer 002338,Business,Male,46-60,2024-11-26,Nagpur,Active
+CU002339,BR020,Customer 002339,Individual,Male,26-35,2020-01-23,Nagpur,Active
+CU002340,BR020,Customer 002340,Senior Citizen,Male,26-35,2019-07-12,Nagpur,Inactive
+CU002341,BR020,Customer 002341,Individual,Female,36-45,2025-11-28,Nagpur,Active
+CU002342,BR020,Customer 002342,Individual,Male,46-60,2018-08-21,Nagpur,Inactive
+CU002343,BR020,Customer 002343,Senior Citizen,Female,18-25,2020-02-15,Nagpur,Active
+CU002344,BR020,Customer 002344,Individual,Male,18-25,2020-11-04,Nagpur,Active
+CU002345,BR020,Customer 002345,Individual,Female,36-45,2019-05-28,Nagpur,Closed
+CU002346,BR020,Customer 002346,Business,Male,36-45,2015-05-21,Nagpur,Active
+CU002347,BR020,Customer 002347,Business,Male,36-45,2020-03-18,Nagpur,Inactive
+CU002348,BR020,Customer 002348,Business,Male,36-45,2015-12-10,Nagpur,Closed
+CU002349,BR020,Customer 002349,Business,Male,46-60,2018-08-29,Nagpur,Active
+CU002350,BR020,Customer 002350,Business,Female,60+,2021-05-13,Nagpur,Active
+CU002351,BR020,Customer 002351,Individual,Female,26-35,2016-11-25,Nagpur,Active
+CU002352,BR020,Customer 002352,Individual,Female,26-35,2017-02-11,Nagpur,Active
+CU002353,BR020,Customer 002353,Business,Male,26-35,2018-01-17,Nagpur,Active
+CU002354,BR020,Customer 002354,NRI,Female,26-35,2024-06-04,Nagpur,Active
+CU002355,BR020,Customer 002355,Individual,Male,26-35,2023-07-12,Nagpur,Active
+CU002356,BR020,Customer 002356,Individual,Other,46-60,2016-02-22,Nagpur,Active
+CU002357,BR020,Customer 002357,Corporate,Female,26-35,2015-12-27,Nagpur,Inactive
+CU002358,BR020,Customer 002358,Individual,Female,26-35,2025-05-23,Nagpur,Active
+CU002359,BR020,Customer 002359,Individual,Female,36-45,2024-02-20,Nagpur,Inactive
+CU002360,BR020,Customer 002360,Corporate,Female,60+,2018-10-27,Nagpur,Active
+CU002361,BR020,Customer 002361,Individual,Female,26-35,2026-07-04,Nagpur,Active
+CU002362,BR020,Customer 002362,Individual,Male,46-60,2025-05-11,Nagpur,Active
+CU002363,BR020,Customer 002363,Individual,Female,46-60,2023-08-29,Nagpur,Active
+CU002364,BR020,Customer 002364,Individual,Male,26-35,2021-05-14,Nagpur,Active
+CU002365,BR020,Customer 002365,Corporate,Male,36-45,2025-05-14,Nagpur,Active
+CU002366,BR020,Customer 002366,Individual,Female,26-35,2021-02-17,Nagpur,Active
+CU002367,BR020,Customer 002367,Individual,Male,26-35,2021-10-15,Nagpur,Active
+CU002368,BR020,Customer 002368,Individual,Female,26-35,2021-10-12,Nagpur,Active
+CU002369,BR020,Customer 002369,Individual,Male,18-25,2026-06-15,Nagpur,Active
+CU002370,BR020,Customer 002370,Individual,Male,46-60,2022-10-26,Nagpur,Active
+CU002371,BR020,Customer 002371,Individual,Female,46-60,2026-07-26,Nagpur,Active
+CU002372,BR020,Customer 002372,Individual,Male,26-35,2019-01-09,Nagpur,Active
+CU002373,BR020,Customer 002373,Individual,Female,36-45,2017-03-06,Nagpur,Active
+CU002374,BR020,Customer 002374,Individual,Female,26-35,2025-01-01,Nagpur,Inactive
+CU002375,BR020,Customer 002375,Individual,Female,18-25,2020-03-01,Nagpur,Active
+CU002376,BR020,Customer 002376,Individual,Male,36-45,2022-06-07,Nagpur,Active
+CU002377,BR020,Customer 002377,Individual,Female,18-25,2024-10-16,Nagpur,Active
+CU002378,BR020,Customer 002378,Individual,Male,46-60,2026-07-01,Nagpur,Active
+CU002379,BR020,Customer 002379,Individual,Male,26-35,2025-03-27,Nagpur,Active
+CU002380,BR020,Customer 002380,Individual,Male,46-60,2022-11-22,Nagpur,Active
+CU002381,BR020,Customer 002381,Business,Male,26-35,2017-11-17,Nagpur,Inactive
+CU002382,BR020,Customer 002382,Individual,Male,26-35,2024-09-01,Nagpur,Active
+CU002383,BR020,Customer 002383,Corporate,Male,46-60,2020-02-28,Nagpur,Active
+CU002384,BR020,Customer 002384,Business,Male,36-45,2018-07-01,Nagpur,Active
+CU002385,BR020,Customer 002385,Individual,Female,26-35,2026-05-02,Nagpur,Inactive
+CU002386,BR020,Customer 002386,Individual,Male,46-60,2022-06-18,Nagpur,Active
+CU002387,BR020,Customer 002387,Individual,Male,26-35,2015-05-14,Nagpur,Active
+CU002388,BR020,Customer 002388,Individual,Male,18-25,2022-04-29,Nagpur,Active
+CU002389,BR020,Customer 002389,Individual,Male,26-35,2015-06-06,Nagpur,Active
+CU002390,BR020,Customer 002390,Individual,Female,36-45,2024-10-31,Nagpur,Inactive
+CU002391,BR020,Customer 002391,Corporate,Female,36-45,2015-02-08,Nagpur,Active
+CU002392,BR020,Customer 002392,Individual,Female,46-60,2020-03-22,Nagpur,Active
+CU002393,BR020,Customer 002393,Business,Female,36-45,2024-02-05,Nagpur,Active
+CU002394,BR020,Customer 002394,Business,Male,26-35,2020-01-18,Nagpur,Active
+CU002395,BR020,Customer 002395,Individual,Female,26-35,2017-06-20,Nagpur,Active
+CU002396,BR020,Customer 002396,Senior Citizen,Male,18-25,2018-11-28,Nagpur,Inactive
+CU002397,BR020,Customer 002397,Senior Citizen,Male,46-60,2026-03-08,Nagpur,Active
+CU002398,BR020,Customer 002398,Individual,Male,18-25,2023-10-11,Nagpur,Active
+CU002399,BR020,Customer 002399,Individual,Male,36-45,2023-09-29,Nagpur,Active
+CU002400,BR020,Customer 002400,Individual,Female,36-45,2015-09-16,Nagpur,Active
